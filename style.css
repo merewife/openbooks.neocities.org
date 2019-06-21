@@ -3,37 +3,63 @@ OpenBooks 8 Series
 Style Version: 1
 */
 
-/*@import 'https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i,';*/
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('font/FiraSans-Regular.woff2') format('woff2'), url('font/FiraSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('font/FiraSans-Italic.woff2') format('woff2'), url('font/FiraSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('font/FiraSans-Bold.woff2') format('woff2'), url('font/FiraSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: regular;
+}
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('font/FiraSans-BoldItalic.woff2') format('woff2'), url('font/FiraSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('font/FiraSans-Light.woff2') format('woff2'), url('font/FiraSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: regular;
+}
 
 body {
     color: #141516;
     background-color: #2c81b8;
-    font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Fira Sans', 'Lucida Sans', 'Trebuchet MS', Tahoma, sans-serif;
     font-size: 14px;
     line-height: 20px;
     margin: 0;
     padding: 0;
 }
 h1 {
-    font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
     /*color: #6c7275;*/
     color: white;
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 300;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 h2 {
-    font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
     color: #4f7ebe;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: bold;
     margin-bottom: 10px;
 }
 h3 {
-    font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: regular;
     text-transform: uppercase;
     color: #6c7275;
     margin-top: 16px;
@@ -92,7 +118,6 @@ hr {
 	text-align: left;
     font-size: 12px;
     text-transform: uppercase;
-    font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
 }
 .tbl th, .tbl td {
     border-bottom: 1px solid #ddd;
