@@ -16,7 +16,6 @@
 /* SOFTWARE */
     Doctype: HTML5
     Language: English
-    Last update: June 20, 2019
     Graphics: Photoshop, Affinity Designer
     IDE/Editor: Visual Studio Code
     Uploaded with Neocities CLI.
