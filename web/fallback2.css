@@ -31,6 +31,13 @@ p {
     margin-top: 0px;
     margin-bottom: 10px;
 }
+#grey {
+    color: #6c7275;
+}
+#urlp {
+    color: #889196;
+    font-family: monospace;
+}
 a:link {
     color: #2c81b8;
     text-decoration: underline;
@@ -149,5 +156,11 @@ a.button:active{
     }
     a:active {
         color: #2c81b8;
+    }
+    #grey {
+        color: #979fa3;
+    }
+    #urlp {
+        color: #979fa3;
     }
 }
