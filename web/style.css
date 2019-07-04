@@ -25,7 +25,7 @@ Style Version: 1
 body {
     color: #141516;
     background-color: #2c81b8;
-    font-family: 'Selawik','Segoe UI', 'Lucida Grande', 'Lucida Sans', Tahoma, sans-serif;
+    font-family: 'Selawik' ,'Segoe UI', 'Lucida Grande', 'Lucida Sans', Tahoma, sans-serif;
     font-size: 14px;
     line-height: 20px;
     margin: 0;
@@ -290,8 +290,8 @@ hr {
         outline-color: #051926;
     }
     #navbox {
-        background-color: #2a3f4c;
-        border: 1px solid #051926;
+        background-color: #2b3c46;
+        border: 1px solid #162630;
     }
     #grey {
         color: #6ab0d5
@@ -310,8 +310,8 @@ hr {
     }
     hr {
         border: 0;
-        border-bottom: 1px dashed #2a3f4c;
-        background: #051926;
+        border-bottom: 1px dashed #2b3c46;
+        background: #162630;
     }
     #code {
         color: white;
