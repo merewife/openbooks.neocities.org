@@ -118,12 +118,12 @@ hr {
     background-color: #eaf2f4;
     background-image: url(/img/bg2.png);
     background-repeat: no-repeat;
-    background-size: 950px;
+    background-size: 960px;
     border-left: 1px solid #206089;
     border-right: 1px solid #206089;
     min-height: calc(100vh - 26px);
     max-height: calc(100vh - 26px);
-    width: 950px;
+    width: 960px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2px;
@@ -167,7 +167,7 @@ hr {
     float: left;
 }
 .left {
-    width: 680px;
+    width: 690px;
 }
 /*.right {
     width: 260px;
