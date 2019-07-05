@@ -271,6 +271,19 @@ hr {
     padding: 0;
     font-size: 14px;
 }
+.recently {
+    padding-right: 10px;
+    color: white;
+}
+.recently p {
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.25);
+}
+.recently a {
+    color: #ffde43;
+}
+.recently a:hover {
+    color: white;
+}
 #buttons {
     text-align: center;
     width: 190px;
@@ -377,6 +390,9 @@ hr {
     }
     .tbl tr:nth-child(even) {background-color: #436171}
     .newsticker a {
+        color: #d4a37b;
+    }
+    .recently a {
         color: #d4a37b;
     }
 }
