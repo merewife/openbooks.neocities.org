@@ -5,19 +5,19 @@ Style Version: 1
 
 @font-face {
     font-family: 'Selawik';
-    src: url('font/selawk.woff2') format('woff2'), url('font/selawk.woff') format('woff');
+    src: url('/font/selawk.woff2') format('woff2'), url('/font/selawk.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Selawik';
-    src: url('font/selawkb.woff2') format('woff2'), url('font/selawkb.woff') format('woff');
+    src: url('/font/selawkb.woff2') format('woff2'), url('/font/selawkb.woff') format('woff');
     font-weight: bold;
     font-style: regular;
 }
 @font-face {
     font-family: 'Selawik';
-    src: url('font/selawkl.woff2') format('woff2'), url('font/selawkl.woff') format('woff');
+    src: url('/font/selawkl.woff2') format('woff2'), url('/font/selawkl.woff') format('woff');
     font-weight: 300;
     font-style: regular;
 }
