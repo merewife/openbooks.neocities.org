@@ -46,9 +46,9 @@ h2 {
 }
 h3 {
     font-size: 15px;
-    font-weight: regular;
+    font-weight: 400;
     text-transform: uppercase;
-    color: #6c7275;
+    color: #2c81b8;
     margin-top: 16px;
     margin-bottom: 8px;
 }
@@ -67,7 +67,7 @@ p {
     color: #6c7275;
     font-family: monospace;
     font-size: 12px;
-    background-color: rgba(43, 30, 30, 0.125);
+    background-color: rgba(43, 30, 30, 0.05);
     padding: 4px;
     padding-left: 8px;
     border-radius: 4px;
