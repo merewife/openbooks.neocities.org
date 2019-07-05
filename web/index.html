@@ -6,7 +6,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>OpenBooks</title>
         <link rel="shortcut icon" type="image/png" href="/apple-touch-icon.png"/>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="/css/v2.css">
+        <link rel="stylesheet" href="/css/avalanche.min.css">
         <style>
             .page {
                 background-image: url(/img/bg.png);
@@ -35,30 +36,53 @@
              A Belief in the Occult.
     !-->
     <body>
+        <script type="text/javascript" src="/js/topbar.js"></script>
+        <noscript>
+            <div class="navbar">
+                <ul>
+                    <li><a href="https://openbooks.neocities.org/" class="title">OpenBooks 8 Series</a></li>
+                </ul>
+                <ul class="right">
+                    <li><a href="updates.html">Update History</a></li>
+                </ul>
+            </div>
+        </noscript>
         <div class="page">
-            <script type="text/javascript" src="/js/topbar.js"></script>
-            <noscript>
-                <div class="navbar">
-                    <ul>
-                        <li><a href="https://openbooks.neocities.org/" class="title">OpenBooks 8 Series</a></li>
-                    </ul>
-                    <ul class="right">
-                        <li><a href="js.html">No-JS version</a></li>
-                    </ul>
-                </div>
-            </noscript>
             <div class="row">
                 <div class="column left">
-                    <div class="header"></div>
+                    <div class="grid grid--flush grid--middle grid--auto">
+                        <div class="grid__cell">
+                            <div class="header"></div>
+                        </div>
+                        <div class="grid__cell">
+                            <div class="n2logo"></div>
+                        </div>
+                    </div>
                     <div class="newsticker">
                         <strong>News: </strong>The future of OpenBooks and network2: <a href="news.html">read more</a>
                     </div>
-                    <div class="homenav">
-                         <img src="img/map.png" usemap="#map"/>
-                         <map name="map">
-                            <area target="" alt="Directory" title="Directory" href="directory.html" coords="2,8,228,108" shape="rect">
-                            <area target="" alt="Search" title="Search" href="search.html" coords="238,8,464,108" shape="rect">
-                        </map>
+                    <div class="content">
+                        <div class="grid grid--flush grid--auto">
+                            <div class="grid__cell">
+                                <div class="homenav">
+                                        <img src="img/map.png" usemap="#map"/>
+                                        <map name="map">
+                                           <area target="" alt="Directory" title="Directory" href="directory.html" coords="2,8,228,108" shape="rect">
+                                           <area target="" alt="Search" title="Search" href="search.html" coords="238,8,464,108" shape="rect">
+                                       </map>
+                                   </div>
+                            </div>
+                            <div class="1/2 grid__cell">
+                                <div id="mininav">
+                                    <ul>
+                                        <li><a href="search.html">Search</a></li>
+                                        <li><a href="directory.html">Directory</a></li>
+                                        <li><a href="articles/">Articles</a></li>
+                                    </ul>
+                                    <hr/>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="content">
                         <h2>Where would you like to go today?</h2>
