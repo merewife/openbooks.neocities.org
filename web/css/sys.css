@@ -57,7 +57,7 @@ a:active {
 .page {
     background-color: #89c0e1;
     min-height: 100vh;
-    max-width: 760px;
+    width: 968px;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
