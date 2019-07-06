@@ -119,10 +119,10 @@ hr {
     background-color: #eaf2f4;
     background-image: url(/img/bg2.png);
     background-repeat: no-repeat;
-    background-size: 960px;
+    background-size: 968px;
     outline: 1px solid #206089;
     min-height: 100vh;
-    max-width: 960px;
+    max-width: 968px;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
