@@ -194,18 +194,6 @@ hr {
     height: 100px;
     margin-left: 20px;
 }
-.n2logo {
-    background-image: url(/img/n2.png);
-    background-repeat: no-repeat;
-    background-size: 70%;
-    filter: grayscale(100%) brightness(200%);
-    height: 50px;
-    width: 100px;
-    transition-duration: 500ms;
-}
-.n2logo:hover {
-    filter: grayscale(0%) brightness(100%);
-}
 #navbox {
     background-color: #f4f6f8;
     width: 190px;
