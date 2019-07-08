@@ -7,6 +7,7 @@
         <title>OpenBooks :: Directory</title>
         <link rel="shortcut icon" type="image/png" href="/apple-touch-icon.png"/>
         <link rel="stylesheet" href="css/v2.css">
+        <link rel="stylesheet" href="/css/avalanche.min.css">
         <style>
             h2 {
                 margin-bottom: 10px;
@@ -14,6 +15,24 @@
             p {
                 margin-top: 0px;
                 margin-bottom: 4px;
+            }
+            .dir {
+                margin-left: 0;
+                margin-right: auto;
+                width: 95%;
+                border: solid rgba(0,0,0,0.4);
+                border-width: 1px;
+                background-color: rgba(255, 255, 255, .4);
+                padding: 4px;
+                padding-left: 24px;
+                padding-bottom: 14px;
+                border-radius: 2px;
+                box-shadow: 0px 1px 1px 0px rgba(255,255,255,.6), inset 0px 2px 2px 0px rgba(0,0,0,.1);
+            }
+            @media (prefers-color-scheme: dark) {
+                .dir {
+                    background-color: rgba(0, 0, 0, .2);
+                }
             }
         </style>
     </head>
@@ -34,7 +53,51 @@
                 <div class="column left">
                     <div class="content">
                         <h1>Directory</h1>
-                        <table width="100%">
+                        <div class="dir grid grid--flush">
+                            <div class="1/3 grid__cell">
+                                <h2>Search</h2>
+                                <p><a href="https://duckduckgo.com" target="_blank">DuckDuckGo</a></p>
+                                <p><a href="https://startpage.com" target="_blank">StartPage</a></p>
+                                <p><a href="https://google.com" target="_blank">Google</a></p>
+                                <p><a href="https://bing.com" target="_blank">Bing</a></p>
+                                <p><a href="https://ecosia.org" target="_blank">Ecosia</a></p>
+                                <p><a href="https://yandex.com" target="_blank">Yandex</a></p>
+                            </div>
+                            <div class="1/3 grid__cell">
+                                <h2>Mail</h2>
+                                <p><a href="https://gmail.com" target="_blank">Gmail</a></p>
+                                <p><a href="https://mail.yahoo.com" target="_blank">Yahoo! Mail</a></p>
+                                <p><a href="https://mail.aol.com" target="_blank">AOL Mail</a></p>
+                                <p><a href="https://outlook.com" target="_blank">Outlook</a></p>
+                                <p><a href="https://mail.yandex.com" target="_blank">Yandex Mail</a></p>
+                                <p><a href="https://protonmail.com" target="_blank">ProtonMail</a></p>
+                            </div>
+                            <div class="1/3 grid__cell">
+                                <h2>Social Networking</h2>
+                                <p><a href="https://mastodon.social" target="_blank">Mastodon</a></p>
+                                <p><a href="https://twitter.com" target="_blank">Twitter</a></p>
+                                <p><a href="https://facebook.com" target="_blank">Facebook</a></p>
+                                <p><a href="https://tumblr.com" target="_blank">Tumblr</a></p>
+                                <p><a href="https://reddit.com" target="_blank">Reddit</a></p>
+                                <p><a href="https://vk.com" target="_blank">VK</a></p>
+                            </div>
+                            <div class="1/3 grid__cell">
+                                <h2>Messaging</h2>
+                                <p><a href="https://discordapp.com" target="_blank">Discord</a></p>
+                                <p><a href="https://web.skype.com" target="_blank">Skype for Web</a></p>
+                                <p><a href="https://web.telegram.org" target="_blank">Telegram for Web</a></p>
+                                <p><a href="https://messenger.com" target="_blank">Facebook Messenger</a></p>
+                                <p><a href="https://line.me" target="_blank">LINE</a></p>
+                            </div>
+                            <div class="1/3 grid__cell">
+                                <h2>Shopping</h2>
+                                <p><a href="https://amazon.com" target="_blank">Amazon</a></p>
+                                <p><a href="https://ebay.com" target="_blank">eBay</a></p>
+                                <p><a href="https://craigslist.org" target="_blank">Craigslist</a></p>
+                                <p><a href="https://aliexpress.com" target="_blank">AliExpress</a></p>
+                            </div>
+                        </div>
+                        <!--<table width="100%">
                             <tr>
                                 <td valign="top" width="50%">
                                     <h2>Search</h2>
@@ -88,7 +151,7 @@
                                     <p><a href="https://wave.ac" target="_blank">Wave.ac</a></p>
                                 </td>
                             </tr>
-                        </table>
+                        </table>-->
                         <div id="footer">
                                 <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">AGPLv3</a> &bull; &copy;2014-2019 &bull; <a href="about.html">About</a> &bull; <a href="sitemap.html">Sitemap</a>
                         </div>
