@@ -97,7 +97,7 @@ hr {
 .tbl tr:nth-child(even) {background-color: #f5f5f5}
 .page {
     background-color: #e6f1f7;
-    background-image: url(/img/bg2.png);
+    background-image: url(img/bg2.png);
     background-repeat: no-repeat;
     outline: 1px solid #206089;
     min-height: 100vh;
