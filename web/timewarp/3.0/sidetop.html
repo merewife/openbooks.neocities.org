@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>sidebar</title>
+<link rel="stylesheet" href="sidebar.css" type="text/css" />
+<style type="text/css">
+body {
+	background-color: #000;
+	margin-left: 5px;
+	margin-top: 5px;
+	text-align: center;
+}
+body:before {
+    content: "";
+    position: fixed;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,1);
+    z-index: 100;
+}
+body,td,th {
+	color: #fff;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+}
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto; 
+    width: 200;
+}
+</style>
+</head>
+
+<body>
+	<div class="outer"><div class="middle"><div class="inner">
+        <table border="0" align="center">
+            <tr>
+                <td><p><a href="http://vhs.neocities.org/" target="main"><img src="img/sidesearch.png" alt="Search" /></a></p></td>
+            </tr>
+            <tr>
+                <td><p><a href="blog.html" target="main"><img src="img/blogside.png" alt="Blog" /></a></p></td>
+            </tr>
+            <tr>
+                <td><p><a href="articles.html" target="main"><img src="img/articleside.png" alt="Articles" /></a></p></td>
+            </tr>
+            <tr>
+                <td><p><a href="music.html" target="main"><img src="img/musicside.png" alt="Music" /></a></p></td>
+            </tr>
+            <tr>
+                <td><p><a href="downloads.html" target="main"><img src="img/downloadside.png" alt="Download" /></a></p></td>
+            </tr>
+            <tr>
+                <td><p><a href="about.html" target="main"><img src="img/aboutside.png" alt="About" /></a></p></td>
+            </tr>
+        </table>
+	</table>
+	</div></div></div>
+</body>
+</html>
