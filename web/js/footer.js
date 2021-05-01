@@ -1,0 +1,1 @@
+document.write ('<div id="footer">Licensed under <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">AGPLv3</a> &bull; 2014-2021 &bull; Made by <a href="http://twitter.com/iammerewife" target="_blank">Merewife</a></div>');
