@@ -147,6 +147,7 @@ hr {
     margin-right: auto;
     margin-top: 2px;
     overflow-y: scroll;
+    overflow-x: hidden;
     scrollbar-color: #206089 rgba(0,0,0,0);
     -webkit-scrollbar-color: #206089 rgba(0,0,0,0);
 }
