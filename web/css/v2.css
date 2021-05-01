@@ -275,8 +275,41 @@ hr {
     padding: 0;
     font-size: 14px;
 }
+
+.metronav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding: 3px;
+    padding-left: 8px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    font-size: 42px;
+    font-weight: 300;
+}
+.metronav li {
+    margin-bottom: 30px;
+    padding: 0;
+}
+.metronav li a:link {
+    color: rgba(255,255,255,0.75);
+    text-decoration: none;
+    transition-duration: 200ms;
+    
+}
+.metronav li a:visited {
+    color: rgba(255,255,255,0.75);
+}
+.metronav li a:hover {
+    color: white;
+}
+.metronav li a:active {
+    color: rgba(255,255,255,.6)
+}
+
 .recently {
-    padding-right: 10px;
+    margin-left: 30px;
     color: white;
 }
 .recently p {
@@ -288,12 +321,21 @@ hr {
 .recently a:hover {
     color: white;
 }
+
 #buttons {
     text-align: center;
     width: 190px;
     margin: 30px 30px;
 }
 #buttons img {
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.25);
+}
+
+#homebuttons {
+    text-align: center;
+    width: 190px;
+}
+#homebuttons img {
     box-shadow: 1px 2px 4px rgba(0,0,0,0.25);
 }
 .newsticker {
