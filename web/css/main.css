@@ -297,7 +297,8 @@ hr {
 .metronav li a:link {
     color: rgba(255,255,255,0.75);
     text-decoration: none;
-    transition-duration: 200ms;
+    text-shadow: 0px 0px rgba(0,0,0,0);
+    transition-duration: 1000ms;
     
 }
 .metronav li a:visited {
@@ -305,6 +306,8 @@ hr {
 }
 .metronav li a:hover {
     color: white;
+    text-shadow: 0px 0px 5px rgba(255,255,255,0.6),0px 0px 25px rgba(255,255,255,0.6);
+    transition-duration: 50ms;
 }
 .metronav li a:active {
     color: rgba(255,255,255,.6)
