@@ -22,5 +22,4 @@
     Host: Neocities
 
 to do list:
-new folder structure
 separate home-page only CSS
