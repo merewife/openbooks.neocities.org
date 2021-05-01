@@ -189,6 +189,7 @@ hr {
     width: 690px;
 }
 .header {
+    image-rendering: pixelated;
     background-image: url(/img/header.png);
     background-repeat: no-repeat;
     min-width: 475px;
