@@ -1,12 +1,9 @@
-/*
-OpenBooks 8 Series
-System CSS for 404 and error pages.
-*/
+/* OpenBooks System CSS for Error Pages */
 
 body {
     color: #141516;
     background-color: #2c81b8;
-    font-family: 'Selawik' ,'Segoe UI', 'Lucida Grande', 'Lucida Sans', Tahoma, sans-serif;
+    font-family: 'Segoe UI', 'Lucida Grande', 'Lucida Sans', Tahoma, sans-serif;
     font-size: 14px;
     line-height: 20px;
     margin: 0;
