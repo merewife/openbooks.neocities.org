@@ -22,17 +22,18 @@
 body {
     color: white;
     background-color: #0e458b;
-    font-family: 'Segoe UI', 'Selawik' , 'Lucida Grande', 'Lucida Sans', Tahoma, sans-serif;
+    font-family: 'Inter', 'Segoe UI', 'Selawik' , 'Lucida Grande', 'Lucida Sans', Tahoma, sans-serif;
     font-size: 14px;
     line-height: 20px;
     margin: 0;
     padding: 0;
 }
 h1 {
-    color: white;
-    font-size: 30px;
-    font-weight: 400;
-    margin-top: 30px;
+    color: whitesmoke;
+    font-size: 48px;
+    text-transform: lowercase;
+    font-weight: 300;
+    margin-top: 40px;
     margin-bottom: 30px;
 }
 h2 {
