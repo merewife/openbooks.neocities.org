@@ -20,6 +20,3 @@
     IDE/Editor: Visual Studio Code
     Uploaded with Neocities CLI.
     Host: Neocities
-
-to do list:
-separate home-page only CSS
