@@ -2,7 +2,8 @@
 
 /* This is a testbed for features that may make it into future versions of OpenBooks.
    Rightnow, it is being used to test the fallback design for pages that have not been
-   updated to the OpenBooks 9 style.
+   updated to the OpenBooks 9 style. It is meant to be a drop-in replacement for the 
+   existing CSS with no changes needed to the HTML page itself.
  */
 
 @import url("/font/inter/inter.css");
