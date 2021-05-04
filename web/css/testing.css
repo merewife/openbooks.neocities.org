@@ -96,9 +96,6 @@ p:active {
     cursor: text;
 }
 
-img {
-    image-rendering: crisp-edges;
-}
 #copy {
     text-indent: 15px;
 }
