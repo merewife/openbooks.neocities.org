@@ -69,14 +69,14 @@ h3 {
     margin-bottom: 8px;
 }
 h4 {
-    font-size: 14px;
-    font-weight: 400;
-    color: whitesmoke;
+    color: #f4f6f8;
+    color: rgba(255,255,255,0.75);
+    font-size: 12px;
+    font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    text-align: center;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 0px;
 }
 h5 {
     color: white;
@@ -140,7 +140,7 @@ hr {
 .tbl table {
 	border-collapse: collapse;
 	margin-top: 4px;
-	margin-bottom: 4px;
+	margin-bottom: 8px;
 }
 .tbl th {
 	font-weight: bold;
