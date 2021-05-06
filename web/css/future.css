@@ -1,0 +1,81 @@
+/* OpenBooks 9 Series - Home page CSS */
+
+@import url("/font/inter/inter.css");
+
+body {
+    color: white;
+    background-color: #0e458b;
+    background: url(/img/9bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Inter', /* use selected web font */
+    -apple-system, BlinkMacSystemFont, /* mac/safari mac/chrome */
+    "Segoe UI", "Roboto", "Oxygen", /* windows android/chrome, kde */
+    "Ubuntu", "Cantarell", "Fira Sans", /* ubuntu gnome fireos */
+    "Droid Sans", "Lucida Sans", "Lucida Grande", "Tahoma", "Helvetica Neue", sans-serif; /* oldAndroid oldMac oldMac xp trash default */
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.statusbar {
+    background-color: rgba(0,0,0,0.50);
+    color: #b4b4b4;
+    border-left: 1px solid rgba(0,0,0,0.5);
+    border-right: 1px solid rgba(0,0,0,0.5);
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    box-shadow: 0 1px rgba(255,255,255,0.25);
+    width: 866px;
+    height: 26px;
+    position: fixed;
+    left: 50%;
+    margin-left: -434px;
+    overflow: hidden;
+}
+.statusbar ul {
+    list-style-type: none;
+    margin: 0 10px;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.75);
+}
+.statusbar ul.right {
+    float: right;
+}
+.statusbar li {
+    float: left;
+    margin: 0em;
+}
+.statusbar li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #d9d9d9;
+    margin: 0;
+    padding: 2px 8px 4px 8px;
+}
+
+.page {
+    border-left: 1px solid #5DC0E4;
+    border-right: 1px solid #5DC0E4;
+    min-height: calc(100vh - 26px);
+    /*max-height: calc(100vh - 26px);*/
+    max-width: 868px;
+    min-width: 868px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 26px;
+    box-shadow: 0 -12px 48px rgba(0,0,0,0.25);
+}
+@media screen and (max-width: 868px) {
+    .statusbar {
+        width: calc(100vw - 2px);
+        left: 0;
+        margin-left: 0;
+    }
+    .page {
+        max-width: calc(100vw - 2px);
+        min-width: calc(100vw - 2px);
+    }
+}
