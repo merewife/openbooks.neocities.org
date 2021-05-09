@@ -209,8 +209,7 @@ hr {
     width: 590px;
 }
 .header {
-    image-rendering: pixelated;
-    background-image: url(/img/header.png);
+    background-image: url(/img/logo.svg);
     background-repeat: no-repeat;
     min-width: 475px;
     height: 100px;

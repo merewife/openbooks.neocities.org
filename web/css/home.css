@@ -210,10 +210,12 @@ hr {
 }
 .header {
     image-rendering: pixelated;
-    background-image: url(/img/header.png);
+    background-image: url(/img/logo.svg);
     background-repeat: no-repeat;
+    background-size: contain;
     min-width: 475px;
-    height: 100px;
+    height: 40px;
+    margin: 30px;
     margin-left: 20px;
 }
 
