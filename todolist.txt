@@ -1,0 +1,14 @@
+coyote's list of ideas:
+
+rewrite home page *in progress, probably openbooks 9.0 or probably not. maybe it's 8 forever.
+
+switch to ungrid instead of avalananche? *might not actually work as well for mobile responsiveness?
+                                         Research more - try swapping for home page rewrite
+
+openbooks homes - even if it's not public its microsites for me to use
+
+fork element to weave CSS, which is a more full-featured version of element
+
+separate pages for collections pages
+
+different design for coyote's home (wait for openbooks 9)
