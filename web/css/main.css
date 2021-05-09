@@ -148,7 +148,7 @@ hr {
 }
 .tbl tr:nth-child(even) {background-color: rgba(0,0,0,0.15)}
 .page {
-    background-color: #0e458b;
+    background-color: #1251a0;
     background-image: url(/img/9bg.jpg);
     background-repeat: no-repeat;
     background-size: 868px;
@@ -209,8 +209,7 @@ hr {
     width: 590px;
 }
 .header {
-    image-rendering: pixelated;
-    background-image: url(/img/header.png);
+    background-image: url(/img/logo.svg);
     background-repeat: no-repeat;
     min-width: 475px;
     height: 100px;

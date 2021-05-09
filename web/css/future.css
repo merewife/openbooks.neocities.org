@@ -2,6 +2,10 @@
 
 @import url("/font/inter/inter.css");
 
+html {
+    cursor: default;
+}
+
 body {
     color: white;
     background-color: #0e458b;
@@ -12,25 +16,53 @@ body {
     "Segoe UI", "Roboto", "Oxygen", /* windows android/chrome, kde */
     "Ubuntu", "Cantarell", "Fira Sans", /* ubuntu gnome fireos */
     "Droid Sans", "Lucida Sans", "Lucida Grande", "Tahoma", "Helvetica Neue", sans-serif; /* oldAndroid oldMac oldMac xp trash default */
-    font-size: 14px;
+    font-size: 13px;
     line-height: 20px;
     margin: 0;
     padding: 0;
 }
 
+p:active {
+    cursor: text;
+}
+
+a:link {
+    color: #49c468;
+    text-decoration: underline;
+}
+a:visited {
+    color: #49c468;
+    text-decoration: underline;
+}
+a:hover {
+    color: #69e686;
+    text-decoration: underline;
+}
+a:active {
+    color: #4A9C5E;
+    text-decoration: underline;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px dashed #2b3c46;
+    background: #162630;
+}
+
+.centered {
+    text-align: center;
+}
+
 .statusbar {
-    background-color: rgba(0,0,0,0.50);
+    background-color: rgba(0,0,0,0.12);
     color: #b4b4b4;
-    border-left: 1px solid rgba(0,0,0,0.5);
-    border-right: 1px solid rgba(0,0,0,0.5);
-    border-bottom: 1px solid rgba(0,0,0,0.5);
-    box-shadow: 0 1px rgba(255,255,255,0.25);
-    width: 866px;
+    width: 868px;
     height: 26px;
     position: fixed;
     left: 50%;
     margin-left: -434px;
     overflow: hidden;
+    box-shadow: 0 1px rgba(255,255,255,0.25),inset 0 -1px rgba(0,0,0,0.25);
 }
 .statusbar ul {
     list-style-type: none;
@@ -38,7 +70,7 @@ body {
     padding: 0;
     overflow: hidden;
     float: left;
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.75);
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.75);
 }
 .statusbar ul.right {
     float: right;
@@ -51,14 +83,21 @@ body {
     display: block;
     text-align: center;
     text-decoration: none;
-    color: #d9d9d9;
+    color: white;
     margin: 0;
-    padding: 2px 8px 4px 8px;
+    padding: 3px 0;
+    padding-right: 10px;
 }
 
 .page {
-    border-left: 1px solid #5DC0E4;
-    border-right: 1px solid #5DC0E4;
+    background-color: #1251a0;
+    background-image: url(/img/9bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 868px;
+    background-position-x: center;
+    border-left: 1px solid rgba(255,255,255,0.5);
+    border-right: 1px solid rgba(255,255,255,0.5);
     min-height: calc(100vh - 26px);
     /*max-height: calc(100vh - 26px);*/
     max-width: 868px;
@@ -66,8 +105,104 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-top: 26px;
-    box-shadow: 0 -12px 48px rgba(0,0,0,0.25);
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.25),0 -12px 48px rgba(0,0,0,0.25);
 }
+
+.footer {
+    text-align: center;
+    background-color: rgba(0,0,0,0.20);
+    font-size: 14px;
+    padding: 6px;
+    display: inline-block;
+    border-radius: 6px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background-image: url(/img/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 300px;
+    margin: 25px;
+    opacity: 0.75;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.rightside {
+    text-align: right;
+    height: 50px;
+    margin-right: 25px;
+}
+
+.metronav {
+    padding-left: 50px;
+    max-width: 500px;
+}
+.metronav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding: 3px;
+    padding-left: 8px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    font-size: 42px;
+    font-weight: 300;
+}
+.metronav li {
+    margin-bottom: 30px;
+    padding: 0;
+}
+.metronav li a:link {
+    color: rgba(255,255,255,0.75);
+    text-decoration: none;
+    text-shadow: 0px 0px rgba(0,0,0,0);
+    transition-duration: 1000ms;
+    
+}
+.metronav li a:visited {
+    color: rgba(255,255,255,0.75);
+}
+.metronav li a:hover {
+    color: white;
+    text-shadow: 0px 0px 5px rgba(255,255,255,0.6),0px 0px 25px rgba(255,255,255,0.6);
+    transition-duration: 50ms;
+}
+.metronav li a:active {
+    color: rgba(255,255,255,.6)
+}
+
+.tiles {
+    width: 450px;
+    padding-right: 100px;
+}
+.tileleft {
+    font-size: 18px;
+    /*text-shadow: 0px 1px 2px rgba(0,0,0,0.75);*/
+}
+.tileright {
+    font-size: 30px;
+    text-align: right;
+    font-weight: 300;
+    /*text-shadow: 0px 1px 2px rgba(0,0,0,0.75);*/
+}
+
+@media (min-width: 868px) {
+    .row { width: 100%; display: table; table-layout: fixed; }
+    .col { display: table-cell; }
+}
+
 @media screen and (max-width: 868px) {
     .statusbar {
         width: calc(100vw - 2px);
