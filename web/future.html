@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <meta http-equiv="Content-Language" content="en_US">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+        <meta name="viewport" content="width=868px", user-scalable=no">
         <title>OpenBooks Future</title>
         <link rel="shortcut icon" type="image/png" href="apple-touch-icon.png"/>
         <link rel="stylesheet" href="/css/future.css">
@@ -37,13 +38,22 @@
             </ul>
         </div>
         <div class="page">
-            <!--test test test this should be underneath the navbar
-            <div style="height:10000px;">test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test </div>-->
             <div class="row">
-                <div class="col"><div class="header">.</div></div>
+                <div class="col" style="vertical-align: top;"><div class="header">.</div></div>
                 <div class="col">
-                    <div class="rightside">
-                        <p>8.8 Beta</p>
+                    <div class="iconbar">
+                        <a href="news.html"><div class="icon">
+                            <img src="/img/updates.png"/>
+                            <p>News</p>
+                        </div></a>
+                        <a href="updates.html"><div class="icon">
+                            <img src="/img/updates.png"/>
+                            <p>Updates</p>
+                        </div></a>
+                        <a href="about.html"><div class="icon">
+                            <img src="/img/updates.png"/>
+                            <p>About</p>
+                        </div></a>
                     </div>
                 </div>
             </div>
@@ -51,15 +61,14 @@
                 <div class="col metronav">
                     <ul>
                         <li><a href="#">search</a></li>
-                        <li><a href="#">news</a></li>
+                        <li><a href="#">links</a></li>
                         <li><a href="#">blog</a></li>
                         <li><a href="#">discord</a></li>
                         <li><a href="#">history</a></li>
-                        <li><a href="#">updates</a></li>
-                        <li><a href="#">about</a></li>
                     </ul>
                 </div>
-                <div class="col tiles">
+                <div class="col" style="width: 470px; padding-right: 100px;">
+                    <div class="tiles">
                     <div class="row">
                         <div class="col tileleft">
                             Welcome to OpenBooks
@@ -68,16 +77,19 @@
                             <span id="datetime"/><noscript>Start</noscript>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col">test</div>
-                        <div class="col">test</div>
-                        <div class="col">test</div>
+                    <div class="row" style="padding-top: 10px;">
+                        <div class="col"><div class="tile"></div></div>
+                        <div class="col"><div class="tile"></div></div>
+                        <div class="col"><div class="tile"></div></div>
+                    </div>
+                    
+                    <p id="copy">Please note OpenBooks 9 Series is currently in beta. Things will likely change, break, or be entirely nonfunctional.</p>
                     </div>
                 </div>
             </div>
             <div class="centered">
                 <div class="footer"><a href="about.html">About</a> &bull; <a href="sitemap.html">Sitemap</a></div>
-                <div class="footer">Licensed under <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">AGPLv3</a> &bull; 2014-2021 &bull; Made by <a href="http://twitter.com/iammerewife" target="_blank">Merewife</a></div>
+                <div class="footer">Licensed under <a href="#">MIT</a> &bull; 2014-2021 &bull; Made by <a href="http://twitter.com/iammerewife" target="_blank">Merewife</a></div>
             </div>
         </div>
         <script>
