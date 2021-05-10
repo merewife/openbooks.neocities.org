@@ -4,6 +4,8 @@ rewrite home page *in progress, probably openbooks 9.0 or probably not. maybe it
 
 switch to ungrid instead of avalananche? *might not actually work as well for mobile responsiveness?
                                          Research more - try swapping for home page rewrite
+                                         ungrid doesn't do the cool autofill, so not great for the choosers,
+                                         but ok otherwise. can do percentage / pixel widths inline
 
 openbooks homes - even if it's not public its microsites for me to use
 
