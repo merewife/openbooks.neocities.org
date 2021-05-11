@@ -1,0 +1,1 @@
+document.write ('<div class="statusbar"><ul><li><a href="https://openbooks.neocities.org/" class="title">OpenBooks 9 Series</a></li></ul><ul class="right"><li><a href="updates.html">Last updated on October 24, 2021</a></li></ul></div>');

@@ -393,3 +393,14 @@ hr {
     margin-top: 50px;
     margin-bottom: 20px;
 }
+
+.footer {
+    background-color: rgba(0,0,0,0.20);
+    font-size: 14px;
+    padding: 6px;
+    display: inline-block;
+    border-radius: 6px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
