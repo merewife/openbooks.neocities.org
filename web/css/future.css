@@ -220,12 +220,28 @@ hr {
     color: rgba(255,255,255,.6)
 }
 
+.buttons {
+    text-align: center;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 30px;
+}
+.buttons img {
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.25);
+    image-rendering: crisp-edges;
+}
+
 .tiles {
     margin-top: 20px;
     /*max-width: 500px;*/
     margin-left: auto;
     margin-right: auto;
     /*padding-right: 100px;*/
+}
+.tiles a {
+    text-decoration: none;
 }
 .tileleft {
     font-size: 18px;
