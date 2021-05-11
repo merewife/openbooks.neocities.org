@@ -61,6 +61,17 @@ hr {
 .centered {
     text-align: center;
 }
+#code {
+    display: inline-block;
+    color: white;
+    font-family: monospace;
+    font-size: 12px;
+    background-color: rgba(0,0,0,0.15);
+    padding: 4px;
+    padding-left: 8px;
+    border-radius: 4px;
+    margin-right: 20px;
+}
 
 .statusbar {
     background-color: rgba(0,0,0,0.12);
@@ -245,13 +256,13 @@ hr {
 }
 .tileleft {
     font-size: 18px;
-    text-shadow: 0px 1px 2px rgba(0,0,0,0.75);
+    text-shadow: 0px 1px 4px rgba(0,0,0,0.5);
 }
 .tileright {
     font-size: 30px;
     text-align: right;
     font-weight: 300;
-    text-shadow: 0px 1px 2px rgba(0,0,0,0.75);
+    text-shadow: 0px 1px 4px rgba(0,0,0,0.5);
     padding-bottom: 10px;
 }
 .tile {
@@ -273,6 +284,18 @@ hr {
 }
 .tile.wide {
     width: 296px;
+}
+.tile.tl {
+    border-radius: 10px 0 0 0;
+}
+.tile.tr {
+    border-radius: 0 10px 0 0;
+}
+.tile.bl {
+    border-radius: 0 0 0 10px;
+}
+.tile.br {
+    border-radius: 0 0 10px 0;
 }
 .tile:hover {
     background-color: rgba(255,255,255,0.75);
@@ -337,6 +360,10 @@ hr {
 .tileversion.two {
     font-size: 68px;
     top: 12px;
+}
+.tileversion.one {
+    font-size: 80px;
+    top: 16px;
 }
 
 @media (min-width: 30em) {
