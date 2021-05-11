@@ -17,14 +17,14 @@ body {
     "Ubuntu", "Cantarell", "Fira Sans", /* ubuntu gnome fireos */
     "Droid Sans", "Lucida Sans", "Lucida Grande", "Tahoma", "Helvetica Neue", sans-serif; /* oldAndroid oldMac oldMac xp trash default */
     font-size: 13px;
-    line-height: 20px;
+    line-height: 1.6em;
     margin: 0;
     padding: 0;
 }
 
 
 p#copy {
-    text-indent: 12px;
+    text-indent: 20px;
 }
 p:active {
     cursor: text;

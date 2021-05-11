@@ -14,5 +14,3 @@ fork element to weave CSS, which is a more full-featured version of element
 separate pages for collections pages
 
 different design for coyote's home (wait for openbooks 9)
-
-switch license (MIT?)
