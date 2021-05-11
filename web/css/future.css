@@ -344,18 +344,18 @@ hr {
     .col { display: table-cell; vertical-align: top;}
 }
 
-@media screen and (max-width: 1366px) {
+/*@media screen and (max-width: 1366px) {
     .statusbar {
         width: calc(100vw - 2px);
         left: 0;
         margin-left: 0;
     }
-    /*.page {
+    .page {
         max-width: calc(100vw - 2px);
         min-width: calc(100vw - 2px);
-    }*/
-    /*.tile {padding-top: 0%; height: 200px;}*/
-}
+    }
+    .tile {padding-top: 0%; height: 200px;}
+}*/
 
 @media (prefers-reduced-motion) {
     .metronav li a:link {
