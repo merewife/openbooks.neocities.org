@@ -1,7 +1,5 @@
 coyote's list of ideas:
 
-openbooks homes - even if it's not public its microsites for me to use
-
 fork element to weave CSS, which is a more full-featured version of element
 
 separate pages for collections pages

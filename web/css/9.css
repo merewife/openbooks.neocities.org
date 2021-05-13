@@ -112,6 +112,10 @@ hr {
     background: #162630;
 }
 
+dd {
+    margin-bottom: 10px;
+}
+
 .centered {
     text-align: center;
 }
