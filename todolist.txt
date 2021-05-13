@@ -10,5 +10,5 @@ different design for coyote's home (wait for openbooks 9)
 
 need before releasing:
 site map
-links / discord page
+links page
 

@@ -115,6 +115,7 @@ hr {
 .centered {
     text-align: center;
 }
+
 #code {
     display: inline-block;
     color: white;
@@ -185,6 +186,13 @@ hr {
     padding-top: 26px;
     box-shadow: 0 0 0 1px rgba(0,0,0,0.25),0 -12px 48px rgba(0,0,0,0.25);
 }
+
+.content {
+    width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .col.content {
     width: 470px; 
     padding-right: 100px;
@@ -505,6 +513,9 @@ hr {
 }*/
 
 @media (prefers-reduced-motion) {
+    #navbox a:link {
+        transition-duration: 0ms;
+    }
     .metronav li a:link {
         transition-duration: 0ms;
     }
