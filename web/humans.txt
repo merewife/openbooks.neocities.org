@@ -1,22 +1,61 @@
-/* TEAM */
-    Design, development: Coyote Reyne
-    Contact: merewife [at] protonmail.com
-    Birdsite: @IAMMEREWIFE
+~* OpenBooks .neocities.org *~
+    by the OpenBooks Authors
 
-/* THANKS */
+    Created by Coyote Reyne
+    Design & development
+    merewife [@] protonmail.com
+    @merewife@mastodon.social
+    @IAMMEREWIFE
+
+    https://github.com/merewife/openbooks.neocities.org
+
+
+~* Uses components by: *~
+    ungrid - responsice grid system, customized
+    Chris Nager
+    https://chrisnager.github.io/ungrid/
+
+    avalanche.css - responsive grid system
+    Colourgarden
+    http://colourgarden.github.io/avalanche/
+
+    Inter - main typeface
+    Rasmus Andersson
+    https://rsms.me/inter/
+
+    Metropolis - header typeface
+    Chris Simpson
+    https://fontsarena.com/metropolis-by-chris-simpson/
+
+    Raleway Extra Bold - OpenBooks logo typeface
+    Matt McInerney
+    https://www.theleagueofmoveabletype.com/raleway
+
+    Windows XP Icons - used on various pages throughout the site
+    Microsoft
+    https://microsoft.com
+
+
+~* Thanks to: *~
     Neocities
     https://neocities.org
 
     Kyle Drake
-    kyledrake.neocities.org
+    https://kyledrake.neocities.org
 
     The BrokenSet Online
-    thebrokensetonline.neocities.org
+    https://thebrokensetonline.neocities.org
 
-/* SOFTWARE */
+    Mozilla
+    https://mozilla.org
+
+
+~* Software *~
     Doctype: HTML5
-    Language: English
+    Styles: CSS3
+    Language: en_US
     Graphics: Photoshop, Affinity Designer
     IDE/Editor: Visual Studio Code
-    Uploaded with Neocities CLI.
-    Host: Neocities
+    Neocities CLI
+    Hosted by Neocities
+

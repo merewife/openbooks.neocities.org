@@ -1,6 +1,7 @@
 /* OpenBooks 9 Series - Main + home CSS */
 
 @import url("/font/inter/inter.css");
+@import url("/font/metropolis/metropolis.css");
 
 html {
     cursor: default;
@@ -22,6 +23,13 @@ body {
     padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Metropolis', /* use selected web font */
+    -apple-system, BlinkMacSystemFont, /* mac/safari mac/chrome */
+    "Segoe UI", "Roboto", "Oxygen", /* windows android/chrome, kde */
+    "Ubuntu", "Cantarell", "Fira Sans", /* ubuntu gnome fireos */
+    "Droid Sans", "Lucida Sans", "Lucida Grande", "Tahoma", "Helvetica Neue", sans-serif; /* oldAndroid oldMac oldMac xp trash default */
+}
 
 p#copy {
     text-indent: 20px;
@@ -210,11 +218,12 @@ hr {
     margin-top: 0px;
     margin-bottom: 10px;
     margin-right: 50px;
+    font-family: 'Metropolis';
     font-size: 42px;
     font-weight: 300;
 }
 .metronav li {
-    margin-bottom: 30px;
+    margin-bottom: 34px;
     padding: 0;
 }
 .metronav li a:link {
@@ -268,6 +277,7 @@ hr {
     text-align: right;
     font-weight: 300;
     text-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+    font-family: 'Metropolis';
 }
 .tile {
     color: #444;
@@ -334,6 +344,7 @@ hr {
     top: 114px;
 }
 .tileblogheader {
+    font-family: 'Metropolis';
     font-size: 16px;
     font-weight: 700;
     position: relative;
@@ -356,6 +367,7 @@ hr {
     position: relative;
     top: 5px;
     left: 12px;
+    font-family: 'Metropolis';
     font-size: 48px;
     font-weight: 300;
     color: white;

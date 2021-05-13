@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
   font-family: 'Inter';
   font-style:  normal;
   font-weight: 100;
@@ -13,9 +13,9 @@
   font-display: swap;
   src: url("Inter-ThinItalic.woff2?v=3.18") format("woff2"),
        url("Inter-ThinItalic.woff?v=3.18") format("woff");
-}
+}*/
 
-@font-face {
+/*@font-face {
   font-family: 'Inter';
   font-style:  normal;
   font-weight: 200;
@@ -30,7 +30,7 @@
   font-display: swap;
   src: url("Inter-ExtraLightItalic.woff2?v=3.18") format("woff2"),
        url("Inter-ExtraLightItalic.woff?v=3.18") format("woff");
-}
+}*/
 
 @font-face {
   font-family: 'Inter';
@@ -66,7 +66,7 @@
        url("Inter-Italic.woff?v=3.18") format("woff");
 }
 
-@font-face {
+/*@font-face {
   font-family: 'Inter';
   font-style:  normal;
   font-weight: 500;
@@ -81,9 +81,9 @@
   font-display: swap;
   src: url("Inter-MediumItalic.woff2?v=3.18") format("woff2"),
        url("Inter-MediumItalic.woff?v=3.18") format("woff");
-}
+}*/
 
-@font-face {
+/*@font-face {
   font-family: 'Inter';
   font-style:  normal;
   font-weight: 600;
@@ -98,7 +98,7 @@
   font-display: swap;
   src: url("Inter-SemiBoldItalic.woff2?v=3.18") format("woff2"),
        url("Inter-SemiBoldItalic.woff?v=3.18") format("woff");
-}
+}*/
 
 @font-face {
   font-family: 'Inter';
@@ -117,7 +117,7 @@
        url("Inter-BoldItalic.woff?v=3.18") format("woff");
 }
 
-@font-face {
+/*@font-face {
   font-family: 'Inter';
   font-style:  normal;
   font-weight: 800;
@@ -132,9 +132,9 @@
   font-display: swap;
   src: url("Inter-ExtraBoldItalic.woff2?v=3.18") format("woff2"),
        url("Inter-ExtraBoldItalic.woff?v=3.18") format("woff");
-}
+}*/
 
-@font-face {
+/*@font-face {
   font-family: 'Inter';
   font-style:  normal;
   font-weight: 900;
@@ -149,7 +149,7 @@
   font-display: swap;
   src: url("Inter-BlackItalic.woff2?v=3.18") format("woff2"),
        url("Inter-BlackItalic.woff?v=3.18") format("woff");
-}
+}*/
 
 /* -------------------------------------------------------
 Variable font.
@@ -160,7 +160,7 @@ Usage:
     html { font-family: 'Inter var', sans-serif; }
   }
 */
-@font-face {
+/*@font-face {
   font-family: 'Inter var';
   font-weight: 100 900;
   font-display: swap;
@@ -175,7 +175,7 @@ Usage:
   font-style: italic;
   font-named-instance: 'Italic';
   src: url("Inter-italic.var.woff2?v=3.18") format("woff2");
-}
+}*/
 
 
 /* --------------------------------------------------------------------------
@@ -191,10 +191,10 @@ explicitly, e.g.
   .italic { font-variation-settings: "slnt" 10deg }
 
 */
-@font-face {
+/*@font-face {
   font-family: 'Inter var experimental';
   font-weight: 100 900;
   font-display: swap;
   font-style: oblique 0deg 10deg;
   src: url("Inter.var.woff2?v=3.18") format("woff2");
-}
+}*/
