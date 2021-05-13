@@ -4,20 +4,18 @@
         <meta charset="utf-8">
         <meta http-equiv="Content-Language" content="en_US">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>OpenBooks :: Updates</title>
-        <link type="text/plain" rel="author" href="http://openbooks.neocities.org/humans.txt" />
+        <meta name="viewport" content="width=868px", user-scalable=no">
+        <title>OpenBooks :: Update History</title>
         <link rel="shortcut icon" type="image/png" href="/apple-touch-icon.png"/>
-        <link rel="stylesheet" href="/css/testing.css">
-        <style>
-            
-        </style>
+        <link rel="stylesheet" href="/css/9.css">
+        <link type="text/plain" rel="author" href="/humans.txt" />
     </head>
     <body>
-        <script type="text/javascript" src="/js/topbar.js"></script>
+        <script type="text/javascript" src="/js/statusbar.js"></script>
         <noscript>
-            <div class="navbar">
+            <div class="statusbar">
                 <ul>
-                    <li><a href="https://openbooks.neocities.org/" class="title">OpenBooks 8 Series</a></li>
+                    <li><a href="https://openbooks.neocities.org/" class="title">OpenBooks</a></li>
                 </ul>
                 <ul class="right">
                     <li><a href="updates.html">Update History</a></li>
@@ -25,15 +23,36 @@
             </div>
         </noscript>
         <div class="page">
+            
             <div class="row">
-                <div class="column left">
-                    <div class="content">
-                        <h1>Update History</h1>
-                        <!--<h3>Version Numbering:</h3>
-                        <p>The first digit is the major version, 8 for OpenBooks 8 Series. The second is the feature version, used for global changes and new features being added or removed. The third is for content updates, such as changes to page text, blog posts, or OpenBooks News.</p>
-                        <hr/>-->
+                <div class="col">
+                    <div id="navbox">
+                        <a href="index.html">Back to Main page</a>
+                        <ul>
+                            <li><a href="about.html">About OpenBooks</a></li>
+                            <li><a href="news.html">OpenBooks News</a></li>
+                            <li>Update History</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+                <div class="col content">
+                    <div id="header">Update History</div>
+                    <h1>OpenBooks 9 Series</h1>
+                        <h3>9.0 - May 13, 2021</h3>
+                        <p>OpenBooks 9.0 is the first release of the re-written OpenBooks 9 Series.</p>
+                        <p id="copy">OpenBooks 9 Series is a complete rewrite of OpenBooks, with an all-new home page, updated design, and a more precise focus.</p>
+                        <ul>
+                            <li>New home screen design, featuring quicker access to site content.</li>
+                            <li>Updated fonts and styles throughout the website.</li>
+                            <li>About, News, and Updates pages have been updated to use the new style.</li>
+                            <li>TimeWarp link on home page renamed to History.</li>
+                            <li>New <a href="links.html">Links</a> page, to replace the deprecated OpenBooks Directory.</li>
+                            <li>New <a href="discord.html">Discord</a> page, featuring the links and rules of the OpenBooks network2 Discord.</li>
+                        </ul>
+                        <hr/>
 
-                        <h2>OpenBooks 8 Series</h2>
+                    <h2>OpenBooks 8 Series</h2>
 
                         <h3>8.7.5 - May 11, 2021</h3>
                         <ul>
@@ -231,32 +250,20 @@
                             <li>Core pages (sitemap, updates history) added</li>
                             <li>Refined shades of blue.</li>
                         </ul>
-                        <div id="footer"><a href="about.html">About</a> &bull; <a href="sitemap.html">Sitemap</a></div>
-                        <script type="text/javascript" src="js/footer.js"></script>
-                    </div>
-                </div>
-                <div class="column right">
-                    <div id="navbox">
-                        <div class="navboxheader">Update History</div>
-                        <div class="navboxcontent">
-                            <!--<p>Learn about the latest features and changes on OpenBooks.</p>
-                            <hr/>-->
-                            <ul>
-                                <li><a href="about.html">About OpenBooks</a></li>
-                                <li><a href="news.html">OpenBooks News</a></li>
-                                <li>Update History</li>
-                            </ul>
-                            <hr/>
-                            <a href="index.html">Back to Main page</a>
-                        </div>
-                        <div class="navboxfooter"></div>
-                    </div>
-                    <div id="buttons">
-                        <a href="https://neocities.org"><img src="img/neocitiesbutton.gif"/></a>
-                        <!--<a href="https://network2.neocities.org"><img src="img/n2button.gif"></a>-->
-                    </div>
+                        <hr/>
+                    
+                    <h2>Looking for previous update notes?</h2>
+                    <p>Update notes for versions prior to OpenBooks 8 Series are not available on this page, but you can browse them in <a href="/timewarp/">OpenBooks TimeWarp</a>.</p>
                 </div>
             </div>
+            <div class="centered">
+                <div class="footer"><a href="about.html">About</a> &bull; <a href="sitemap.html">Sitemap</a></div>
+                <script type="text/javascript" src="/js/footer.js"></script>
+            </div>
         </div>
+        <script>
+            var dt = new Date();
+            document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+        </script>
     </body>
 </html>

@@ -9,7 +9,6 @@ separate pages for collections pages
 different design for coyote's home (wait for openbooks 9)
 
 need before releasing:
-news page
 site map
 links / discord page
 
