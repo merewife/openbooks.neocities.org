@@ -31,9 +31,9 @@
     Matt McInerney
     https://www.theleagueofmoveabletype.com/raleway
 
-    Windows XP Icons - used on various pages throughout the site
-    Microsoft
-    https://microsoft.com
+    Tango Icons Set
+    Tango / Free Desktop Project
+    http://tango.freedesktop.org/Tango_Icon_Library
 
 
 ~* Thanks to: *~

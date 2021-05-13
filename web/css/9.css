@@ -30,7 +30,53 @@ h1, h2, h3, h4, h5, h6 {
     "Ubuntu", "Cantarell", "Fira Sans", /* ubuntu gnome fireos */
     "Droid Sans", "Lucida Sans", "Lucida Grande", "Tahoma", "Helvetica Neue", sans-serif; /* oldAndroid oldMac oldMac xp trash default */
 }
+h1 {
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+h2 {
+    color: whitesmoke;
+    color: rgba(255,255,255,.75);
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: whitesmoke;
+    margin-top: 24px;
+    margin-bottom: 4px;
+}
+h4 {
+    color: #f4f6f8;
+    color: rgba(255,255,255,0.75);
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+h5 {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    text-transform: lowercase;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.35);
+}
 
+p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
 p#copy {
     text-indent: 20px;
 }
@@ -157,6 +203,66 @@ hr {
     margin-right: auto;
 }
 
+#header {
+    font-family: 'Metropolis';
+    font-weight: 300;
+    font-size: 48px;
+    color: whitesmoke;
+    color: rgba(255,255,255,.6);
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-transform: lowercase;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+#navbox {
+    margin-top: 52px;
+    padding-left: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#navbox ul {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+    /*font-family: 'Metropolis';*/
+    font-size: 20px;
+    font-weight: 400;
+}
+#navbox li {
+    margin-bottom: 12px;
+    padding: 0;
+    text-transform: lowercase;
+    text-shadow: 0px 0px 5px rgba(255,255,255,0.6),0px 0px 35px rgba(255,255,255,0.6);
+}
+#navbox a:link {
+    text-decoration: none;
+    color: rgba(255,255,255,0.5);
+    text-shadow: 0px 0px rgba(0,0,0,0);
+    transition-duration: 1000ms;
+}
+#navbox li a:link {
+    text-transform: lowercase;
+}
+#navbox a:visited {
+    color: rgba(255,255,255,0.5);
+}
+#navbox a:hover {
+    color: white;
+    text-shadow: 0px 0px 5px rgba(255,255,255,0.6),0px 0px 25px rgba(255,255,255,0.6);
+    transition-duration: 50ms;
+}
+#navbox a:active {
+    color: rgba(255,255,255,.6)
+}
+
 .header {
     background-image: url(/img/logo.svg);
     background-repeat: no-repeat;
@@ -178,7 +284,6 @@ hr {
     text-align: right;
     padding-right: 25px;
     margin: 25px;
-    image-rendering: crisp-edges;
 }
 .icon {
     text-align: center;
@@ -328,7 +433,6 @@ hr {
     top: 2px;
     height: 64px;
     width: 64px;
-    image-rendering: crisp-edges;
 }
 .tileheader {
     position: relative;
