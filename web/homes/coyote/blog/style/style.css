@@ -59,7 +59,7 @@ img {
   font-size: 0.9em;
   font-style: italic;
 }
-a:link {
+/*a:link {
   color: #C7327C;
 }
 a:visited {
@@ -70,6 +70,22 @@ a:hover {
 }
 a:active {
   color: #DD8A42;
+}*/
+a:link {
+  color: #49c468;
+  text-decoration: underline;
+}
+a:visited {
+  color: #49c468;
+  text-decoration: underline;
+}
+a:hover {
+  color: #69e686;
+  text-decoration: underline;
+}
+a:active {
+  color: #4A9C5E;
+  text-decoration: underline;
 }
 
 h1, h2, h3, h4, h5 {
