@@ -10,7 +10,7 @@ html {
 body {
     color: white;
     background-color: #0e458b;
-    background: url(/img/9bg.jpg) no-repeat center center fixed;
+    /*background: url(/img/9bg.jpg) no-repeat center center fixed;*/
     background-size: cover;
     font-family: 'Inter', /* use selected web font */
     -apple-system, BlinkMacSystemFont, /* mac/safari mac/chrome */
