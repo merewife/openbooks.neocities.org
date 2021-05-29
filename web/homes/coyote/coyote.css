@@ -1,0 +1,90 @@
+/* ahhh */
+body {
+  background: black;
+  color: #aaa;
+  margin: 0;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+}
+.wrapper {
+  width: 600px;
+  border: 1px solid #feed8e;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 8px;
+}
+.headimg {
+  background-image: url(img/headerbg.png);
+  height: 200px;
+  image-rendering: crisp-edges;
+}
+.nav {
+  border-top: 1px solid #feed8e;
+  border-bottom: 1px solid #feed8e;
+	text-align: center;
+	margin: 0px;
+	padding: 5px;
+}
+.content {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.footer {
+  text-align: center;
+  color: #aaa;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  image-rendering: crisp-edges;
+}
+/* i copied these columns from a tutorial on w3schools. i am so lame */
+.column {
+  float: left;
+}
+.sidebar {
+  width: 180px;
+  padding-left: 10px;
+}
+.main {
+  max-width: 410px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+a:link {
+	color: #85e8cb;
+  text-decoration: none;
+}
+a:visited {
+	color: #85e8cb;
+  text-decoration: none;
+}
+a:hover {
+	color: #d6eefe;
+	text-decoration: underline; 
+	/*border-bottom:1px dashed;*/
+}
+a:active {
+	color: #77b8e8;
+	text-decoration: underline; 
+	/*border-bottom:1px dashed;*/
+}
+h1 {
+  text-transform: lowercase;
+  letter-spacing: 0.1em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  color: #fff;
+  border-bottom: 1px dashed #aaa;
+}
+
+.buttons {
+  margin-top: 10px;
+  text-align: center;
+  image-rendering: crisp-edges;
+}
