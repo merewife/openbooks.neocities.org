@@ -135,7 +135,7 @@ dd {
 }
 
 .statusbar {
-    background-color: rgba(0,0,0,0.25);
+    background-color: rgba(0,0,0,0.50);
     color: #b4b4b4;
     width: 868px;
     height: 26px;
@@ -477,8 +477,14 @@ dd {
     width: 280px;
 }
 .tile.me {
-    background: linear-gradient(to top, rgba(255,255,255,.90), rgba(255,255,255,.25)), url(/homes/coyote/img/me.jpg);
+    /*background: linear-gradient(to top, rgba(255,255,255,.90), rgba(255,255,255,.25)), url(/homes/coyote/img/me.jpg);*/
+    background: linear-gradient(to top, rgba(0,0,0,.25), rgba(0,0,0,0)), url(/homes/coyote/img/headerbg.png);
     background-size: cover;
+    background-position-x: center;
+}
+.tileheader.dark {
+    color: white;
+    text-shadow: 0px 0px 4px rgba(0,0,0,0.75), 0px 0px 14px rgba(0,0,0,0.5);
 }
 .tileversion {
     position: relative;

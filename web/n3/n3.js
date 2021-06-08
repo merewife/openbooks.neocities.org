@@ -11,7 +11,7 @@ function n3Object(href) {
 var Whereinn3 = 0, NumInn3 = 0, n3 = new Array();
 
 Add("https://openbooks.neocities.org");
-Add("https://openbooks.neocities.org/homes/coyote/about.html");
+Add("https://vhs.neocities.org");
 
 if (Whereinn3 == 0) Whereinn3 = 1;
 
@@ -31,14 +31,14 @@ output += '<div style="image-rendering: crisp-edges;text-align:center;margin: 10
 
 output += '<A HREF="' + n3[PrevInn3].href + '" TARGET="_top">';
 
-output += '<IMG SRC="/n3/Prev.png" BORDER="0" ALT="Previous"></A>';
+output += '<IMG SRC="https://openbooks.neocities.org/n3/Prev.png" BORDER="0" ALT="Previous"></A>';
 
 output += '<A HREF="https://openbooks.neocities.org/" TARGET="_blank">';
 
-output += '<IMG SRC="/n3/Button.png" BORDER="0" ALT=" "></A>';
+output += '<IMG SRC="https://openbooks.neocities.org/n3/Button.png" BORDER="0" ALT=" "></A>';
 
 output += '<A HREF="' + n3[NextInn3].href + '" TARGET="_top">';
 
-output += '<IMG SRC="/n3/Next.png" BORDER="0" ALT=" "></A></div>';
+output += '<IMG SRC="https://openbooks.neocities.org/n3/Next.png" BORDER="0" ALT=" "></A></div>';
 
 document.write(output);
