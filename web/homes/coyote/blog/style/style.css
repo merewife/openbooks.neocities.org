@@ -2,20 +2,11 @@
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
 
-  @import url("/font/inter/inter.css");
-  @import url("/font/metropolis/metropolis.css");
-
 body {
-  background-color: white;
-  background-image: url('../images/bg.png');
-	background-size: cover;
-  background-attachment: fixed;
-  font-size: 18px;
-  font-family: 'Inter',
-    -apple-system, BlinkMacSystemFont, /* mac/safari mac/chrome */
-    "Segoe UI", "Roboto", "Oxygen", /* windows android/chrome, kde */
-    "Ubuntu", "Cantarell", "Fira Sans", /* ubuntu gnome fireos */
-    "Droid Sans", "Lucida Sans", "Lucida Grande", "Tahoma", "Helvetica Neue", sans-serif; /* oldAndroid oldMac oldMac xp trash default */
+  background-color: black;
+  color: #eee;
+  font-size: 14px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   margin: 0;
 }
 
@@ -24,8 +15,8 @@ p {
 }
 
 hr {
-  border: solid #c4c4c4;
-  border-width: 1px 0 0 0;
+  border: 0;
+  border-top: 1px dashed #aaa;
 }
 
 img {
@@ -59,41 +50,41 @@ img {
   font-size: 0.9em;
   font-style: italic;
 }
-/*a:link {
-  color: #C7327C;
-}
-a:visited {
-  color: #C7327C;
-}
-a:hover { 
-  background-color: #eeeeee;
-}
-a:active {
-  color: #DD8A42;
-}*/
 a:link {
-  color: #49c468;
-  text-decoration: underline;
+	color: #85e8cb;
+  text-decoration: none;
 }
 a:visited {
-  color: #49c468;
-  text-decoration: underline;
+	color: #85e8cb;
+  text-decoration: none;
 }
 a:hover {
-  color: #69e686;
-  text-decoration: underline;
+	color: #ffffff;
+	text-decoration: underline; 
+	/*border-bottom:1px dashed;*/
 }
 a:active {
-  color: #4A9C5E;
-  text-decoration: underline;
+	color: #feed8e;
+	text-decoration: underline; 
+	/*border-bottom:1px dashed;*/
 }
 
 h1, h2, h3, h4, h5 {
-  color: #969796;
-  font-family: 'Metropolis';
+  color: white;
 }
-h1, h2 {
-  font-weight: 300;
+h1 {
+  letter-spacing: 0.1em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  color: #fff;
+  border-bottom: 1px dashed #aaa;
+}
+h2 {
+  margin-bottom: 5px;
+  color: rgb(161, 161, 209);
+  font-weight: normal;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 18px;
 }
 
 /*#CONTAINER is the rectangle that contains everything but the background!*/
@@ -101,10 +92,9 @@ h1, h2 {
   margin: 3em auto;
   width: 90%;
 	max-width: 700px;
-	background-color: white;
-  color: black;
-  border-radius: 10px;
-  box-shadow: 0px 10px 20px rgba(0,0,0,0.25);
+	background-color: black;
+  color: #ccc;
+  border: 1px solid #feed8e;
 }
 
 #content {
@@ -114,13 +104,11 @@ h1, h2 {
 
 /*HEADER STYLE*/
 #header {
-  background-color: #eeeeee;
+  background-color: black;
   padding: 0 5%;
-  padding-top: 5px;
   border-width: 0 0 4px 0;
-  border-radius: 10px 10px 0px 0px;
   text-transform: lowercase;
-  font-family: 'Metropolis';
+  border-bottom: 1px solid #feed8e;
 }
 #header ul {
   list-style-type: none;
@@ -128,20 +116,19 @@ h1, h2 {
   margin: 0;
 }
 #header li {
-  font-size: 1.2em;
   display: inline-block;
   margin-right: 1.5em;
   margin-bottom: 0.2em;
   margin-top: 0.2em;
 }
-#header li a {
+/*#header li a {
   color: #444;
   text-decoration: none;
   background-color: inherit;
 }
 #header li a:hover {
   text-decoration: underline;
-}
+}*/
 
 /*POST LIST STYLE*/
 #postlistdiv ul {
@@ -176,5 +163,5 @@ h1, h2 {
   text-align: center;
   font-size: 0.8em;
   padding: 0 5% 10px 5%;
-  color: #969796;
+  color: #ccc
 }

@@ -1,7 +1,7 @@
 /* ahhh */
 body {
   background: black;
-  color: #aaa;
+  color: #ccc;
   margin: 0;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size: 12px;
@@ -39,17 +39,19 @@ body {
   margin-left: auto;
   margin-right: auto;
   image-rendering: crisp-edges;
+  line-height: 2;
 }
 /* i copied these columns from a tutorial on w3schools. i am so lame */
 .column {
   float: left;
+  padding-right: 10px;
 }
 .sidebar {
   width: 180px;
   padding-left: 10px;
 }
 .main {
-  max-width: 410px;
+  max-width: 390px;
 }
 .row:after {
   content: "";
@@ -65,14 +67,18 @@ a:visited {
   text-decoration: none;
 }
 a:hover {
-	color: #d6eefe;
+	color: #ffffff;
 	text-decoration: underline; 
 	/*border-bottom:1px dashed;*/
 }
 a:active {
-	color: #77b8e8;
+	color: #feed8e;
 	text-decoration: underline; 
 	/*border-bottom:1px dashed;*/
+}
+hr {
+  border: 0;
+  border-top: 1px dashed #aaa;
 }
 h1 {
   text-transform: lowercase;
@@ -82,9 +88,47 @@ h1 {
   color: #fff;
   border-bottom: 1px dashed #aaa;
 }
-
+h2 {
+  margin-bottom: 5px;
+  color: rgb(161, 161, 209);
+  font-weight: normal;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 18px;
+}
+p {
+  margin: 0px;
+  line-height: 1.4;
+}
+#copy {
+  text-indent: 8px;
+  margin-bottom: 8px;
+}
 .buttons {
   margin-top: 10px;
   text-align: center;
   image-rendering: crisp-edges;
+}
+.label{
+	color: white;
+	font-weight: bold;
+}
+
+table {
+	border-collapse: collapse;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+th {
+	font-weight: bold;
+	color: #668;
+	text-align: center;
+	font-size: 14px;
+}
+th, td {
+    border-bottom: 1px solid #444;
+	padding: 4px;
+}
+tr:nth-child(even) {background-color: #222}
+ul{
+	list-style-type: square;
 }

@@ -11,6 +11,7 @@ function n3Object(href) {
 var Whereinn3 = 0, NumInn3 = 0, n3 = new Array();
 
 Add("https://openbooks.neocities.org");
+Add("https://openbooks.neocities.org/homes/coyote/");
 Add("https://vhs.neocities.org");
 
 if (Whereinn3 == 0) Whereinn3 = 1;
@@ -27,7 +28,9 @@ else
 
 var output = '';
 
-output += '<div style="image-rendering: crisp-edges;text-align:center;margin: 10px;">'
+output += '<style>img{transition-duration: 100ms;}.n3{image-rendering: crisp-edges;text-align:center;}.n3 img:hover{transform: translate(0, -1px);filter: brightness(125%);}.n3 img:active{transform: translate(0, 1px);filter: brightness(90%);}@media(prefers-reduced-motion){img{transition-duration:0ms;}}</style>'
+
+output += '<div class="n3">'
 
 output += '<A HREF="' + n3[PrevInn3].href + '" TARGET="_top">';
 
