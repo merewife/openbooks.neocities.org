@@ -2,13 +2,12 @@ coyote's list of ideas:
 
 fork element to weave CSS, which is a more full-featured version of element
 
-separate pages for collections pages
-
-different design for coyote's home (wait for openbooks 9)
-
-need before releasing:
+features to add:
 links page
+livebutton - live88? 88Live?
+livebutton would include all webring sites + .... anyone else who wants to be added?
 
 things i want to add to personal page:
 quicktake gallery
 terragen renders
+update: camera, computers, players, graphics pages to new style
