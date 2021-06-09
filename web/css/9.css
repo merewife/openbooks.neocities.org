@@ -61,7 +61,6 @@ h4 {
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 20px;
-    margin-left: 5px;
     margin-bottom: 0px;
 }
 h5 {
@@ -147,6 +146,20 @@ dd {
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     transition-duration: 200ms;
+    z-index: 1;
+}
+.statusbar.home{
+    background-color: rgba(0,0,0,0);
+    color: #b4b4b4;
+    width: 868px;
+    height: 26px;
+    position: fixed;
+    left: 50%;
+    margin-left: -434px;
+    overflow: hidden;
+    box-shadow: 0 1px rgba(255,255,255,0.25),inset 0 -1px rgba(0,0,0,0.25);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     z-index: 1;
 }
 .statusbar ul {
@@ -322,6 +335,23 @@ dd {
 .icon a {
     text-decoration: none;
 }
+.tbl table {
+	border-collapse: collapse;
+	margin-top: 4px;
+	margin-bottom: 8px;
+}
+.tbl th {
+	font-weight: bold;
+	color: whitesmoke;
+	text-align: left;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.tbl th, .tbl td {
+    border-bottom: 1px solid rgba(255,255,255,0.20);
+	padding: 4px;
+}
+.tbl tr:nth-child(even) {background-color: rgba(0,0,0,0.15)}
 
 .metronav {
     padding-left: 50px;
@@ -372,6 +402,10 @@ dd {
     padding-right: 30px;
 }
 .buttons img {
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.25);
+    image-rendering: crisp-edges;
+}
+.button img {
     box-shadow: 1px 2px 4px rgba(0,0,0,0.25);
     image-rendering: crisp-edges;
 }

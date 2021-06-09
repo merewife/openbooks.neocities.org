@@ -58,4 +58,3 @@
     IDE/Editor: Visual Studio Code
     Neocities CLI
     Hosted by Neocities
-
