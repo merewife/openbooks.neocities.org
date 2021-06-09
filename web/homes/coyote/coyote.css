@@ -27,10 +27,12 @@ body {
 	text-align: center;
 	margin: 0px;
 	padding: 5px;
+  margin-bottom: 10px;
 }
 .content {
   padding-left: 20px;
   padding-right: 20px;
+  margin-top: 10px;
 }
 .footer {
   text-align: center;
@@ -87,13 +89,14 @@ h1 {
   font-weight: 400;
   color: #fff;
   border-bottom: 1px dashed #aaa;
+  margin-top: 4px;
 }
 h2 {
   margin-bottom: 5px;
   color: rgb(161, 161, 209);
   font-weight: normal;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-size: 18px;
+  font-size: 18px;
 }
 p {
   margin: 0px;
