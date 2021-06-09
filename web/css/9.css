@@ -480,6 +480,11 @@ dd {
     top: 2px;
     height: 64px;
     width: 64px;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
 }
 .tileheader {
     position: relative;
@@ -508,7 +513,7 @@ dd {
     position: relative;
     top: -4px;
     left: 12px;
-    width: 280px;
+    width: 275px;
 }
 .tile.me {
     /*background: linear-gradient(to top, rgba(255,255,255,.90), rgba(255,255,255,.25)), url(/homes/coyote/img/me.jpg);*/
