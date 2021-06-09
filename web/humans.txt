@@ -56,5 +56,6 @@
     Language: en_US
     Graphics: Photoshop, Affinity Designer
     IDE/Editor: Visual Studio Code
+    Web Broewser: Chromium
     Neocities CLI
     Hosted by Neocities
