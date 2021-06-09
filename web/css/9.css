@@ -403,11 +403,11 @@ dd {
 }
 .buttons img {
     box-shadow: 1px 2px 4px rgba(0,0,0,0.25);
-    image-rendering: crisp-edges;
+    image-rendering: pixelated;
 }
 .button img {
     box-shadow: 1px 2px 4px rgba(0,0,0,0.25);
-    image-rendering: crisp-edges;
+    image-rendering: pixelated;
 }
 
 .tiles {
