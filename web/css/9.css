@@ -138,11 +138,11 @@ dd {
 .statusbar {
     background-color: rgba(0,0,0,0.25);
     color: #b4b4b4;
-    width: 860px;
+    width: 850px;
     height: 26px;
     position: fixed;
     left: 50%;
-    margin-left: -431px;
+    margin-left: -426px;
     overflow: hidden;
     box-shadow: 0 1px 4px rgba(0,0,0,0.25),inset 0 -1px rgba(255,255,255,0.25),inset -1px 0 rgba(255,255,255,0.25),inset 1px 0 rgba(255,255,255,0.25);
     border: 1px solid rgba(0,0,0,.50);
