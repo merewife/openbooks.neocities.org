@@ -134,32 +134,32 @@ dd {
 }
 
 .statusbar {
-    background-color: rgba(0,0,0,0.50);
+    background-color: rgba(0,0,0,0.25);
     color: #b4b4b4;
-    width: 868px;
+    width: 860px;
     height: 26px;
     position: fixed;
     left: 50%;
-    margin-left: -434px;
+    margin-left: -431px;
     overflow: hidden;
-    box-shadow: 0 1px rgba(255,255,255,0.25),inset 0 -1px rgba(0,0,0,0.25);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.25),inset 0 -1px rgba(255,255,255,0.25),inset -1px 0 rgba(255,255,255,0.25),inset 1px 0 rgba(255,255,255,0.25);
+    border: 1px solid rgba(0,0,0,.50);
+    border-top: none;
+    border-radius: 0px 0px 10px 10px;
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
-    transition-duration: 200ms;
     z-index: 1;
 }
 .statusbar.home{
     background-color: rgba(0,0,0,0);
     color: #b4b4b4;
-    width: 868px;
-    height: 26px;
-    position: fixed;
+    position: absolute;
     left: 50%;
-    margin-left: -434px;
     overflow: hidden;
-    box-shadow: 0 1px rgba(255,255,255,0.25),inset 0 -1px rgba(0,0,0,0.25);
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
+    box-shadow: unset;
+    border: none;
+    backdrop-filter: unset;
+    -webkit-backdrop-filter: unset;
     z-index: 1;
 }
 .statusbar ul {
@@ -185,6 +185,11 @@ dd {
     margin: 0;
     padding: 3px 10px;
 }
+.statusbar li.logo {
+    font-family: Metropolis, Inter, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
 
 .page {
     background-color: #1251a0;
@@ -193,8 +198,8 @@ dd {
     background-attachment: fixed;
     background-size: 868px;
     background-position-x: center;
-    border-left: 1px solid rgba(255,255,255,0.5);
-    border-right: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(0,0,0,0.5);
+    border-right: 1px solid rgba(0,0,0,0.5);
     min-height: calc(100vh - 26px);
     /*max-height: calc(100vh - 26px);*/
     max-width: 868px;
@@ -202,7 +207,7 @@ dd {
     margin-left: auto;
     margin-right: auto;
     padding-top: 26px;
-    box-shadow: 0 0 0 1px rgba(0,0,0,0.25),0 -12px 48px rgba(0,0,0,0.25);
+    box-shadow: 0 -12px 48px rgba(0,0,0,0.25),inset -1px 0 rgba(255,255,255,0.25),inset 1px 0 rgba(255,255,255,0.25);
 }
 
 .content {
@@ -527,21 +532,22 @@ dd {
 }
 .tileversion {
     position: relative;
-    top: 5px;
-    left: 12px;
-    font-family: 'Metropolis';
-    font-size: 48px;
+    top: 22px;
+    left: 20px;
+    font-size: 40px;
     font-weight: 300;
-    color: white;
-    text-shadow: 0px 4px 4px rgba(0,0,0,0.12);
+    font-feature-settings: "tnum", "ss01";
+    /*color: white;
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.12);*/
+    text-shadow: 0px 0px 4px rgba(255,255,255,0.75), 0px 0px 14px rgba(255,255,255,0.5);
 }
 .tileversion.two {
-    font-size: 68px;
-    top: 12px;
+    font-size: 60px;
+    left: 22px;
 }
 .tileversion.one {
     font-size: 80px;
-    top: 16px;
+    left: 42px;
 }
 
 @media (min-width: 30em) {
