@@ -577,3 +577,15 @@ dd {
         transform: translate(0,0);
     }
 }
+@media screen and (max-width: 420px) (and (orientation: portrait) {
+    body {
+      transform: rotate(-90deg);
+      transform-origin: left top;
+      width: 100vh;
+      height: 100vw;
+      overflow-x: hidden;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+  }
