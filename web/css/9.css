@@ -12,11 +12,12 @@ body {
     background-color: #0e458b;
     /*background: url(/img/9bg.jpg) no-repeat center center fixed;*/
     background-size: cover;
-    font-family: 'Inter', /* use selected web font */
-    -apple-system, BlinkMacSystemFont, /* mac/safari mac/chrome */
-    "Segoe UI", "Roboto", "Oxygen", /* windows android/chrome, kde */
-    "Ubuntu", "Cantarell", "Fira Sans", /* ubuntu gnome fireos */
-    "Droid Sans", "Lucida Sans", "Lucida Grande", "Tahoma", "Helvetica Neue", sans-serif; /* oldAndroid oldMac oldMac xp trash default */
+    font-family: 'Inter', /* web font */
+    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+    "Cantarell", "Noto Sans", /* gnome, kde */
+    "Lucida Grande", "Tahoma",  /* old mac, old windows */
+    sans-serif; /* fallback */
     font-size: 13px;
     line-height: 1.6em;
     margin: 0;
@@ -25,11 +26,12 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Metropolis', /* use selected web font */
-    -apple-system, BlinkMacSystemFont, /* mac/safari mac/chrome */
-    "Segoe UI", "Roboto", "Oxygen", /* windows android/chrome, kde */
-    "Ubuntu", "Cantarell", "Fira Sans", /* ubuntu gnome fireos */
-    "Droid Sans", "Lucida Sans", "Lucida Grande", "Tahoma", "Helvetica Neue", sans-serif; /* oldAndroid oldMac oldMac xp trash default */
+    font-family: 'Metropolis', 'Inter', /* web font */
+    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+    "Cantarell", "Noto Sans", /* gnome, kde */
+    "Lucida Grande", "Tahoma",  /* old mac, old windows */
+    sans-serif; /* fallback */
 }
 h1 {
     color: whitesmoke;
@@ -186,7 +188,12 @@ dd {
     padding: 3px 10px;
 }
 .statusbar li.logo {
-    font-family: Metropolis, Inter, sans-serif;
+    font-family: 'Metropolis', 'Inter', /* web font */
+    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+    "Cantarell", "Noto Sans", /* gnome, kde */
+    "Lucida Grande", "Tahoma",  /* old mac, old windows */
+    sans-serif; /* fallback */
     font-weight: 700;
     font-size: 14px;
 }
@@ -235,7 +242,12 @@ dd {
 }
 
 #header {
-    font-family: 'Metropolis';
+    font-family: 'Metropolis', 'Inter', /* web font */
+    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+    "Cantarell", "Noto Sans", /* gnome, kde */
+    "Lucida Grande", "Tahoma",  /* old mac, old windows */
+    sans-serif; /* fallback */
     font-weight: 300;
     font-size: 48px;
     color: whitesmoke;
@@ -263,7 +275,12 @@ dd {
     margin: 0;
     margin-top: 20px;
     padding: 0;
-    font-family: 'Metropolis';
+    font-family: 'Metropolis', 'Inter', /* web font */
+    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+    "Cantarell", "Noto Sans", /* gnome, kde */
+    "Lucida Grande", "Tahoma",  /* old mac, old windows */
+    sans-serif; /* fallback */
     font-size: 20px;
     font-weight: 400;
 }
@@ -371,7 +388,12 @@ dd {
     margin-top: 0px;
     margin-bottom: 10px;
     margin-right: 50px;
-    font-family: 'Metropolis';
+    font-family: 'Metropolis', 'Inter', /* web font */
+    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+    "Cantarell", "Noto Sans", /* gnome, kde */
+    "Lucida Grande", "Tahoma",  /* old mac, old windows */
+    sans-serif; /* fallback */
     font-size: 42px;
     font-weight: 300;
 }
@@ -434,7 +456,12 @@ dd {
     text-align: right;
     font-weight: 300;
     text-shadow: 0px 1px 4px rgba(0,0,0,0.5);
-    font-family: 'Metropolis';
+    font-family: 'Metropolis', 'Inter', /* web font */
+    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+    "Cantarell", "Noto Sans", /* gnome, kde */
+    "Lucida Grande", "Tahoma",  /* old mac, old windows */
+    sans-serif; /* fallback */
 }
 .tile {
     color: #444;
@@ -505,7 +532,12 @@ dd {
     top: 114px;
 }
 .tileblogheader {
-    font-family: 'Metropolis';
+    font-family: 'Metropolis', 'Inter', /* web font */
+    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+    "Cantarell", "Noto Sans", /* gnome, kde */
+    "Lucida Grande", "Tahoma",  /* old mac, old windows */
+    sans-serif; /* fallback */
     font-size: 16px;
     font-weight: 700;
     position: relative;
@@ -583,7 +615,7 @@ dd {
         transform: translate(0,0);
     }
 }
-/*@media screen and (max-width: 420px) (and (orientation: portrait) {
+/*@media screen and (max-width: 420px) and (orientation: portrait) {
     body {
       transform: rotate(-90deg);
       transform-origin: left top;
