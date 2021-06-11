@@ -188,6 +188,9 @@ hr {
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
+    transition-duration: 400ms;
+    text-transform: uppercase;
+    font-size: 11px;
 }
 .statusbar li.spinner {
     display: block;
@@ -293,9 +296,6 @@ hr {
 .tbl tr:nth-child(even) {background-color: rgba(0,0,0,0.15)}
 
 /* load handler */
-.indicator {
-    transition-duration: 400ms;
-}
 .hidden {
     opacity: 0;
 }
