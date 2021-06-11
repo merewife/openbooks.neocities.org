@@ -7,15 +7,37 @@
         <meta name="viewport" content="width=868", user-scalable=no" viewport-fit=cover>
         <title>OpenBooks :: Update History</title>
         <link rel="shortcut icon" type="image/png" href="/apple-touch-icon.png"/>
-        <link rel="stylesheet" href="/css/9.css">
+        <link rel="stylesheet" href="/css/94main.css">
+        <link rel="stylesheet" href="/css/94corepages.css">
         <link type="text/plain" rel="author" href="/humans.txt" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script>
+            $(window).load(function() {
+            $(".page").addClass('all-loaded');
+            $(".indicator").addClass('hidden');
+            $(".spinner").addClass('hidden');
+            });
+        </script>
+        <noscript>
+            <style>
+                .page {
+                    opacity: 1;
+                }
+                .indicator {
+                    opacity: 0;
+                }
+                .spinner {
+                    display: none;
+                }
+            </style>
+        </noscript>
     </head>
     <body>
-        <script type="text/javascript" src="/js/statusbar.js"></script>
+        <script type="text/javascript" src="/js/94statusbar.js"></script>
         <noscript>
             <div class="statusbar">
                 <ul>
-                    <li><a href="https://openbooks.neocities.org/" class="title">OpenBooks</a></li>
+                    <li class="logo"><a href="https://openbooks.neocities.org/" class="title">OpenBooks</a></li>
                 </ul>
                 <ul class="right">
                     <li><a href="updates.html">Update History</a></li>
@@ -39,6 +61,12 @@
                 <div class="col content">
                     <div id="header">Update History</div>
                     <h1>OpenBooks 9 Series</h1>
+
+                    <h3>9.4 - June 10, 2021</h3>
+                    <ul>
+                        <li>CSS now separated based on what elements are actually used on a given page - as a result, the home page should load faster.</li>
+                    </ul>
+                    <hr/>
 
                     <h3>9.3.2 - June 10, 2021</h3>
                     <ul>

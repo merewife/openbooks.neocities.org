@@ -7,21 +7,12 @@
         <meta name="viewport" content="width=868", user-scalable=no" viewport-fit=cover>
         <title>OpenBooks</title>
         <link rel="shortcut icon" type="image/png" href="/apple-touch-icon.png"/>
-        <link rel="stylesheet" href="/css/9.css">
+        <link rel="stylesheet" href="/css/94main.css">
+        <link rel="stylesheet" href="/css/94home.css">
         <link type="text/plain" rel="author" href="/humans.txt" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <style>
             /* hide content while loading handler */
-            .page {
-                opacity: 0;
-                transition-duration: 200ms;
-            }
-            .page.all-loaded {
-            opacity: 1;
-            }
-            .indicator {
-                transition-duration: 400ms;
-            }
             .loading {
                 font-family:
                 -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
@@ -43,8 +34,7 @@
                 margin-top: 10px;
                 font-size: 13px;
                 font-weight: 400;
-                font-family:
-                -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+                font-family: -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
                 "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
                 "Cantarell", "Noto Sans", /* gnome, kde */
                 "Lucida Grande", "Tahoma",  /* old mac, old windows */
@@ -53,15 +43,13 @@
             .loading.hidden {
                 display: none;
             }
-            .indicator.hidden {
-                opacity: 0;
-            }
         </style>
         <script>
             $(window).load(function() {
             $(".page").addClass('all-loaded');
             $(".loading").addClass('hidden');
             $(".indicator").addClass('hidden');
+            $(".spinner").addClass('hidden');
             });
         </script>
         <noscript>
@@ -73,7 +61,7 @@
                     display: none;
                 }
                 .indicator {
-                    opacity: 0;
+                    display: none;
                 }
             </style>
         </noscript>
@@ -86,7 +74,7 @@
           |_|                made by Merewife
 
              OpenBooks 9 Series
-             Version 9.3.2
+             Version 9.4
 
              Due to my Strong Personal Convictions
              I wish to stress
@@ -96,8 +84,9 @@
     !-->
     <body>
         <div class="statusbar">
-            <ul class="indicator">
-                <li><a href="https://openbooks.neocities.org/">Welcome to OpenBooks. Please wait...</a></li>
+            <ul>
+                <li class="spinner"></li>
+                <li class="indicator">Welcome to OpenBooks. Please wait...</li>
             </ul>
             <ul class="right">
                 <li><a href="updates.html">Last updated on June 10, 2021</a></li>
@@ -106,7 +95,7 @@
         <div class="loading">
             Welcome to OpenBooks
             <p>Please wait...</p>
-            <p>Slow connection? Use the <a href="sitemap.html">Sitemap</a>.</p>
+            <p id="grey">Slow connection? Use the <a href="sitemap.html">Sitemap</a>.</p>
         </div>
         <div class="page">
             <div class="row">
@@ -204,7 +193,7 @@
                                 <a href="updates.html"><div class="tile br">
                                     <div class="tileheader">Updates</div>
                                     <!--<img id="icon" src="/img/updates.svg"/>-->
-                                    <div class="tileversion">9.3.2</div>
+                                    <div class="tileversion two">9.4</div>
                                 </div></a>
                                 <!--<a href="updates.html"><div class="tile br">
                                     <div class="tileheader">Browsers</div>
