@@ -1,5 +1,8 @@
 /* Super Secret Purple Variation */
-/* requires 9.css */
+/* requires main css */
+
+.row { width: 100%; display: table; table-layout: fixed; }
+.col { display: table-cell; vertical-align: top;}
 
 body {
     background-color: #3f386a;
