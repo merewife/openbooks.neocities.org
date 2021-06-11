@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="Content-Language" content="en_US">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=868px", user-scalable=no">
+        <meta name="viewport" content="width=868", user-scalable=no">
         <title>OpenBooks :: About</title>
         <link rel="shortcut icon" type="image/png" href="/apple-touch-icon.png"/>
         <link rel="stylesheet" href="/css/94main.css">
@@ -13,18 +13,14 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script>
             $(window).load(function() {
-            $(".page").addClass('all-loaded');
             $(".indicator").addClass('hidden');
             $(".spinner").addClass('hidden');
             });
         </script>
         <noscript>
             <style>
-                .page {
-                    opacity: 1;
-                }
                 .indicator {
-                    opacity: 0;
+                    display: none;
                 }
                 .spinner {
                     display: none;
