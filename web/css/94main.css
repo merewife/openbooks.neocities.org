@@ -119,17 +119,16 @@ hr {
 .statusbar {
     background-color: rgba(0,0,0,0.25);
     color: #b4b4b4;
-    width: 850px;
+    width: 852px;
     height: 26px;
     position: fixed;
-    /*top: 3px;*/
+    top: 8px;
     left: 50%;
-    margin-left: -426px;
+    margin-left: -427px;
     overflow: hidden;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.25),inset 0 -1px rgba(255,255,255,0.25),inset -1px 0 rgba(255,255,255,0.25),inset 1px 0 rgba(255,255,255,0.25);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.25),inset 0 -1px rgba(255,255,255,0.25),inset -1px 0 rgba(255,255,255,0.25),inset 1px 0 rgba(255,255,255,0.25),inset 0px 1px rgba(255,255,255,0.25);
     border: 1px solid rgba(0,0,0,.50);
-    border-top: none;
-    border-radius: 0px 0px 8px 8px;
+    border-radius: 8px;
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     z-index: 1;
@@ -173,6 +172,7 @@ hr {
     sans-serif; /* fallback */
     font-weight: 700;
     font-size: 14px;
+    padding-top: 1px;
 }
 .statusbar li.indicator {
     display: block;
@@ -197,7 +197,7 @@ hr {
     text-align: center;
     text-decoration: none;
     color: white;
-    margin: 4px 10px;
+    margin: 5px 10px;
     height: 16px;
     width: 16px;
     background-image: url(/img/loader.png);
@@ -220,14 +220,17 @@ hr {
     background-position-x: center;
     border-left: 1px solid rgba(0,0,0,0.5);
     border-right: 1px solid rgba(0,0,0,0.5);
-    min-height: calc(100vh - 26px);
+    border-top: 1px solid rgba(0,0,0,0.5);
+    min-height: calc(100vh - 38px);
     /*max-height: calc(100vh - 26px);*/
     max-width: 868px;
     min-width: 868px;
+    margin-top: 0px;
+    border-radius: 10px 10px 0 0;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 26px;
-    box-shadow: 0 -12px 48px rgba(0,0,0,0.25),inset -1px 0 rgba(255,255,255,0.25),inset 1px 0 rgba(255,255,255,0.25);
+    padding-top: 36px;
+    box-shadow: 0 -12px 48px rgba(0,0,0,0.25),inset -1px 0 rgba(255,255,255,0.25),inset 1px 0 rgba(255,255,255,0.25),inset 0px 1px rgba(255,255,255,0.25);
 }
 
 .content {
