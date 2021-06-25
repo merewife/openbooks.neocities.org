@@ -1,0 +1,144 @@
+/* ahhh */
+body {
+  background: black;
+  color: #ccc;
+  margin: 0;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+}
+.wrapper {
+  width: 800px;
+  border: 1px solid #8ef7fe;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 8px;
+  border-radius: 16px;
+}
+.headimg {
+  /*background-image: url(img/headerbg.png);*/
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 48px;
+  /*background-color: #8ef7fe33;*/
+  image-rendering: pixelated;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+.nav {
+  border-top: 1px solid #8ef7fe;
+  border-bottom: 1px solid #8ef7fe;
+	text-align: center;
+	margin: 0px;
+	padding: 5px;
+  margin-bottom: 10px;
+}
+.content {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+}
+.footer {
+  text-align: center;
+  color: #aaa;
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+  image-rendering: pixelated;
+  line-height: 2;
+}
+/* i copied these columns from a tutorial on w3schools. i am so lame */
+.column {
+  float: left;
+  padding-right: 10px;
+}
+.sidebar {
+  width: 220px;
+  padding-left: 10px;
+}
+.main {
+  min-width: 550px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+a:link {
+	color: #a4e885;
+  text-decoration: none;
+}
+a:visited {
+	color: #a4e885;
+  text-decoration: none;
+}
+a:hover {
+	color: #ffffff;
+	text-decoration: underline; 
+	/*border-bottom:1px dashed;*/
+}
+a:active {
+	color: #8ef7fe;
+	text-decoration: underline; 
+	/*border-bottom:1px dashed;*/
+}
+hr {
+  border: 0;
+  border-top: 1px dashed #aaa;
+}
+h1 {
+  text-transform: lowercase;
+  letter-spacing: 0.1em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  color: #fff;
+  border-bottom: 1px dashed #aaa;
+  margin-top: 4px;
+}
+h2 {
+  margin-bottom: 5px;
+  color: rgb(115, 178, 197);
+  font-weight: normal;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+}
+p {
+  margin: 0px;
+  line-height: 1.4;
+}
+#copy {
+  text-indent: 8px;
+  margin-bottom: 8px;
+}
+.buttons {
+  margin-top: 10px;
+  text-align: center;
+  image-rendering: pixelated;
+}
+.label{
+	color: white;
+	font-weight: bold;
+}
+
+table {
+	border-collapse: collapse;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+th {
+	font-weight: bold;
+	color: #668;
+	text-align: center;
+	font-size: 14px;
+}
+th, td {
+    border-bottom: 1px solid #444;
+	padding: 4px;
+}
+tr:nth-child(even) {background-color: #222}
+ul{
+	list-style-type: square;
+}
