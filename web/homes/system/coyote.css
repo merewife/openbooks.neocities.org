@@ -1,6 +1,9 @@
 /* ahhh */
 body {
   background: black;
+  background-image: url(img/bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
   color: #ccc;
   margin: 0;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -8,7 +11,12 @@ body {
 }
 .wrapper {
   width: 800px;
-  border: 1px solid #8ef7fe;
+  background-color: rgba(0,0,0,0.25);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.25),inset 0 -1px rgba(255,255,255,0.25),inset -1px 0 rgba(255,255,255,0.25),inset 1px 0 rgba(255,255,255,0.25),inset 0px 1px rgba(255,255,255,0.25);
+  border: 1px solid rgba(0,0,0,.50);
+  border-radius: 8px;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
@@ -29,8 +37,8 @@ body {
   text-shadow: 2px 2px black;
 }
 .nav {
-  border-top: 1px solid #8ef7fe;
-  border-bottom: 1px solid #8ef7fe;
+  border-top: 1px solid rgba(255,255,255,0.25);
+  border-bottom: 1px solid rgba(255,255,255,0.25);
 	text-align: center;
 	margin: 0px;
 	padding: 5px;
@@ -44,11 +52,15 @@ body {
 .footer {
   text-align: center;
   color: #aaa;
-  max-width: 680px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 4px;
   image-rendering: pixelated;
   line-height: 2;
+  border-top: 1px solid rgba(255,255,255,0.25);
 }
 /* i copied these columns from a tutorial on w3schools. i am so lame */
 .column {
@@ -57,10 +69,11 @@ body {
 }
 .sidebar {
   width: 220px;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 .main {
-  min-width: 550px;
+  min-width: 510px;
+  padding-left: 20px;
 }
 .row:after {
   content: "";
@@ -86,8 +99,22 @@ a:active {
 	/*border-bottom:1px dashed;*/
 }
 hr {
-  border: 0;
-  border-top: 1px dashed #aaa;
+  clear: both;
+	float: none;
+	width: 100%;
+	height: 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: none;
+    background: #000;
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(50%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,0)));
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+    background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+    background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#283245', endColorstr='#283245', GradientType=1 );
 }
 h1 {
   text-transform: lowercase;
