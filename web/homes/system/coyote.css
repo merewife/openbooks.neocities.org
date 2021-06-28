@@ -169,3 +169,42 @@ tr:nth-child(even) {background-color: #222}
 ul{
 	list-style-type: square;
 }
+.icon p {
+  margin: 0px 20px 20px 20px;
+  font-size: 1em;
+  
+}
+
+.icon img {
+  margin-top: 20px;
+  border-radius: 50%;
+  border: 2px solid black;
+  height: 64px;
+  width: 64px;
+  filter: saturate(0%);
+  transition-duration: 200ms;
+}
+
+.icon:hover img {
+  filter: saturate(100%);
+  border: 2px solid white;
+}
+
+.icon:active img {
+  filter: brightness(75%);
+}
+
+.icon:hover p {
+  color: white;
+}
+
+.icon:active p {
+  color: #707070;
+}
+
+.icon a {
+  text-decoration: none;
+}
+.icons {
+  text-align: center;
+}
