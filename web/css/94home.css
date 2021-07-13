@@ -130,6 +130,12 @@
 .tileleft {
     font-size: 18px;
     text-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+    font-family: 'Metropolis', 'Inter', /* web font */
+    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+    "Cantarell", "Noto Sans", /* gnome, kde */
+    "Lucida Grande", "Tahoma",  /* old mac, old windows */
+    sans-serif
 }
 .tileright {
     font-size: 30px;
@@ -152,6 +158,7 @@
     border: 1px solid rgba(255,255,255,0.6);
     transition-duration: 250ms;
     box-shadow: 0px 5px 10px rgba(0,0,0,0.12);
+    border-radius: 4px;
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
@@ -164,16 +171,16 @@
     width: 296px;
 }
 .tile.tl {
-    border-radius: 10px 0 0 0;
+    border-radius: 14px 4px 4px 4px;
 }
 .tile.tr {
-    border-radius: 0 10px 0 0;
+    border-radius: 4px 14px 4px 4px;
 }
 .tile.bl {
-    border-radius: 0 0 0 10px;
+    border-radius: 4px 4px 4px 14px;
 }
 .tile.br {
-    border-radius: 0 0 10px 0;
+    border-radius: 4px 4px 14px 4px;
 }
 .tile:hover {
     background-color: rgba(255,255,255,0.75);
@@ -202,13 +209,21 @@
     position: relative;
     color: #444;
     line-height: 1em;
-    font-size: 18px;
-    left: 12px;
-    top: 110px;
+    font-size: 17px;
+    font-family: 'Metropolis', 'Inter', /* web font */
+    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+    "Cantarell", "Noto Sans", /* gnome, kde */
+    "Lucida Grande", "Tahoma",  /* old mac, old windows */
+    sans-serif;
+    top: 108px;
+    width: 100%;
+    text-align: center;
     text-shadow: 0px 0px 4px rgba(255,255,255,0.75), 0px 0px 14px rgba(255,255,255,0.5);
 }
 .tileheader.small {
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: bold;
     top: 114px;
 }
 .tileblogheader {
