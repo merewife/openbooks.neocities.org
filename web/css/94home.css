@@ -138,9 +138,9 @@
     sans-serif
 }
 .tileright {
-    font-size: 30px;
+    font-size: 22px;
     text-align: right;
-    font-weight: 300;
+    font-weight: 400;
     text-shadow: 0px 1px 4px rgba(0,0,0,0.5);
     font-family: 'Metropolis', 'Inter', /* web font */
     -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
@@ -154,7 +154,7 @@
     margin: 5px;
     width: 140px;
     height: 140px;
-    background-color: rgba(255,255,255,0.6);
+    background-color: rgba(255,255,255,0.7);
     border: 1px solid rgba(255,255,255,0.6);
     transition-duration: 250ms;
     box-shadow: 0px 5px 10px rgba(0,0,0,0.12);
@@ -183,7 +183,8 @@
     border-radius: 4px 4px 14px 4px;
 }
 .tile:hover {
-    background-color: rgba(255,255,255,0.75);
+    background-color: rgba(255,255,255,0.9);
+    color: #666;
     box-shadow: 0px 10px 15px rgba(0,0,0,0.25);
     transform: translate(0, -1px);
     transition-duration: 100ms;
@@ -207,7 +208,6 @@
 }
 .tileheader {
     position: relative;
-    color: #444;
     line-height: 1em;
     font-size: 17px;
     font-family: 'Metropolis', 'Inter', /* web font */
