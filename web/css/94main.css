@@ -7,6 +7,14 @@ html {
     cursor: default;
 }
 
+::-moz-selection {
+    background: #6bbcf6;
+  }
+  
+::selection {
+    background: #6bbcf6;
+}
+
 body {
     color: white;
     background-color: #0e458b;
