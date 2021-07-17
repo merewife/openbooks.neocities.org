@@ -11,7 +11,7 @@ body {
     background-color: #3f386a;
     background-image: url(/n3/bg.png);
     background-repeat: repeat;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-size: 38px;
     background-position-x: center;
 }

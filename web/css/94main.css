@@ -215,7 +215,7 @@ hr {
     background-color: #1251a0;
     background-image: url(/img/9bg.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-size: 868px;
     background-position-x: center;
     border-left: 1px solid rgba(0,0,0,0.5);
