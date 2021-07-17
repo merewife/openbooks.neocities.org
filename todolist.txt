@@ -6,8 +6,10 @@ features to add:
 links page
 livebutton - live88? 88Live?
 livebutton would include all webring sites + .... anyone else who wants to be added?
+revamp home
 
 things i want to add to personal page:
 quicktake gallery
 terragen renders
 update: camera, computers, players pages to new style
+integrate blog to better match page design
