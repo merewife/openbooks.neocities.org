@@ -5,7 +5,7 @@
     Design & development
     merewife [@] protonmail.com
     @merewife@mastodon.social
-    @IAMMEREWIFE
+    @iamMEREWIFE
 
     https://github.com/merewife/openbooks.neocities.org
 
@@ -49,6 +49,9 @@
     Mozilla
     https://mozilla.org
 
+    WebKit
+    https://webkit.org
+
 
 ~* Software *~
     Doctype: HTML5
@@ -56,6 +59,6 @@
     Language: en_US
     Graphics: Photoshop, Affinity Designer
     IDE/Editor: Visual Studio Code
-    Web Broewser: Chromium
+    Web Browser: Chromium, Safari
     Neocities CLI
     Hosted by Neocities
