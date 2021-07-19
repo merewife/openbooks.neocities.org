@@ -241,7 +241,7 @@ hr {
     border-left: 1px solid rgba(0,0,0,0.5);
     border-right: 1px solid rgba(0,0,0,0.5);
     border-top: 1px solid rgba(0,0,0,0.5);
-    min-height: calc(100vh - 38px);
+    min-height: calc(100vh - 39px);
     /*max-height: calc(100vh - 26px);*/
     max-width: 868px;
     min-width: 868px;
