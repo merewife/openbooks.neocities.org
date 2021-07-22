@@ -1,54 +1,46 @@
 /* ahhh */
+html {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+  cursor: default;
+}
 body {
-  background: black;
-  background-image: url(img/bg.jpg);
-  background-attachment: fixed;
-  background-size: cover;
+  background: rgb(83, 5, 5);
   color: #ccc;
   margin: 0;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	font-size: 12px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 16px;
 }
 .wrapper {
   width: 800px;
-  background-color: rgba(0,0,0,0.25);
-  box-shadow: 0 1px 4px rgba(0,0,0,0.25),inset 0 -1px rgba(255,255,255,0.25),inset -1px 0 rgba(255,255,255,0.25),inset 1px 0 rgba(255,255,255,0.25),inset 0px 1px rgba(255,255,255,0.25);
-  border: 1px solid rgba(0,0,0,.50);
-  border-radius: 8px;
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 10px;
   padding-top: 0px;
   padding-bottom: 8px;
-  border-radius: 16px;
 }
 .headimg {
-  /*background-image: url(img/headerbg.png);*/
-  font-size: 24px;
-  text-align: center;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 72px;
+  font-weight: bold;
   line-height: 48px;
-  /*background-color: #8ef7fe33;*/
-  image-rendering: pixelated;
+  height: 70px;
   color: white;
-  text-shadow: 2px 2px black;
+  text-shadow: 4px 4px 0px rgba(255,255,255,0.25);
 }
 .nav {
   border-top: 1px solid rgba(255,255,255,0.25);
   border-bottom: 1px solid rgba(255,255,255,0.25);
-	text-align: center;
 	margin: 0px;
 	padding: 5px;
   margin-bottom: 10px;
 }
-.content {
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-top: 10px;
-}
+
 .footer {
   text-align: center;
   color: #aaa;
@@ -62,18 +54,16 @@ body {
   line-height: 2;
   border-top: 1px solid rgba(255,255,255,0.25);
 }
-/* i copied these columns from a tutorial on w3schools. i am so lame */
 .column {
   float: left;
-  padding-right: 10px;
 }
 .sidebar {
   width: 220px;
-  padding-left: 20px;
 }
 .main {
-  min-width: 510px;
-  padding-left: 20px;
+  min-width: 540px;
+  max-width: 540px;
+  padding-left: 40px;
 }
 .row:after {
   content: "";
@@ -81,22 +71,22 @@ body {
   clear: both;
 }
 a:link {
-	color: #a4e885;
-  text-decoration: none;
+	color: rgb(255, 112, 112);
+  text-decoration: underline;
+  transition-duration: 20ms;
 }
 a:visited {
-	color: #a4e885;
-  text-decoration: none;
+	color: rgb(255, 112, 112);
+  text-decoration: underline;
 }
 a:hover {
-	color: #ffffff;
-	text-decoration: underline; 
-	/*border-bottom:1px dashed;*/
+	color: black;
+	text-decoration: none;
+  background-color: red;
 }
 a:active {
-	color: #8ef7fe;
-	text-decoration: underline; 
-	/*border-bottom:1px dashed;*/
+	color: red; 
+  background-color: white;
 }
 hr {
   clear: both;
@@ -106,31 +96,24 @@ hr {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	border: none;
-    background: #000;
-    background: rgba(255,255,255,1);
-    background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(50%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,0)));
-    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
-    background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
-    background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
-    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#283245', endColorstr='#283245', GradientType=1 );
+  background: rgba(255,255,255,0.25);
+  
 }
 h1 {
   text-transform: lowercase;
-  letter-spacing: 0.1em;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 48px;
   font-weight: 400;
   color: #fff;
-  border-bottom: 1px dashed #aaa;
   margin-top: 4px;
+  margin-bottom: 0px;
 }
 h2 {
   margin-bottom: 5px;
-  color: rgb(115, 178, 197);
-  font-weight: normal;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 20px;
+  color: red;
+  font-weight: 700;
   font-size: 18px;
+  text-align: center;
 }
 p {
   margin: 0px;

@@ -13,3 +13,6 @@ quicktake gallery
 terragen renders
 update: camera, computers, players pages to new style
 integrate blog to better match page design
+
+fixes:
+fix things broken in timewarp
