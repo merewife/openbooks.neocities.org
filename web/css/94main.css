@@ -1,4 +1,4 @@
-/* OpenBooks 9 Series - Main + home CSS */
+/* OpenBooks 9 Series - Main CSS */
 
 @import url("/font/inter/inter.css");
 @import url("/font/metropolis/metropolis.css");
@@ -241,7 +241,7 @@ hr {
     border-left: 1px solid rgba(0,0,0,0.5);
     border-right: 1px solid rgba(0,0,0,0.5);
     border-top: 1px solid rgba(0,0,0,0.5);
-    min-height: calc(100vh - 39px);
+    /*min-height: calc(100vh - 39px);*/
     /*max-height: calc(100vh - 26px);*/
     max-width: 868px;
     min-width: 868px;
