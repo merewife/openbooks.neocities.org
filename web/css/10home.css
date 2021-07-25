@@ -18,7 +18,7 @@ html {
 body {
     color: white;
     background-color: #0e458b;
-    background: url(/img/9bg.jpg) no-repeat center center fixed;
+    /*background: url(/img/9bg.jpg) no-repeat center center fixed;*/
     background-size: cover;
     font-family: 'Inter', /* web font */
     -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
@@ -33,7 +33,7 @@ body {
     padding: 0;
     /*padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);*/
 }
-/*body:before {
+body:before {
     content: "";
     position: fixed;
     top: -10px;
@@ -43,7 +43,7 @@ body {
     box-shadow: 0px 2px 2px #0e458b;
     background-color: #0e458b;
     z-index: 100;
-}*/
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Metropolis', 'Inter', /* web font */
@@ -249,7 +249,8 @@ hr {
     border-radius: 16px 16px 0 0;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 36px;
+    /*padding-top: 36px;*/
+    padding-top: 106px;
     /*box-shadow: inset -1px 0 rgba(255,255,255,0.25),inset 1px 0 rgba(255,255,255,0.25),inset 0px 1px rgba(255,255,255,0.25);*/
 }
 
@@ -266,14 +267,16 @@ hr {
     max-width: 868px;
     min-width: 868px;
     margin-top: 30px;
-    border-radius: 16px;
+    margin-bottom: 75px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 24px;
     padding-bottom: 14px;
+    border-radius: 16px;
     box-shadow: 0 4px 25px rgba(0,0,0,0.12), inset -1px 0 rgba(255,255,255,0.25),inset 1px 0 rgba(255,255,255,0.25),inset 0px 1px rgba(255,255,255,0.25),inset 0px -1px rgba(255,255,255,0.25);
     /*backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);*/
+    z-index: 100;
 }
 
 .content {
@@ -296,31 +299,15 @@ hr {
     border-radius: 6px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.footercontainer {
+    text-align: center;
+    position: fixed;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
-}
-
-#header {
-    font-family: 'Metropolis', 'Inter', /* web font */
-    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
-    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
-    "Cantarell", "Noto Sans", /* gnome, kde */
-    "Lucida Grande", "Tahoma",  /* old mac, old windows */
-    sans-serif; /* fallback */
-    font-weight: 300;
-    font-size: 48px;
-    color: whitesmoke;
-    color: rgba(255,255,255,.6);
-    margin-top: 40px;
-    margin-bottom: 30px;
-    text-transform: lowercase;
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome, Edge, Opera and Firefox */
+    bottom: 0;
+    z-index: -1;
 }
 
 .tbl table {
@@ -352,8 +339,8 @@ hr {
 .row { width: 100%; display: table; table-layout: fixed; }
 .col { display: table-cell; vertical-align: top;}
 
+/*logo*/
 .header {
-    margin: 50px;
     text-align: center;
     font-family: 'Metropolis', 'Inter', /* web font */
     -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
@@ -372,7 +359,14 @@ hr {
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
     text-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 81px;
+    z-index: -1;
 }
+
 
 /* iconbar stuff */
 .iconbar {
@@ -545,6 +539,7 @@ hr {
 /* metro tiles */
 .tiles {
     margin-top: 20px;
+    margin-bottom: 20px;
     width: 672px;
     margin-left: auto;
     margin-right: auto;
@@ -603,9 +598,9 @@ hr {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    top: 2px;
-    height: 64px;
-    width: 64px;
+    top: 6px;
+    height: 72px;
+    width: 72px;
     -webkit-user-drag: none;
     -khtml-user-drag: none;
     -moz-user-drag: none;
@@ -613,8 +608,8 @@ hr {
     user-drag: none;
 }
 #icon{
-    height: 64px;
-    width: 64px;
+    height: 72px;
+    width: 72px;
 }
 .tileheader {
     position: relative;

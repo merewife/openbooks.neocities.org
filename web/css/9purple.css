@@ -49,6 +49,9 @@ a:active {
     text-shadow: 4px 4px #2e274d;
 
 }
+#header {
+    text-align: center;
+}
 h4 {
     color: #e866f4;
 }

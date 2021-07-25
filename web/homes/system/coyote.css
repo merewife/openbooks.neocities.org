@@ -10,7 +10,7 @@ html {
   cursor: default;
 }
 body {
-  background: rgb(83, 5, 5);
+  background: #4A0000;
   color: #ccc;
   margin: 0;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -110,9 +110,8 @@ h1 {
 h2 {
   margin-bottom: 5px;
   margin-top: 20px;
-  color: red;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 24px;
   text-align: center;
 }
 p {
