@@ -18,7 +18,7 @@ html {
 body {
     color: white;
     background-color: #0e458b;
-    background: url(/img/9bg.jpg) no-repeat center center fixed;
+    /*background: url(/img/9bg.jpg) no-repeat center center fixed;*/
     background-size: cover;
     font-family: 'Inter', /* web font */
     -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
@@ -419,6 +419,12 @@ hr {
 /* metro style left navigation */
 .metronav {
     padding-top: 15px;
+    font-family: 'Metropolis', 'Inter', /* web font */
+    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+    "Cantarell", "Noto Sans", /* gnome, kde */
+    "Lucida Grande", "Tahoma",  /* old mac, old windows */
+    sans-serif; /* fallback */
 }
 .metronav p {
     text-transform: uppercase;
@@ -437,12 +443,6 @@ hr {
     margin-top: 0px;
     margin-bottom: 10px;
     margin-right: 50px;
-    font-family: 'Metropolis', 'Inter', /* web font */
-    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
-    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
-    "Cantarell", "Noto Sans", /* gnome, kde */
-    "Lucida Grande", "Tahoma",  /* old mac, old windows */
-    sans-serif; /* fallback */
     font-size: 36px;
     font-weight: 300;
 }
