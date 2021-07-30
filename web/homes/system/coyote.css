@@ -10,11 +10,11 @@ html {
   cursor: default;
 }
 body {
-  background: #4A0000;
+  background: #3A0d0d;
   color: #ccc;
   margin: 0;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	font-size: 17px;
 }
 .wrapper {
   width: 800px;
@@ -187,6 +187,12 @@ ul{
 .icon a {
   text-decoration: none;
 }
+.icon a:hover {
+  background: none;
+}
 .icons {
   text-align: center;
+}
+img {
+  border-radius: 10px;
 }
