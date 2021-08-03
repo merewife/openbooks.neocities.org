@@ -1,6 +1,5 @@
 /* OpenBooks  X - Home CSS */
 
-@import url("/font/inter/inter.css");
 @import url("/font/metropolis/metropolis.css");
 
 html {
@@ -20,7 +19,7 @@ body {
     background-color: #0e458b;
     /*background: url(/img/9bg.jpg) no-repeat center center fixed;*/
     background-size: cover;
-    font-family: 'Inter', /* web font */
+    font-family:
     -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
     "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
     "Cantarell", "Noto Sans", /* gnome, kde */
