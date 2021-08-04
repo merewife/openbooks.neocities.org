@@ -17,7 +17,7 @@ html {
 body {
     color: black;
     background-color: #0e458b;
-    background: url(/img/10bg.jpg) no-repeat center center fixed;
+    background: url(/img/10bgblur.jpg) no-repeat center center fixed;
     background-size: cover;
     font-family:
     -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
@@ -25,7 +25,7 @@ body {
     "Cantarell", "Noto Sans", /* gnome, kde */
     "Lucida Grande", "Tahoma",  /* old mac, old windows */
     sans-serif; /* fallback */
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.6em;
     margin: 0;
     padding: 0;
@@ -121,14 +121,13 @@ hr {
 /* status bar */
 .statusbar {
     /*background-color: #041d3f8f;*/
-    background-color: rgba(0,0,0,0.33);
+    background-color: rgba(0,0,0,0.05);
     color: #b4b4b4;
-    height: 26px;
-    margin: 8px;
+    height: 30px;
     overflow: hidden;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.25);
-    border: 1px solid rgba(0,0,0,.12);
-    border-radius: 13px;
+    /*box-shadow: 0 1px 4px rgba(0,0,0,0.05);*/
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    border-radius: 16px 16px 0px 0;
 }
 .statusbar ul {
     list-style-type: none;
@@ -136,7 +135,7 @@ hr {
     padding: 0;
     overflow: hidden;
     float: left;
-    text-shadow: 0px 1px 2px rgba(0,0,0,.33), 0px 0px 2px rgba(0,0,0,.33);
+    /*text-shadow: 0px 1px 2px rgba(0,0,0,.33), 0px 0px 2px rgba(0,0,0,.33);*/
 }
 .statusbar ul.right {
     float: right;
@@ -149,16 +148,16 @@ hr {
     display: block;
     text-align: center;
     text-decoration: none;
-    color: white;
+    color: #444;
     margin: 0;
-    padding: 3px 10px;
+    padding: 4px 10px;
     transition-duration: 100ms;
 }
 .statusbar li a:hover {
-    text-shadow: 0px 1px 2px rgba(0,0,0,0.75), 0px 0px 5px rgba(255,255,255,0.8);
+    text-shadow: 0px 1px 4px rgba(0,0,0,0.25), 0px 0px 5px rgba(255,255,255,0.12);
 }
 .statusbar li a:active {
-    text-shadow: 0px 1px 2px rgba(0,0,0,0.75), 0px 0px 5px rgba(0,0,0,0.50)
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.12), 0px 0px 5px rgba(0,0,0,0.50)
 }
 .statusbar li.logo {
     font-family: 'Metropolis', 'Inter', /* web font */
@@ -168,7 +167,7 @@ hr {
     "Lucida Grande", "Tahoma",  /* old mac, old windows */
     sans-serif; /* fallback */
     font-weight: 700;
-    font-size: 14px;
+    font-size: 17px;
     padding-top: 1px;
 }
 .statusbar li.indicator {
@@ -219,7 +218,7 @@ hr {
 .footer {
     text-align: center;
     color: white;
-    background-color: rgba(0,0,0,0.50);
+    background-color: rgba(0,0,0,0.25);
     font-size: 14px;
     padding: 6px;
     margin-top: 2px;
@@ -249,8 +248,8 @@ hr {
     border: 1px solid rgba(0,0,0,0.25);
     max-width: 100%;
     /*margin-top: 30px;*/
-    margin-top: 3px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 16px;
     margin-left: auto;
     margin-right: auto;
     /*padding: 24px;*/
@@ -261,7 +260,6 @@ hr {
     z-index: 100;
 }
 
-
 .heading{
     color: #444;
     font-family: 'Metropolis', 'Inter', /* web font */
@@ -270,7 +268,7 @@ hr {
     "Cantarell", "Noto Sans", /* gnome, kde */
     "Lucida Grande", "Tahoma",  /* old mac, old windows */
     sans-serif; /* fallback */
-    font-weight: 400;
+    font-weight: 700;
     font-size: 36px;
     padding:  18px 48px 16px 0px;
     line-height: 1.0;
