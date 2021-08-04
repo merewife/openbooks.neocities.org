@@ -276,8 +276,6 @@ hr {
     /*padding: 24px;*/
     border-radius: 18px;
     box-shadow: 0 4px 25px rgba(0,0,0,0.12), inset -1px 0 rgba(255,255,255,0.25),inset 1px 0 rgba(255,255,255,0.25),inset 0px 1px rgba(255,255,255,0.25),inset 0px -1px rgba(255,255,255,0.25);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
     z-index: 100;
 }
 
@@ -337,7 +335,7 @@ hr {
 .navigation li {
     margin: 0px 0 6px 0;
     padding: 8px 18px;
-    border-radius: 4px;
+    border-radius: 8px;
     border: 1px solid rgba(0,0,0,0);
     transition-duration: 100ms;
 }
@@ -419,6 +417,9 @@ hr {
     .window {
         margin-top: 0px;
         border-radius: 0px 0px 16px 16px;
+    }
+    .main {
+        border-left: none;
     }
 }
 
