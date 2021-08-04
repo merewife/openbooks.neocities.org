@@ -384,7 +384,7 @@ hr {
 
 .box {
     padding: 12px 22px;
-    border: 1px solid rgba(255,255,255,0.10); 
+    border: 1px solid rgba(255,255,255,0.25); 
     border-radius: 0;
     position: relative;
     background-color: rgba(0,0,0,0.10); 
