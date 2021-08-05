@@ -1,23 +1,33 @@
 .chooser {
     text-align: center;
+    border: 1px solid rgba(255,255,255,0.25); 
+    border-radius: 0;
+    position: relative;
+    background-color: rgba(0,0,0,0.10); 
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.10);
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-bottom: 20px;
 }
 
 .icon p {
-    margin: 0px 20px 20px 20px;
-    font-size: 1em;
+    margin: 0px 14px 14px 14px;
+    font-size: 11px;
     color: rgba(255,255,255,0.75)
 }
 
 .icon img {
     margin-top: 20px;
+    height: 48px;
+    width: 48px;
     border-radius: 25%;
-    border: 2px solid white;
+    border: 1px solid rgba(0,0,0,0.50);
     transition-duration: 200ms;
 }
 
 .icon:hover img {
     filter: brightness(125%);
-    box-shadow: 0px 0px 24px rgba(255,255,255,0.25);
+    box-shadow: 0px 0px 12px rgba(255,255,255,0.25);
 }
 
 .icon:active img {
@@ -26,7 +36,6 @@
 
 .icon:hover p {
     color: white;
-    text-decoration: underline;
 }
 
 .icon:active p {
