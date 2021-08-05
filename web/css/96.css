@@ -134,6 +134,13 @@ hr {
     margin-bottom: 40px;
 }
 
+ul {
+    padding-inline-start: 16px;
+}
+li {
+    margin: 4px 0;
+}
+
 /* status bar */
 .statusbar {
     background-color: rgba(0,0,0,0.25);
@@ -355,7 +362,7 @@ hr {
 
 /* sidebar navigation */
 .sidebar {
-    padding: 0px 24px 24px 24px;
+    padding: 2px 24px 24px 24px;
     width: 220px;
 }
 .navigation {
@@ -467,7 +474,7 @@ hr {
 
 @media (min-width: 650px) {
     .row { width: 100%; display: table; table-layout: fixed; }
-    .col { display: table-cell; }
+    .col { display: table-cell; vertical-align: top;}
 }
 @media (max-width: 868px) {
     .content {
