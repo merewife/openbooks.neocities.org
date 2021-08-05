@@ -408,6 +408,11 @@ hr {
 .navigation li a:active {
     color: rgba(255,255,255,.6)
 }
+.navigation li.sub {
+    margin-left: 16px;
+    font-size: 18px;
+    padding: 4px 18px;
+}
 
 .main {
     background-color: rgba(0,0,0,0.10);
