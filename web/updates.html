@@ -31,17 +31,20 @@
         <div class="content">
             
             <div class="window">
-                <script type="text/javascript" src="/js/94statusbar.js"></script>
-                <noscript>
-                    <div class="statusbar">
-                        <ul>
-                            <li class="logo"><a href="https://openbooks.neocities.org/" class="title">OpenBooks</a></li>
-                        </ul>
-                        <ul class="right">
-                            <li><a href="updates.html">Update History</a></li>
-                        </ul>
-                    </div>
-                </noscript>
+                <div class="statusbar">
+                    <ul>
+                        <a class="white" href="/"><li class="logo">OpenBooks</li></a>
+                        <a href="about.html"><li>About</li></a>
+                        <li class="active">Update History</li>
+                        <li class="spinner"></li>
+                    </ul>
+                    <ul class="right">
+                        <script type="text/javascript" src="/js/96statusbar.js"></script>
+                        <noscript>
+                            <a class="white" href="updates.html"><li>Update History</li></a>
+                        </noscript>
+                    </ul>
+                </div>
                 <div class="desktop row">
                     <div class="col navigation">
                         
@@ -67,7 +70,10 @@
                         <h2>9.5.2 - August 4, 2021</h2>
                         <div class="box"> 
                             <ul>
+                                <li>Status bar now shows navigation breadcrumbs on core pages. (About, News, Updates)</li>
                                 <li>Tweaked statusbar on home page.</li>
+                                <li>Updated fonts to use Inter again for main text.</li>
+                                <li>Fixed <a href="about.html">About</a> page inadvertantly referring OpenBooks 10 Series.</li>
                             </ul>
                         </div>
 
