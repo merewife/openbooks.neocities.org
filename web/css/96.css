@@ -515,7 +515,7 @@ li {
     .desktop {display:none;}
     .mobileheading {display:block;}
     .footer {
-        margin: 8px 8px 0 8px;
+        margin: 8px 24px 0 24px;
     }
     .main {
         padding-right: 20px;
@@ -526,6 +526,7 @@ li {
     }
     .sidebar {
         width: unset;
+        padding-top: 0px;
     }
     .sidebar.wide {
         padding-left: 24px;
@@ -552,9 +553,13 @@ li {
         box-shadow: 0 1px 8px rgba(0,0,0,0.25),inset 0 -1px rgba(255,255,255,0.12);
         border: 0;
         border-bottom: 1px solid rgba(0,0,0,.50);
+        overflow: hidden;
     }
     .statusbar ul.right {
         display: none;
+    }
+    .navigation li.sub {
+        margin-right: 16px;
     }
 }
 
