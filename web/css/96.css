@@ -551,9 +551,10 @@ a.button{
 }
 
 .main {
-    
     padding: 20px 40px 20px 40px;
-    
+}
+.main > :first-child {
+    margin-top: 10px;
 }
 
 .col.main{
