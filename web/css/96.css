@@ -277,6 +277,7 @@ a.button{
     float: left;
     text-shadow: 0px 1px 2px rgba(0,0,0,0.50), 0px 0px 2px rgba(0,0,0,0.50);
 }
+
 .statusbar ul.right {
     float: right;
 }
@@ -586,6 +587,38 @@ a.button{
     text-align: center;
 }
 
+.titles {
+    margin-top: 10px;
+}
+.titleleft {
+    font-size: 48px;
+    font-weight: bold;
+    padding: 30px 40px;
+    text-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+    font-family: 'Metropolis', 'Inter', /* web font */
+    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+    "Cantarell", "Noto Sans", /* gnome, kde */
+    "Lucida Grande", "Tahoma",  /* old mac, old windows */
+    sans-serif;
+}
+.titleright {
+    font-size: 22px;
+    padding: 30px 40px;
+    text-align: right;
+    font-weight: 400;
+    text-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+    font-family: 'Metropolis', 'Inter', /* web font */
+    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+    "Cantarell", "Noto Sans", /* gnome, kde */
+    "Lucida Grande", "Tahoma",  /* old mac, old windows */
+    sans-serif; /* fallback */
+}
+.mobile {
+    display: none;
+}
+
 @media (min-width: 650px) {
     .row { width: 100%; display: table; table-layout: fixed; }
     .col { display: table-cell; vertical-align: top;}
@@ -603,6 +636,7 @@ a.button{
 }
 @media (max-width: 650px) {
     .desktop {display:none;}
+    .mobile {display:block;}
     .mobileheading {display:block;}
     .footer {
         margin: 8px 24px 0 24px;
@@ -645,41 +679,17 @@ a.button{
         border-bottom: 1px solid rgba(0,0,0,.50);
         overflow: hidden;
     }
+    .statusbar ul {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
     .statusbar ul.right {
         display: none;
     }
     .navigation li.sub {
         margin-right: 16px;
     }
+    .statusbar li.spinner {
+        display: none;
+    }
 }
-
-/*@media (prefers-color-scheme: dark) {
-    body {
-        color: white;
-    }
-    .window {
-        background-color: rgba(0,0,0,0.50);
-    }
-    .heading, .mobileheading , h1, h2, h3, h4, h5, h6{
-        color: whitesmoke;
-    }
-    .statusbar {
-        background-color: rgba(0,0,0,.25);
-    }
-    .statusbar li a{
-        color: white;
-    }
-    .main {
-        background-color: rgba(0,0,0,.25);
-    }
-    .navigation a:link{
-        color: white;
-    }
-    .navigation a:visited{
-        color: white;
-    }
-    .box {
-        background-color: rgba(0,0,0,.25);
-        color: white;
-    }
-  }*/
