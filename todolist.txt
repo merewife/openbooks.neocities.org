@@ -1,6 +1,7 @@
 NEW TO DO LIST
  - Site map rebuilt
  - Credits page
+ - Projects page
  - new home page
 
 Features to add:
