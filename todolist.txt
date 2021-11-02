@@ -12,7 +12,7 @@ Features to add:
 Fixes:
  - Timewarp fix for linking to main css
 
-Personal page:
+Personal page: - maybe reintegrate to new page style? Kind of thinking of doing this.
 Quicktake gallery
 Terragen renders
 Update: camera, coputers, players pages
