@@ -618,6 +618,32 @@ a.button{
 .mobile {
     display: none;
 }
+.buttons {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.buttons img {
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.25);
+    image-rendering: pixelated;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.webringbuttons {
+    margin-left: 18px;
+    margin-bottom: 20px;
+    display: inline-block;
+    height: 38px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 3px;
+    border-radius: 4px;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.25),inset 0 -1px rgba(255,255,255,0.25),inset -1px 0 rgba(255,255,255,0.25),inset 1px 0 rgba(255,255,255,0.25),inset 0px 1px rgba(255,255,255,0.25);
+    border: 1px solid rgba(0,0,0,.50);
+}
+.webringbuttons img {
+    image-rendering: pixelated;
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.25);
+}
 
 @media (min-width: 650px) {
     .row { width: 100%; display: table; table-layout: fixed; }
@@ -656,14 +682,14 @@ a.button{
         padding-left: 24px;
     }
     .content {
-        padding: 0 0px;
+        padding: 1px 0px;
     }
     .window {
         margin-top: 0px;
-        border-radius: 0px 0px 16px 16px;
-        box-shadow: 0 1px 8px rgba(0,0,0,0.25),inset 0 -1px rgba(255,255,255,0.12);
+        box-shadow: 0 1px 8px rgba(0,0,0,0.25),inset 0 -1px rgba(255,255,255,0.12),inset 0 1px rgba(255,255,255,0.12);
         border: 0;
         border-bottom: 1px solid rgba(0,0,0,.50);
+        border-top: 1px solid rgba(0,0,0,.50);
     }
     .col.main {
         border-radius: 18px;
@@ -672,11 +698,11 @@ a.button{
         box-shadow: -1px -1px 4px rgba(0,0,0,0.10);
     }
     .statusbar {
-        margin: 0px;
-        border-radius: 0px;
-        box-shadow: 0 1px 8px rgba(0,0,0,0.25),inset 0 -1px rgba(255,255,255,0.12);
+        margin: 5px;
+        /*border-radius: 0px;*/
+        /*box-shadow: 0 1px 8px rgba(0,0,0,0.25),inset 0 -1px rgba(255,255,255,0.12);
         border: 0;
-        border-bottom: 1px solid rgba(0,0,0,.50);
+        border-bottom: 1px solid rgba(0,0,0,.50);*/
         overflow: hidden;
     }
     .statusbar ul {
