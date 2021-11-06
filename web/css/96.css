@@ -655,20 +655,71 @@ a.button{
     image-rendering: pixelated;
     box-shadow: 1px 2px 4px rgba(0,0,0,0.25);
 }
+.tilewrapper {
+    text-align: center;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
 
 .tile {
     display: inline-block;
-    background-color: rgba(0,0,0,.50);
+    background-color: rgba(255,255,255,0);
+    border: 1px solid rgba(255,255,255,0);
+    transition-duration: 250ms;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0);
+    border-radius: 8px;
     text-align: center;
+    margin: 2%;
+    width: 15%;
+    min-width: 100px;
+}
+.tile:hover {
+    background-color: rgba(255,255,255,0.25);
+    border: 1px solid rgba(255,255,255,0.25);
+    color: white;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.25);
+    transform: translate(0, -1px);
+    transition-duration: 300ms;
+}
+.tile:active {
+    background-color: rgba(255,255,255,0.5);
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.50);
+    transform: translate(0, 1px);
+    transition-duration: 100ms;
 }
 .tile img {
     height: 64px;
     width: 64px;
     margin: 10px;
     margin-bottom: 0px;
+    border-radius: 10px;
 }
 .tile p {
     margin: 0;
+    font-size: 12px;
+}
+
+/* TOP HITS section */
+dd {
+    margin-bottom: 10px;
+}
+/* button example on home page */
+#code {
+    display: inline-block;
+    color: white;
+    font-family: monospace;
+    font-size: 12px;
+    background-color: rgba(0,0,0,0.15);
+    padding: 4px;
+    padding-left: 8px;
+    border-radius: 4px;
+    margin-right: 20px;
+    cursor: text;
 }
 
 @media (min-width: 650px) {
@@ -738,8 +789,14 @@ a.button{
     .statusbar ul.right {
         display: none;
     }
+    .navigation {
+        text-align: center;
+    }
     .navigation li.sub {
         margin-right: 16px;
+    }
+    .webringbuttons {
+        margin-left: 0px;
     }
     .statusbar li.spinner {
         display: none;
