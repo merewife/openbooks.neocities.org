@@ -10,6 +10,7 @@ Features to add:
 
 Fixes:
  - Timewarp fix for linking to main css
+ - Timewarp should use tiles and not avalanche.css
 
 Personal page: - maybe reintegrate to new page style? Kind of thinking of doing this.
 Quicktake gallery
