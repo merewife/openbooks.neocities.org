@@ -687,7 +687,7 @@ a.button{
     transition-duration: 300ms;
 }
 .tile:active {
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.10);
     box-shadow: 0px 2px 10px rgba(0,0,0,0.50);
     transform: translate(0, 1px);
     transition-duration: 100ms;
@@ -701,7 +701,14 @@ a.button{
 }
 .tile p {
     margin: 0;
+    margin-bottom: 6px;
     font-size: 12px;
+}
+.tilewrapper a:link {
+    color: rgba(255,255,255,.8);
+}
+.tilewrapper a:visited {
+    color: rgba(255,255,255,.8);
 }
 
 /* TOP HITS section */

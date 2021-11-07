@@ -2,7 +2,6 @@ NEW TO DO LIST
  - Site map rebuilt
  - Credits page
  - Projects page
- - new home page
 
 Features to add:
  - Links page
@@ -11,7 +10,6 @@ Features to add:
 
 Fixes:
  - Timewarp fix for linking to main css
- - Status bar CSS mobile
 
 Personal page: - maybe reintegrate to new page style? Kind of thinking of doing this.
 Quicktake gallery
