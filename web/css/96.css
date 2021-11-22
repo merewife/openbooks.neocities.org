@@ -252,13 +252,13 @@ a.button{
 
 /* status bar */
 .statusbar {
-    background-color: rgba(0,0,0,0.25);
+    background-color: rgba(0,0,0,0.35);
     color: rgba(255,255,255,.66);
-    min-height: 28px;
+    min-height: 32px;
     overflow: hidden;
     box-shadow: 0 1px 8px rgba(0,0,0,0.25),inset 0 -1px rgba(255,255,255,0.12),inset -1px 0 rgba(255,255,255,0.12),inset 1px 0 rgba(255,255,255,0.12),inset 0px 1px rgba(255,255,255,0.12);
     border: 1px solid rgba(0,0,0,.50);
-    border-radius: 14px;
+    border-radius: 16px;
     margin: 7px;
     font-size: 14px;
     -webkit-touch-callout: none; /* iOS Safari */
@@ -272,7 +272,8 @@ a.button{
 .statusbar ul {
     list-style-type: none;
     margin: 0 10px;
-    padding: 0 3px;
+    margin-top: 1px;
+    padding: 0px 3px;
     overflow: hidden;
     float: left;
     text-shadow: 0px 1px 2px rgba(0,0,0,0.50), 0px 0px 2px rgba(0,0,0,0.50);
@@ -283,13 +284,14 @@ a.button{
 }
 .statusbar li {
     float: left;
-    height: 24px;
-    margin: 2px 1px;
+    height: 26px;
+    margin: 1px 2px;
     padding: 0px 6px;
+    padding-top: 2px;
     display: block;
     text-align: center;
     background-color: rgba(0,0,0,0);
-    border-radius: 6px;
+    border-radius: 8px;
     transition-duration: 100ms;
 }
 .statusbar li:hover {
@@ -330,8 +332,8 @@ a.button{
     sans-serif; /* fallback */
     font-weight: 700;
     font-size: 16px;
-    padding-top: 1px;
-    height: 23px;
+    padding-top: 2px;
+    height: 26px;
 }
 .statusbar li.indicator {
     display: block;
@@ -390,10 +392,11 @@ a.button{
     color: white;
     background-color: rgba(0,0,0,0.25);
     font-size: 14px;
-    padding: 6px;
+    padding: 6px 10px;
     margin-top: 8px;
     display: inline-block;
-    border-radius: 6px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,.25);
 }
 .footercontainer {
     text-align: center;
@@ -426,7 +429,7 @@ a.button{
     margin-left: auto;
     margin-right: auto;
     /*padding: 24px;*/
-    border-radius: 18px;
+    border-radius: 22px;
     box-shadow: 0 4px 25px rgba(0,0,0,0.12), inset -1px 0 rgba(255,255,255,0.25),inset 1px 0 rgba(255,255,255,0.25),inset 0px 1px rgba(255,255,255,0.25),inset 0px -1px rgba(255,255,255,0.25);
     z-index: 100;
 }
@@ -672,7 +675,7 @@ a.button{
     border: 1px solid rgba(255,255,255,0);
     transition-duration: 250ms;
     box-shadow: 0px 5px 10px rgba(0,0,0,0);
-    border-radius: 8px;
+    border-radius: 12px;
     text-align: center;
     margin: 2%;
     width: 15%;
@@ -790,7 +793,6 @@ dd {
         overflow: hidden;
     }
     .statusbar ul {
-        margin-left: 0px;
         margin-right: 0px;
     }
     .statusbar ul.right {

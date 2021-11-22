@@ -1,6 +1,4 @@
 NEW TO DO LIST
- - Site map rebuilt
- - Credits page
  - Projects page
  - rebuilt microsites page
 
