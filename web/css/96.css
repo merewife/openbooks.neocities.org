@@ -702,6 +702,18 @@ a.button{
     margin-bottom: 0px;
     border-radius: 10px;
 }
+
+.tile.small {
+    width: 25%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.tile.small img {
+    height: 48px;
+    width: 48px;
+}
+
 .tile p {
     margin: 0;
     margin-bottom: 6px;
@@ -730,6 +742,8 @@ dd {
     border-radius: 4px;
     margin-right: 20px;
     cursor: text;
+    overflow: hidden;
+    max-width: 100%;
 }
 
 @media (min-width: 650px) {
