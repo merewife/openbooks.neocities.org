@@ -1,1 +1,1 @@
-document.write ('<a class="white" href="/updates.html"><li>Last updated on November 22, 2021</li></a>');
+document.write ('<a class="white" href="/updates.html"><li>Last updated on January 7, 2022</li></a>');

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog Post</title> <!-- If you leave title as "Blog Post", it will automatically be updated to the post title -->
+    <link rel="icon" href="../images/favicon.png" type="image/x-icon"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> 
+    <link href="../style/style.css" rel="stylesheet" type="text/css" media="all">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script>
+            $(window).load(function() {
+            $(".indicator").addClass('hidden');
+            $(".spinner").addClass('hidden');
+            });
+        </script>
+        <noscript>
+            <style>
+                .indicator {
+                    display: none;
+                }
+                .spinner {
+                    display: none;
+                }
+            </style>
+        </noscript>  
+  </head>
+  <body>
+    <div id="container">
+      <div class="statusbar">
+        <ul>
+            <a class="white" href="/"><li class="logo">OpenBooks</li></a>
+            <li><a href="../index.html">Blog</a></li>
+            <li><a href="../archive.html">Archive</a></li>
+            <li class="spinner"></li>
+        </ul>
+        <ul class="right">
+            <script type="text/javascript" src="/js/96statusbar.js"></script>
+            <noscript>
+                <a class="white" href="updates.html"><li>Update History</li></a>
+            </noscript>
+        </ul>
+    </div>
+    <div id="content">
+      <h1 id="postTitleH1"></h1>
+      <h4 id="postDate"></h4>
+      
+      <p>I noticed a trend with how I work on websites. It's probably been going on for as long as I've been making this one, since 2014. I tend to do a lot of work on it all at once, and then my motivation runs out - I use it all up in one go. I think that started to happen this time too, though I am still working on it behind the scenes.</p>
+      <p>I don't really know what causes this - maybe some of the ideas I have get too ambitious, I'm not sure. I'm hoping easier to edit pages like this blog keep me motivated somewhat, since this page uses JS for most of its formatting and links. It's fairly automatic thanks to Zonelets. I'm probably going to use this for my re-built OpenBooks Articles as well - just with different CSS (I think a wider page layout, 80ch, for that would be ideal.) I want to use Blog for more personal writings like this, and Articles for reviews, opinions, and guides. I just like the idea of blogs with a lot of resources. Maybe Articles shouldn't even be separate though, I'm not sure. Though, considering future plans - that might be the best idea.</p>
+      <h2>What's next?</h2>
+      <p>You probably noticed the "Microsites" button on the home page of OpenBooks. It's part of a new project I'm working on - I want to build smaller "mini" websites, like my personal site, and a few for other projects I have, which would all be Microsites on OpenBooks. OpenBooks is kind of the background for the rest of my sites.</p>
+      <p>The personal pages on this site are already laid out this way, though it's hard to tell because they still use a similar CSS style to the main OpenBooks site. I'm working on an update to that though, which will make my personal pages feel like a separate site, nested within OpenBooks. </p>
+      <p>That would leave OpenBooks as the backbone to my other sites - OpenBooks would also still provide its Discord Server, Search, and the upcoming Links page. There is... actually one more thing I'd like OpenBooks to do in the future, but I don't think I'm ready to talk about it just yet, at least not until I have something to show for it. </p>
+      <p>See you around,</p>
+      <p>Coyote</p>
+      
+      
+    <div id="nextprev"></div>
+    </div> <!-- end of div id="content" -->
+    </div> <!-- end of div id="container" -->
+  <!-- Here's the link to our JavaScript! -->
+  <script src="../script.js"></script>
+  <div class="footercontainer">
+    <div class="footer"><a href="about.html">About</a> &bull; <a href="sitemap.html">Sitemap</a></div>
+    <script type="text/javascript" src="/js/footer.js"></script>
+  </div>
+  </body>
+</html>
