@@ -1,0 +1,19 @@
+shhh..... let's not leak our hard work
+
+======================================
+
+OpenBooks 10 is the next major iterat-
+ion of the popular Neocities web port-
+al. This directory contains concepts,
+works-in-progress, and unfinished HTML
+pages as well as a new overhaul aesth-
+etic design language for OpenBooks.
+
+Please note none of this is final and 
+there will be changes before official
+release.
+
+- The OpenBooks Authors
+
+Coyote Reyne-Hartje
+
