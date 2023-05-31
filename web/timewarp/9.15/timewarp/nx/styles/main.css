@@ -1,0 +1,189 @@
+/* OpenBooks Main CSS */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,300);
+html {
+    cursor: url(../img/cursors/cursor.png), auto;
+}
+body {
+    margin-left: 5px;
+    margin-top: 5px;
+    color: #FFF;
+    background: #FFF; 
+    background-attachment: fixed;
+    /*background-image: url(../img/bg/bg.gif);
+    background-repeat: repeat;
+    background-attachment: fixed;*/
+    background-color: #000000;
+    background: url(../NX/img/bg.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+body,td,th {
+	font-family: 'Lato', Arial, Tahoma, Verdana, Geneva, sans-serif;
+}
+/*body:before {
+    content: "";
+    position: fixed;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,1);
+    z-index: 100;
+}*/
+p {
+	font-size: 14px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	color: #FFF;
+}
+.subtitle {
+	font-size: 10px;
+	font-style: oblique;
+	text-align: left;
+    margin-bottom: 4px;
+}
+.code {
+    font-family: Courier New, Courier, monospace;
+}
+h1 {
+	font-family: 'Lato', Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	text-align: center;
+    font-weight: 700;
+    /*text-transform: uppercase;*/
+    text-shadow: 0px 0px 15px rgba(255,255,255,.8), 0px 0px 5px rgba(255,255,255,.8)
+}
+h2 {
+	font-family: 'Lato', 'Times New Roman', Times, serif;
+	font-size: 16px;
+    font-weight: 400;
+	margin-top: 2px;
+	margin-bottom: 4px;
+}
+h3 {
+	font-family: 'Lato', 'Times New Roman', Times, serif;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	font-size: 14px;
+    font-weight: 900;
+    color: #aaa;
+    text-transform: uppercase;
+}
+a:link {
+	color: #00bfd7;
+    cursor: url(../img/cursors/cursor_hov.png), auto;
+    text-decoration: none;
+    transition-duration: 200ms;
+}
+a:visited {
+	color: #00bfd7;
+    cursor: url(../img/cursors/cursor_hov.png), auto;
+    transition-duration: 200ms;
+}
+a:hover {
+	color: #00bd71;
+    cursor: url(../img/cursors/cursor_hov.png), auto;
+    text-shadow: 0px 2px 5px rgba(0,0,0,.5);
+    transition-duration: 200ms;
+}
+a:active {
+	color: #007c49;
+    cursor: url(../img/cursors/cursor_hov.png), auto;
+    text-shadow: 0px 1px 3px rgba(0,0,0,.5);
+    transition-duration: 200ms;
+}
+.updates {
+	color: #FFF;
+	text-align: center;
+	font-family: 'Tahoma' 'Verdana', 'Geneva', 'Tahoma', Arial, sans-serif;
+	font-size: 12px;
+}
+#content {
+    border: 1px;
+    border-color: #00bfd7;
+    width: 708px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    background-color: rgba(0, 0, 0, .6);
+    padding-top: 10px;
+    padding-bottom: 14px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+#contentDynamic {
+    border: solid rgba(0,0,0,0.3);
+    border-width: 1px;
+    width: 85%;
+    min-width: 708px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    /*background-color: rgba(0, 0, 0, .6);*/
+    background-color: rgba(0, 0, 0, .4);
+    padding-top: 10px;
+    padding-bottom: 14px;
+    padding-left: 4px;
+    padding-right: 4px;
+    -webkit-backdrop-filter: saturate(140%) blur(10px);
+    backdrop-filter: saturate(140%) blur(10px);
+    box-shadow: 0px 10px 24px 8px rgba(0,0,0,0.5), inset 0px 1px 1px 0px rgba(170,255,255,.4), inset -1px -1px 1px 0px rgba(100,255,255,.1);
+}
+#window {
+    border: solid rgba(0,0,0,0.4);
+    border-width: 1px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    background-color: rgba(255, 255, 255, .15);
+    padding: 8px;
+    box-shadow: 0px 1px 1px 0px rgba(255,255,255,.4), inset 0px 2px 2px 0px rgba(0,0,0,.2);
+}
+
+hr {
+	clear: both;
+	float: none;
+	width: 100%;
+	height: 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: none;
+    background: #000;
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(50%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,0)));
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+    background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+    background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#283245', endColorstr='#283245', GradientType=1 );
+}
+.copy {
+    text-indent:20px;
+}
+#clockbox {
+  font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 6px;
+  letter-spacing: 2px;
+  margin-top: 0px;
+}
+h4 {
+  font-family: 'Lato', 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 6px;
+  letter-spacing: 2px;
+  margin-top: 0px;
+}

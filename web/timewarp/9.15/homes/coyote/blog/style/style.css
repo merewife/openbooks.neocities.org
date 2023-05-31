@@ -1,0 +1,167 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  background-color: black;
+  color: #eee;
+  font-size: 14px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin: 0;
+}
+
+p {
+  line-height: 1.6em; /*I find the default HTML line-height tends to be a bit claustrophobic for main text*/
+}
+
+hr {
+  border: 0;
+  border-top: 1px dashed #aaa;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.right {
+  float: right;
+  margin-left: 1em;
+}
+.left {
+  float: left;
+  margin-right: 1em;
+}
+.center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+@media only screen and (min-width: 600px) {
+  .small {
+    max-width: 60%;
+    height: auto;
+  }
+}
+.caption {
+  margin-top: 0;
+  font-size: 0.9em;
+  font-style: italic;
+}
+a:link {
+	color: #85e8cb;
+  text-decoration: none;
+}
+a:visited {
+	color: #85e8cb;
+  text-decoration: none;
+}
+a:hover {
+	color: #ffffff;
+	text-decoration: underline; 
+	/*border-bottom:1px dashed;*/
+}
+a:active {
+	color: #feed8e;
+	text-decoration: underline; 
+	/*border-bottom:1px dashed;*/
+}
+
+h1, h2, h3, h4, h5 {
+  color: white;
+}
+h1 {
+  letter-spacing: 0.1em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  color: #fff;
+  border-bottom: 1px dashed #aaa;
+}
+h2 {
+  margin-bottom: 5px;
+  color: rgb(161, 161, 209);
+  font-weight: normal;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 18px;
+}
+
+/*#CONTAINER is the rectangle that contains everything but the background!*/
+#container {
+  margin: 3em auto;
+  width: 90%;
+	max-width: 700px;
+	background-color: black;
+  color: #ccc;
+  border: 1px solid #feed8e;
+}
+
+#content {
+  padding: 10px 5% 20px 5%;
+}
+
+
+/*HEADER STYLE*/
+#header {
+  background-color: black;
+  padding: 0 5%;
+  border-width: 0 0 4px 0;
+  text-transform: lowercase;
+  border-bottom: 1px solid #feed8e;
+}
+#header ul {
+  list-style-type: none;
+  padding: 0.5em 0;
+  margin: 0;
+}
+#header li {
+  display: inline-block;
+  margin-right: 1.5em;
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+}
+/*#header li a {
+  color: #444;
+  text-decoration: none;
+  background-color: inherit;
+}
+#header li a:hover {
+  text-decoration: underline;
+}*/
+
+/*POST LIST STYLE*/
+#postlistdiv ul {
+  font-size: 1.2em;
+  padding: 0;
+  list-style-type: none;
+}
+#recentpostlistdiv ul {
+  font-size: 1.2em;
+  padding: 0;
+  list-style-type: none;
+  font-feature-settings: "tnum";
+}
+.moreposts {
+  font-size: 0.8em;
+  margin-top: 0.2em;
+}
+
+/*NEXT AND PREVIOUS LINKS STYLE*/
+#nextprev {
+  text-align: center;
+  margin-top: 1.4em;
+}
+
+/*DISQUS STYLE*/
+#disqus_thread {
+  margin-top: 1.6em;
+}
+
+/*FOOTER STYLE*/
+#footer {
+  text-align: center;
+  font-size: 0.8em;
+  padding: 0 5% 10px 5%;
+  color: #ccc
+}

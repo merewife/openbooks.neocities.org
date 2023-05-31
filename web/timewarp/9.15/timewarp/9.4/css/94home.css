@@ -1,0 +1,334 @@
+/* OpenBooks 9.4 - home only CSS */
+
+.row { width: 100%; display: table; table-layout: fixed; }
+.col { display: table-cell; vertical-align: top;}
+
+.header {
+    background-image: url(/img/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    margin: 30px;
+    margin-left: 50px;
+    /*opacity: 0.75;*/
+    color: rgba(0,0,0,0);
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+/* icons on the top right */
+.iconbar {
+    text-align: right;
+    padding-right: 25px;
+    margin: 25px;
+}
+.icon {
+    text-align: center;
+    display: inline-block;
+}
+.icon p {
+    margin: 0px 20px 0px 20px;
+    font-size: 1em;
+    color: rgba(255,255,255,0.75);
+}
+.icon:hover img {
+    filter: brightness(125%);
+}
+.icon:active img {
+    filter: brightness(75%);
+}
+.icon:hover p {
+    color: white;
+}
+.icon:active p {
+    color: rgba(255,255,255,0.5);
+}
+.icon a {
+    text-decoration: none;
+}
+
+/* metro style left navigation */
+.metronav {
+    padding-left: 50px;
+    padding-top: 15px;
+}
+.metronav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding: 3px;
+    padding-left: 8px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    font-family: 'Metropolis', 'Inter', /* web font */
+    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+    "Cantarell", "Noto Sans", /* gnome, kde */
+    "Lucida Grande", "Tahoma",  /* old mac, old windows */
+    sans-serif; /* fallback */
+    font-size: 42px;
+    font-weight: 300;
+}
+.metronav li {
+    margin-bottom: 34px;
+    padding: 0;
+}
+.metronav li a:link {
+    color: rgba(255,255,255,0.75);
+    text-decoration: none;
+    text-shadow: 0px 0px rgba(0,0,0,0);
+    transition-duration: 1000ms;
+    
+}
+.metronav li a:visited {
+    color: rgba(255,255,255,0.75);
+}
+.metronav li a:hover {
+    color: white;
+    text-shadow: 0px 0px 5px rgba(255,255,255,0.6),0px 0px 25px rgba(255,255,255,0.6);
+    transition-duration: 50ms;
+}
+.metronav li a:active {
+    color: rgba(255,255,255,.6)
+}
+
+/* sidebar 88x31 buttons */
+.buttons {
+    text-align: center;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 30px;
+}
+.buttons img {
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.25);
+    image-rendering: pixelated;
+}
+.button img {
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.25);
+    image-rendering: pixelated;
+}
+
+/* metro tiles */
+.tiles {
+    margin-top: 20px;
+    /*max-width: 500px;*/
+    margin-left: auto;
+    margin-right: auto;
+    /*padding-right: 100px;*/
+}
+.tiles a {
+    text-decoration: none;
+}
+.tileleft {
+    font-size: 18px;
+    text-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+    font-family: 'Metropolis', 'Inter', /* web font */
+    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+    "Cantarell", "Noto Sans", /* gnome, kde */
+    "Lucida Grande", "Tahoma",  /* old mac, old windows */
+    sans-serif
+}
+.tileright {
+    font-size: 22px;
+    text-align: right;
+    font-weight: 400;
+    text-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+    font-family: 'Metropolis', 'Inter', /* web font */
+    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+    "Cantarell", "Noto Sans", /* gnome, kde */
+    "Lucida Grande", "Tahoma",  /* old mac, old windows */
+    sans-serif; /* fallback */
+}
+.tile {
+    color: #444;
+    margin: 5px;
+    width: 140px;
+    height: 140px;
+    background-color: rgba(255,255,255,0.7);
+    border: 1px solid rgba(255,255,255,0.6);
+    transition-duration: 250ms;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.12);
+    border-radius: 4px;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+.tile.wide {
+    width: 296px;
+}
+.tile.tl {
+    border-radius: 14px 4px 4px 4px;
+}
+.tile.tr {
+    border-radius: 4px 14px 4px 4px;
+}
+.tile.bl {
+    border-radius: 4px 4px 4px 14px;
+}
+.tile.br {
+    border-radius: 4px 4px 14px 4px;
+}
+.tile:hover {
+    background-color: rgba(255,255,255,0.9);
+    color: #666;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.25);
+    transform: translate(0, -1px);
+    transition-duration: 100ms;
+}
+.tile:active {
+    background-color: rgba(255,255,255,0.5);
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.50);
+    transform: translate(0, 1px);
+}
+.tile #icon {
+    position: relative;
+    left: 38px;
+    top: 2px;
+    height: 64px;
+    width: 64px;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
+.tileheader {
+    position: relative;
+    line-height: 1em;
+    font-size: 17px;
+    font-family: 'Metropolis', 'Inter', /* web font */
+    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+    "Cantarell", "Noto Sans", /* gnome, kde */
+    "Lucida Grande", "Tahoma",  /* old mac, old windows */
+    sans-serif;
+    top: 108px;
+    width: 100%;
+    text-align: center;
+    text-shadow: 0px 0px 4px rgba(255,255,255,0.75), 0px 0px 14px rgba(255,255,255,0.5);
+}
+.tileheader.small {
+    font-size: 13px;
+    font-weight: bold;
+    top: 114px;
+}
+.tileblogheader {
+    font-family: 'Metropolis', 'Inter', /* web font */
+    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+    "Cantarell", "Noto Sans", /* gnome, kde */
+    "Lucida Grande", "Tahoma",  /* old mac, old windows */
+    sans-serif; /* fallback */
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    top: -8px;
+    left: 12px;
+}
+.tileblogpreview {
+    font-size: 12px;
+    line-height: 1.4;
+    position: relative;
+    top: -4px;
+    left: 12px;
+    width: 275px;
+}
+.tile.me {
+    /*background: linear-gradient(to top, rgba(255,255,255,.90), rgba(255,255,255,.25)), url(/homes/coyote/img/me.jpg);*/
+    background: linear-gradient(to top, rgba(0,0,0,.25), rgba(0,0,0,0)), url(/homes/coyote/img/headerbg.png);
+    background-size: cover;
+    background-position-x: center;
+}
+.tileheader.dark {
+    color: white;
+    text-shadow: 0px 0px 4px rgba(0,0,0,0.75), 0px 0px 14px rgba(0,0,0,0.5);
+}
+.tileversion {
+    position: relative;
+    top: 22px;
+    left: 20px;
+    font-size: 40px;
+    font-weight: 300;
+    font-feature-settings: "tnum", "ss01";
+    /*color: white;
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.12);*/
+    text-shadow: 0px 0px 4px rgba(255,255,255,0.75), 0px 0px 14px rgba(255,255,255,0.5);
+}
+.tileversion.two {
+    font-size: 60px;
+    left: 22px;
+}
+.tileversion.one {
+    font-size: 80px;
+    left: 42px;
+}
+/* green "link" in tiles */
+#fakelink {
+    text-decoration: underline;
+    color: #4A9C5E;
+}
+
+/* TOP HITS section */
+dd {
+    margin-bottom: 10px;
+}
+/* button example on home page */
+#code {
+    display: inline-block;
+    color: white;
+    font-family: monospace;
+    font-size: 12px;
+    background-color: rgba(0,0,0,0.15);
+    padding: 4px;
+    padding-left: 8px;
+    border-radius: 4px;
+    margin-right: 20px;
+    cursor: text;
+}
+
+.webringbuttons {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 38px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 3px;
+    border-radius: 4px;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.25),inset 0 -1px rgba(255,255,255,0.25),inset -1px 0 rgba(255,255,255,0.25),inset 1px 0 rgba(255,255,255,0.25),inset 0px 1px rgba(255,255,255,0.25);
+    border: 1px solid rgba(0,0,0,.50);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    z-index: 100;
+}
+.webringbuttons img {
+    image-rendering: pixelated;
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.25);
+}
+
+/* accessibility */
+@media (prefers-reduced-motion) {
+    .metronav li a:link {
+        transition-duration: 0ms;
+    }
+    .tile {
+        transition-duration: 0ms;
+    }
+    .tile:hover {
+        transition-duration: 0ms;
+        transform: translate(0,0);
+    }
+}

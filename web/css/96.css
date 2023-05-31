@@ -1,4 +1,4 @@
-/* OpenBooks  9.6 CSS */
+/* OpenBooks  9.16 CSS */
 
 @import url("/font/metropolis/metropolis.css");
 @import url("/font/inter/inter.css");
@@ -17,7 +17,7 @@ html {
 
 body {
     color: white;
-    background-color: #0d3b77;
+    background-color: #241311;
     /*background: url(/img/10bg2.jpg) no-repeat center center fixed;*/
     background-size: cover;
     font-family: Inter,
@@ -112,19 +112,19 @@ p:active {
 }
 
 a:link {
-    color: #49c468;
+    color: #ff6545;
     text-decoration: underline;
 }
 a:visited {
-    color: #49c468;
+    color: #ff6545;
     text-decoration: underline;
 }
 a:hover {
-    color: #69e686;
+    color: #ff8e77;
     text-decoration: underline;
 }
 a:active {
-    color: #4A9C5E;
+    color: #c95037;
     text-decoration: underline;
 }
 
@@ -415,8 +415,8 @@ a.button{
     padding: 0 3px;
 }
 .window {
-    background-color: #1251a0;
-    background-image: url(/img/9bg.jpg);
+    background-color: #311512;
+    background-image: url(/img/916bg.jpg);
     background-repeat: no-repeat;
     /*background-attachment: fixed;*/
     background-size: 868px;

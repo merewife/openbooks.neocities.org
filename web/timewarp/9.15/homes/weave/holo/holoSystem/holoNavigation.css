@@ -1,0 +1,71 @@
+/*
+  holoholo-navigation
+  holo-navbar and footer
+*/
+
+.holo-header {
+  padding-bottom: .4em;
+}
+
+.holo-nav {
+  background-color: #EEE;
+  border-radius: .6em;
+  color: #888;
+  font-size: 1em;
+  margin-top: 1em;
+}
+
+.holo-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.holo-nav li {
+  float: left;
+  margin: 0em;
+}
+
+.holo-nav li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin: 0em .2em 0em 0em;
+  padding: .6em .8em;
+  border-radius: 2em;
+  transition-duration: 0.4s;
+}
+
+.holo-nav li a:hover {
+  background-color: #DDD;
+  color: var(--primary-color);
+  border-radius: .6em;
+}
+
+.holo-nav li a:active {
+  background-color: #CCC;
+  text-decoration: none;
+  border-radius: .2em;
+}
+
+.holo-nav li a.current {
+  background-color: #DDD;
+  border-radius: .6em;
+  cursor: default;
+  color: var(--main-text-color);
+}
+
+.holo-footer {
+  background-color: #EEE;
+  border-radius: .6em;
+  color: #888;
+  font-size: .85em;
+  margin-top: 3em;
+  padding: .1em .8em .2em .8em;
+  text-align: center;
+}
+.holo-footer p {
+  line-height: 1.4em;
+  margin: .4em;
+}
