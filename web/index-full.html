@@ -55,8 +55,29 @@
     <body>
         <div class="content">
             <div class="window">
+                <div class="statusbar mobile">
+                    <ul>
+                        <a class="white" href="/"><li class="logo">OpenBooks</li></a>
+                        <li class="spinner"></li>
+                    </ul>
+                    <ul class="right">
+                        <script type="text/javascript" src="/js/96statusbar.js"></script>
+                        <noscript>
+                            <a class="white" href="updates.html"><li>Update History</li></a>
+                        </noscript>
+                    </ul>
+                </div>
 
-                <div class="statusbar">
+                <!--<div class="row titles desktop">
+                    <div class="col titleleft">
+                        OtherBirds
+                    </div>
+                    <div class="col titleright">
+                        <span id="datetime"/><noscript></noscript>
+                    </div>
+                </div>-->
+
+                <div class="statusbar desktop">
                     <ul>
                         <!--<li class="spinner"></li>-->
                         <script type="text/javascript" src="/js/96statusbar.js"></script>
@@ -66,33 +87,68 @@
                     </ul>
                 </div>
 
-                    <div class="row">
-                        <div class="col navigationh">
-                            <div class="pagebar home desktop">
-                                <ul>
-                                    <li class="logo active">OpenBooks</li>
-                                    <a href="search.html"><li>search</li></a>
-                                    <a href="about-me.html"><li>personal</li></a>
-                                    <a href="about.html"><li>info</li></a>
-                                </ul>
-                            </div>
-                            <div class="pagebar home small desktop">
-                                <ul>
-                                    <li class="active">Main page</li>
-                                    <a href="discord.html"><li>Discord</li></a>
-                                    <a href="timewarp/"><li>Timewarp</li></a>
-                                    <a href="sitemap.html"><li>Sitemap</li></a>
-                                </ul>
-                            </div>
-                            <br/>
+                <div class="pagebar desktop">
+                    <ul>
+                        <li class="logo active">OtherBirds</li>
+                        <a href="search.html"><li>search</li></a>
+                        <a href="about-me.html"><li>personal</li></a>
+                        <a href="about.html"><li>info</li></a>
+                    </ul>
+                </div>
+                <div class="pagebar small desktop">
+                    <ul>
+                        <li class="active">Main page</li>
+                        <a href="discord.html"><li>Discord</li></a>
+                        <a href="timewarp/"><li>Timewarp</li></a>
+                    </ul>
+                </div>
+
+                
+
+                <div class="main">
+                    <div class="heading small">Projects</div>
+                    <div class="box">
+                        <div class="tilewrapper">
+                            <a href="search.html"><div class="tile"><img src="img/search.svg"/><p>Search</p></div></a>
+                            <a href="webring.html"><div class="tile"><img src="img/internet.svg"/><p>WebRing</p></div></a>
+                            <a href="discord.html"><div class="tile"><img src="img/chat.svg"/><p>Discord</p></div></a>
+                            <!--a href="homes/"><div class="tile"><img src="homes/home.svg"/><p>Microsites</p></div></a>-->
+                            <a href="timewarp/"><div class="tile"><img src="timewarp/tw.svg"/><p>TimeWarp</p></div></a>
+                        </div>
+                        <!--<p><a href="projects.html">View more projects &gt;</a></p>-->
+                    </div>
+
+                    
+                </div>
+                <!--<div class="desktop row">
+                    <div class="col navigation">
+                        
+                    </div>
+                    <div class="heading small">
+                        Where do you want to go today?
+                    </div>
+                </div>-->
+                
+                <div class="row">
+                    <div class="col sidebar">
+                        <div class="navigation">
                             <div class="webringbuttons">
                                 <script language="JavaScript1.1" src="https://openbooks.neocities.org/n3/n3.js"></script>
-                            </div>    
-                            <!--<script type="text/javascript" src="/js/footer.js"></script>-->
+                            </div>
+                            
+                            <ul>
+                                <a href="search.html"><li>Search</li></a>
+                                <a href="webring.html"><li>WebRing</li></a>
+                                <a href="discord.html"><li>Discord</li></a>
+                                <a href="timewarp/"><li>TimeWarp</li></a>
+                                <a href="news.html"><li>News</li></a>
+                                <a href="updates.html"><li>Updates</li></a>
+                                <a href="about.html"><li>About</li></a>
+                            </ul>
                         </div>
-
-                        <div class="col main bottom">
-                            <center><p><a href="blog/posts/2022-01-07-OpenBooks-Manifesto.html">Read the OpenBooks Manifesto</a></p></center>
+                    </div>
+                    <div class="col main bottom">
+                        <center><p><a href="blog/posts/2022-01-07-OpenBooks-Manifesto.html">Read the OpenBooks Manifesto</a></p></center>
                         <hr/>
                         <div class="centered"><p>Search OpenBooks and Neocities.</p></div>
                         <div class="searchbox"><script>
@@ -132,13 +188,8 @@
                             &lt;a href="http://openbooks.neocities.org"&gt;&lt;img src="https://openbooks.neocities.org/img/88x31.gif" height="31" width="88" style="image-rendering:pixelated;"/&gt;&lt;/a&gt;
                         </div>
                         <br/>
-                        </div>
                     </div>
-
-                    
-                
-                <div class="row">
-                    
+                </div>
                 <div class="main">
                     <div class="buttons">
                         <a href="https://apple.com/mac"><img src="img/macbutton.gif"/></a>

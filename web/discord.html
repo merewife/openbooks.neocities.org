@@ -8,7 +8,7 @@
         <title>Discord :: OpenBooks</title>
         <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon.png"/>
         <link rel="icon" type="image/png" href="/favicon.png"/>
-        <link rel="stylesheet" href="/css/96.css">
+        <link rel="stylesheet" href="/css/917.css">
         <link type="text/plain" rel="author" href="/humans.txt" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script>
@@ -38,19 +38,19 @@
                 background-size: 38px;
                 background-position-x: center;
             }
-            a:link {
+            p a:link {
                 color: #52e7bb;
                 text-decoration: underline;
             }
-            a:visited {
+            p a:visited {
                 color: #52e7bb;
                 text-decoration: underline;
             }
-            a:hover {
+            p a:hover {
                 color: #92f7d8;
                 text-decoration: underline;
             }
-            a:active {
+            p a:active {
                 color: #e866f4;
                 text-decoration: underline;
             }
@@ -59,24 +59,38 @@
                 font-weight: bold;
                 text-shadow: 4px 4px #2e274d;
             }
+
+            .pagebar li.active {
+                color: #e866f4;
+            }
         </style>
     </head>
     <body>
         <div class="content">
             
             <div class="window">
-                <div class="statusbar">
+                <div class="statusbar desktop">
                     <ul>
-                        <a class="white" href="/"><li class="logo">OpenBooks</li></a>
-                        <!--<a href="/projects.html"><li>Projects</li></a>-->
-                        <li class="active">Discord</li></a>
-                        <li class="spinner"></li>
-                    </ul>
-                    <ul class="right">
+                        <!--<li class="spinner"></li>-->
                         <script type="text/javascript" src="/js/96statusbar.js"></script>
                         <noscript>
                             <a class="white" href="updates.html"><li>Update History</li></a>
                         </noscript>
+                    </ul>
+                </div>
+                <div class="pagebar desktop">
+                    <ul>
+                        <a href="/"><li class="logo">OpenBooks</li></a>
+                        <a href="/search.html"><li>search</li></a>
+                        <a href="/about-me.html"><li>personal</li></a>
+                        <a href="/about.html"><li>info</li></a>
+                    </ul>
+                </div>
+                <div class="pagebar small desktop">
+                    <ul>
+                        <a href="/"><li>Main page</li></a>
+                        <li class="active">Discord</li>
+                        <a href="/timewarp"><li>Timewarp</li></a>
                     </ul>
                 </div>
                 <div class="heading centered">OpenBooks Discord</div>                
