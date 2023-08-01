@@ -498,7 +498,6 @@ a.button{
 .pagebar li.logo.active {
     color: white;
     cursor: not-allowed;
-    text-shadow: none;
     cursor: unset;
 }
 
@@ -595,24 +594,7 @@ a.button{
     color: rgba(255,255,255,0.8);
     font-size: 20px;
 }
-.mobileheading {
-    color: white;
-    font-family: 'Metropolis', 'Inter', /* web font */
-    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
-    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
-    "Cantarell", "Noto Sans", /* gnome, kde */
-    "Lucida Grande", "Tahoma",  /* old mac, old windows */
-    sans-serif; /* fallback */
-    font-weight: 200;
-    font-size: 36px;
-    padding:  18px 22px 0px 10px;
-    line-height: 1.0;
-    text-transform:lowercase;
-    margin: 0;
-    margin-left: 12px;
-    display:none;
-    text-shadow: 0px 1px 4px rgba(0,0,0,0.5);
-}
+
 
 /* sidebar navigation */
 .sidebar {
@@ -918,43 +900,87 @@ dd {
         padding-left: 24px;
     }
     .content {
-        padding: 1px 0px;
+        padding: 0px 0px;
     }
     .window {
         margin-top: 0px;
-        box-shadow: 0 1px 8px rgba(0,0,0,0.25),inset 0 -1px rgba(255,255,255,0.12),inset 0 1px rgba(255,255,255,0.12);
+        box-shadow: 0 1px 8px rgba(0,0,0,0.25),inset 0 -1px rgba(255,255,255,0.12)/*,inset 0 1px rgba(255,255,255,0.12)*/;
         border: 0;
         border-bottom: 1px solid rgba(0,0,0,.50);
-        border-top: 1px solid rgba(0,0,0,.50);
+        /*border-top: 1px solid rgba(0,0,0,.50);*/
     }
     .col.main {
         border-top: 1px solid rgba(255,255,255,0.25);
         border-left: none;
         box-shadow: -1px -1px 4px rgba(0,0,0,0.10);
     }
-    .statusbar {
-        margin: 5px;
-        /*border-radius: 0px;*/
-        /*box-shadow: 0 1px 8px rgba(0,0,0,0.25),inset 0 -1px rgba(255,255,255,0.12);
-        border: 0;
-        border-bottom: 1px solid rgba(0,0,0,.50);*/
-        overflow: hidden;
+    .heading {
+        color: white;
+        font-family: 'Metropolis', 'Inter', /* web font */
+        -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+        "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+        "Cantarell", "Noto Sans", /* gnome, kde */
+        "Lucida Grande", "Tahoma",  /* old mac, old windows */
+        sans-serif; /* fallback */
+        font-weight: 200;
+        font-size: 40px;
+        padding:  0px 10px 0px 10px;
+        line-height: 1.0;
+        text-transform:lowercase;
+        margin: 0;
+        margin-left: 12px;
+        margin-bottom: 8px;
+        text-shadow: 0px 1px 4px rgba(0,0,0,0.5);
     }
-    .statusbar ul {
-        margin-right: 0px;
+    .pagebar {
+        margin-left: 2px;
     }
-    .statusbar ul.right {
+    .pagebar li {
+        float:unset;
+        text-align: left;
+        margin-bottom: 8px;
         display: none;
+    }
+    .pagebar.home li {
+        display: block;
+        font-size: 36px;
+        margin-bottom: 18px;
+    }
+    .pagebar li.logo {
+        text-transform: none;
+        font-weight: 700;
+        text-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+        font-size: 18px;
+        color:white;
+        display: block;
+    }
+    .pagebar.home li.logo {
+        font-size: 28px;
+    }
+    .pagebar.small {
+        margin-bottom: 24px;
+    }
+    .pagebar.small li {
+        margin-bottom: 0px;
+        display: block;
+        font-size: 16px;
+    }
+    .navigation {
+        padding: 0px 24px 0px 24px;
     }
     .navigation li {
         display: inline-block;
+        margin: 0px;
+        margin-right: 10px;
+        padding: 8px 0 12px 0;
+    }
+    .navigation ul.mini li {
+        display: block;
+        margin-bottom: 6px;
+        padding: 0;
     }
     .pagebar home {
         margin-top: 0px;
-    }
-    .webringbuttons {
-        margin-left: auto;
-        margin-right: auto;
     }
     .statusbar li.spinner {
         display: none;
