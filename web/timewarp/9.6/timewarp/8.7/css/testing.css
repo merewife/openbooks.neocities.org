@@ -1,0 +1,2 @@
+/* fallback for pages which link to testing.css */
+@import url("main.css");

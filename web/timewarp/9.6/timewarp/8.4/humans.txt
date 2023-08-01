@@ -1,0 +1,22 @@
+/* TEAM */
+    Design, development: Delta Hart
+    Contact: merewife [at] protonmail.com
+    Birdsite: @IAMMEREWIFE
+
+/* THANKS */
+    Neocities
+    https://neocities.org
+
+    Kyle Drake
+    kyledrake.neocities.org
+
+    The BrokenSet Online
+    thebrokensetonline.neocities.org
+
+/* SOFTWARE */
+    Doctype: HTML5
+    Language: English
+    Graphics: Photoshop, Affinity Designer
+    IDE/Editor: Visual Studio Code
+    Uploaded with Neocities CLI.
+    Host: Neocities
