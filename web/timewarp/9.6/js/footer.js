@@ -1,0 +1,1 @@
+document.write ('<div class="footer">Licensed under <a href="/license.txt">MIT</a> &bull; 2014-2021 &bull; Made by <a href="http://twitter.com/iammerewife" target="_blank">Merewife</a></div>');
