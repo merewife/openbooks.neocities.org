@@ -1,17 +1,19 @@
-NEW TO DO LIST
- - Projects page
- - rebuilt microsites page
+coyote's list of ideas:
 
-Features to add:
- - Links page
- - livebutton
- - Weave.css
+fork element to weave CSS, which is a more full-featured version of element
 
-Fixes:
- - Timewarp fix for linking to main css
+features to add:
+links page
+livebutton - live88? 88Live?
+livebutton would include all webring sites + .... anyone else who wants to be added?
+revamp home - in progress
 
-Personal page: - maybe reintegrate to new page style? Kind of thinking of doing this.
-Quicktake gallery
-Terragen renders
-Update: camera, coputers, players pages
-Integrate blog to better match
+things i want to add to personal page:
+quicktake gallery
+terragen renders
+update: camera, computers, players pages to new style
+integrate blog to better match page design
+
+fixes:
+fix things broken in timewarp
+redesign sitemap
