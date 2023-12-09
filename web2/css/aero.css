@@ -147,6 +147,10 @@ hr {
     text-decoration: none;
 }
 
+.toolbar a:link {
+    color: white;
+}
+
 .toolbar a:hover {
     color: white;
 }
