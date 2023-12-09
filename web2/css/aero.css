@@ -1,0 +1,352 @@
+/* 1.0 */
+
+@import url("/font/metropolis/metropolis.css");
+@import url("/font/inter/inter.css");
+
+html {
+    cursor: default;
+}
+
+::-moz-selection {
+    background: #6bbcf6;
+  }
+  
+::selection {
+    background: #6bbcf6;
+}
+
+body {
+    color: white;
+    background-color: #2d225a;
+    background: url(/img/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Inter,
+    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+    "Cantarell", "Noto Sans", /* gnome, kde */
+    "Lucida Grande", "Tahoma",  /* old mac, old windows */
+    sans-serif; /* fallback */
+    font-size: 15px;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    color: #4a3e7d;
+    text-decoration: none;
+}
+a:visited {
+    color: #4a3e7d;
+    text-decoration: underline;
+}
+a:hover {
+    color: #e866f4;
+    text-decoration: underline;
+}
+a:active {
+    color: #7e6acf;
+    text-decoration: underline;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+
+/* components */
+.wrapper {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+}
+
+.frame {
+    /*background-color: #473b7a;*/
+    background:  rgba(255, 255, 255, 0.25);
+    backdrop-filter: brightness(110%) blur(4px) saturate(120%);
+    border: 1px solid rgba(0,0,0,0.75);
+    border-radius: 8px;
+    margin-top: 8px;
+    padding: 8px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 25px rgba(0,0,0,0.12), inset -1px 0 rgba(127,255,255,0.5),inset 1px 0 rgba(255,255,255,0.5),inset 0px 1px rgba(255,255,255,0.5),inset 0px -1px rgba(127,255,255,0.5);
+    z-index: 100;
+}
+.window {
+    background-color: rgba(255,255,255,.80);
+    border: 1px solid rgba(0,0,0,0.75);
+    max-width: 100%;
+    box-shadow: -1px 0 rgba(255,255,255,0.25),1px 0 rgba(255,255,255,0.25),0px 1px rgba(255,255,255,0.25),0px -1px rgba(255,255,255,0.25);
+    z-index: 100;
+    color: #333;
+}
+
+.logo {
+    margin-left: 8px;
+    font-weight: 700;
+    text-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+    font-size: 35px;
+    font-family: Metropolis, Inter,
+    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+    "Cantarell", "Noto Sans", /* gnome, kde */
+    "Lucida Grande", "Tahoma",  /* old mac, old windows */
+    sans-serif; /* fallback */
+    color:white;
+}
+
+.toolbar {
+    height: 32px;
+    max-height: 32px;
+    overflow: hidden;
+    box-shadow: 0 1px rgba(0,0,0,.75), inset 0 1px rgba(255,255,255,.75), inset 0 -1px #5e7b94;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(135,135,135,1) 50%, rgba(98,98,98,1) 50%, rgba(0,0,0,1) 100%), linear-gradient(90deg, #643499, #433ac1);
+    background-blend-mode: overlay;
+    font-size: 12px;
+}
+
+.toolbar ul {
+    list-style-type: none;
+    text-shadow: 0 1px black;
+    overflow: hidden;
+    float: left;
+    margin: 0px;
+    margin-left: 10px;
+    padding: 0px;
+}
+
+.toolbar li {
+    float: left;
+    display: block;
+    height: 21px;
+    max-height: 21px;
+    border: 1px solid rgba(0,0,0,0);
+    padding: 0px 6px 0px 7px;
+    margin: 4px;
+    border-radius: 2px;
+    text-shadow: 0 1px rgba(0,0,0,.75);
+}
+
+.toolbar li:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(0,0,0,.25);
+    box-shadow: inset 0 1px rgba(255,255,255,.5), 1px 0 rgba(255,255,255,.25), -1px 0 rgba(255,255,255,.25), 0 1px rgba(255,255,255,0.25), 0 -1px rgba(255,255,255,0.25);
+}
+.toolbar li:active {
+    background-color: rgba(0,0,0, 0.12);
+    border: 1px solid rgba(0,0,0,.25);
+    box-shadow: inset 0 1px rgba(0,0,0,.12), 1px 0 rgba(255,255,255,.25), -1px 0 rgba(255,255,255,.25), 0 1px rgba(255,255,255,0.25), 0 -1px rgba(255,255,255,0.25);
+}
+
+.toolbar a {
+    text-decoration: none;
+}
+
+.toolbar a:hover {
+    color: white;
+}
+
+.toolbar a:visited {
+    color: white;
+}
+.toolbar a:active {
+    color: rgba(255,255,255,.75);
+}
+.sidebar {
+    background: linear-gradient(45deg, rgba(67,58,193,.12), rgba(100,52,153,.12));
+    width: 250px;
+    padding: 8px 8px 4px 12px;
+}
+
+.sidebarheader {
+    font-size: 13px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.sidebar ul {
+    margin: 0px;
+    margin-bottom: 6px;
+    font-size: 13px;
+    padding: 0;
+    line-height: 1.6em;
+}
+.sidebar li {
+    margin-left: 16px;
+}
+
+.betatext {
+    font-size: 11px;
+    line-height: 1.2em;
+    color: #52e7bb;
+    text-shadow: 1px 1px black;
+}
+
+.buttons {
+    margin-left: auto;
+    margin-right: auto;
+}
+.buttons img {
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.25);
+    image-rendering: pixelated;
+    margin-top: 4x;
+    margin-bottom: 0px;
+}
+
+.footer {
+    padding: 4px 10px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.75);
+    text-shadow: 0 1px black;
+    z-index: 100;
+}
+.footer .right {
+    text-align: right;
+}
+.footer a:link {
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+}
+.footer a:visited {
+    color: rgba(255,255,255,1);
+}
+.footer a:hover {
+    color: rgba(255,255,255,1);
+    text-decoration: underline;
+}
+.footer a:active {
+    color: rgba(255,255,255,0.75);
+    text-decoration: underline;
+}
+
+.tilewrapper {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.tile {
+    display: inline-block;
+    background-color: rgba(255,255,255,0);
+    border: 1px solid rgba(255,255,255,0);
+    transition-duration: 250ms;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0);
+    border-radius: 12px;
+    text-align: center;
+    margin: 0px 12px 2px 0px;
+    width: 72px;
+    vertical-align: top;
+}
+.tile:hover img {
+    filter:brightness(125%);
+    transition-duration: 200ms;
+}
+.tile:active img {
+    filter:brightness(90%)
+}
+.tile:active {
+    transform: translate(0 -1px);
+}
+.tile img {
+    height: 48px;
+    width: 48px;
+    margin: 2px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    transition-duration: 200ms;
+}
+
+.tile.small img {
+    height: 48px;
+    width: 48px;
+}
+
+.tile p {
+    margin: 0;
+    margin-bottom: 4px;
+    font-size: 12px;
+    text-shadow: 0 1px rgba(0,0,0,.75);
+    text-align: center;
+    line-height: 1.2;
+}
+.tilewrapper a:link {
+    color: rgba(255,255,255,1);
+}
+.tilewrapper a:visited {
+    color: rgba(255,255,255,1);
+}
+
+.col .navbox {
+    width: 220px;
+}
+
+#navbox {
+    background-color: #f4f6f8;
+    /*min-height: 200px;*/
+    margin: 20px 18px;
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.125);
+    border: 1px solid #9caab4;
+    border-radius: 0 0 8px 8px;
+}
+.navboxheader {
+    height: 22px;
+    background: #a5b4c2;
+    background: linear-gradient(to bottom, #a5b4c2 0%,#b7c6d4 50%,#91a1b3 51%,#91a1b3 51%,#708090 100%);
+    color: #f4f6f8;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 0px 1px 1px rgba(43, 30, 30, 0.90);
+    padding-left: 6px;
+    padding-bottom: 2px;
+    margin: 0;
+    border: 1px solid #c8d1e0;
+    box-shadow: 0px 1px 0px rgba(0,0,0,0.2);
+}
+.navboxfooter {
+    height: 8px;
+    background: #b6c5d3;
+    background: linear-gradient(to bottom, #b6c5d3 0%,#b1c0d0 50%,#a9baca 51%,#9cacbc 100%);
+    padding-left: 5px;
+    padding-top: 4px;
+    margin: 0;
+    border: 1px solid #c8d1e0;
+    border-radius: 0 0 6px 6px;
+    box-shadow: 0px 1px 0px rgba(0,0,0,0.2);
+}
+.navboxcontent {
+    padding: 10px;
+    font-size: 13px;
+}
+#navbox ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#navbox li {
+    margin-bottom: 4px;
+    padding: 0;
+}
+
+/*.row {
+    display: table;
+    width: 100%;
+}
+.col {
+    display: table-cell;
+}*/
+
+/* mobile support*/
+@media (min-width: 650px) {
+    .row { width: 100%; display: table; table-layout: fixed; }
+    .col { display: table-cell; vertical-align: top;}
+}
