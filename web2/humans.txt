@@ -1,0 +1,69 @@
+~* OpenBooks .neocities.org *~
+    by the OpenBooks Authors
+
+    Created by Coyote Reyne
+    Design & development
+    merewife [@] protonmail.com
+    @merewife@mastodon.social
+    @iamMEREWIFE
+
+    https://github.com/merewife/openbooks.neocities.org
+
+    Version information and changelog history found at:
+      /about/
+      /about/updates/
+
+
+~* Uses components by: *~
+    ungrid - responsice grid system, customized
+    Chris Nager
+    https://chrisnager.github.io/ungrid/
+
+    Inter - main typeface
+    Rasmus Andersson
+    https://rsms.me/inter/
+
+    Metropolis - header typeface, OpenBooks logo
+    Chris Simpson
+    https://fontsarena.com/metropolis-by-chris-simpson/
+
+    Tango Icons Set
+    Tango / Free Desktop Project
+    http://tango.freedesktop.org/Tango_Icon_Library
+
+
+~* Thanks to: *~
+    Neocities
+    https://neocities.org
+
+    Kyle Drake
+    https://kyledrake.neocities.org
+
+    The BrokenSet Online
+    https://thebrokensetonline.neocities.org
+
+    Mozilla
+    https://mozilla.org
+
+    WebKit
+    https://webkit.org
+
+
+~* Software *~
+    Doctype: HTML5
+    Styles: CSS3
+    Language: en_US
+    Graphics: Adobe Photoshop, Affinity Designer
+    IDE/Editor: Visual Studio Code
+    Web Browser: Chromium, Safari (mobile testing), Vivaldi, Firefox
+    Neocities CLI
+    Hosted by Neocities
+
+    Made while listening to:
+      MusicBee
+      XMplayer
+
+    Design inspiration:
+      Microsoft Windows(r) Vista beta operating system (Longhorn)
+      "Frutiger Aero"
+      
