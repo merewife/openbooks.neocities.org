@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Language" content="en_US">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Search :: OpenBooks</title>
+        <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon.png"/>
+        <link rel="icon" type="image/png" href="/favicon.png"/>
+        <link rel="stylesheet" href="/css/96.css">
+        <link type="text/plain" rel="author" href="/humans.txt" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script>
+            $(window).load(function() {
+            $(".indicator").addClass('hidden');
+            $(".spinner").addClass('hidden');
+            });
+        </script>
+        <noscript>
+            <style>
+                .indicator {
+                    display: none;
+                }
+                .spinner {
+                    display: none;
+                }
+            </style>
+        </noscript>
+        <style>
+            .gsc-control-cse {
+                border-radius: 16px;
+            }
+            .gsc-input-box {
+                border-radius: 8px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="content">
+            
+            <div class="window">
+                <div class="statusbar">
+                    <ul>
+                        <a class="white" href="/"><li class="logo">OpenBooks</li></a>
+                        <!--<a href="/projects.html"><li>Projects</li></a>-->
+                        <li class="active">Search</li></a>
+                        <li class="spinner"></li>
+                    </ul>
+                    <ul class="right">
+                        <script type="text/javascript" src="/js/96statusbar.js"></script>
+                        <noscript>
+                            <a class="white" href="updates.html"><li>Update History</li></a>
+                        </noscript>
+                    </ul>
+                </div>
+                <div class="heading centered">Search Neocities</div>                
+                <div class="row">
+                    <div class="col sidebar">
+                        <div class="box">
+                            <p>Privacy Notice: OpenBooks Search is powered by Google Custom Search.</p>
+                        </div>
+                    </div>
+                    <div class="col main">
+                        <p class="centered">Search OpenBooks and Neocities</p>
+                        <script>
+                            (function() {
+                              var cx = '012597768496611548784:es0uagg7tsc';
+                              var gcse = document.createElement('script');
+                              gcse.type = 'text/javascript';
+                              gcse.async = true;
+                              gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                              var s = document.getElementsByTagName('script')[0];
+                              s.parentNode.insertBefore(gcse, s);
+                            })();
+                        </script>
+                        <gcse:search></gcse:search>
+                        <noscript>Sorry, OpenBooks Search requires Javascript.</noscript>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footercontainer">
+            <div class="footer"><a href="about.html">About</a> &bull; <a href="sitemap.html">Sitemap</a></div>
+            <script type="text/javascript" src="/js/footer.js"></script>
+        </div>
+    </body>
+</html>

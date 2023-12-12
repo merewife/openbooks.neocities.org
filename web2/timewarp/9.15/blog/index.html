@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog :: OpenBooks</title>
+    <!-- The description is not directly visible on the page. But it can show up in certain places like search engines. Probably unnecessary for most pages in your blog. -->
+    <meta name="description" content="Coyote's Blog on Neocities.">
+    <!-- This specifies the favicon (little icon on the browser tab) -->
+    <link rel="icon" href="./images/favicon.png" type="image/x-icon"/>
+    <!-- This helps our site look consistent across devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> 
+    <!-- Here's the link to our CSS stylesheet! -->
+    <link href="./style/style.css" rel="stylesheet" type="text/css" media="all">  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script>
+            $(window).load(function() {
+            $(".indicator").addClass('hidden');
+            $(".spinner").addClass('hidden');
+            });
+        </script>
+        <noscript>
+            <style>
+                .indicator {
+                    display: none;
+                }
+                .spinner {
+                    display: none;
+                }
+            </style>
+        </noscript>  
+  </head>
+  <body>
+    <div id="container">
+    <div class="statusbar">
+      <ul>
+          <a class="white" href="/"><li class="logo">OpenBooks</li></a>
+          <li class="active">Blog</li>
+          <li><a href="archive.html">Archive</a></li>
+          <li class="spinner"></li>
+      </ul>
+      <ul class="right">
+          <script type="text/javascript" src="/js/96statusbar.js"></script>
+          <noscript>
+              <a class="white" href="updates.html"><li>Update History</li></a>
+          </noscript>
+      </ul>
+  </div>
+    <div id="content">    
+      
+      
+      <h1>Welcome to my blog!</h1>
+      
+      <p>...in which Coyote writes about their personal life, and other thoughts and musings.</p>
+      
+      
+      <div id="recentpostlistdiv"></div>
+      
+    </div> <!-- end of div id="content" -->
+    
+    </div> <!-- end of div id="container" -->    
+    <div class="footercontainer">
+      <div class="footer"><a href="/about.html">About</a> &bull; <a href="/sitemap.html">Sitemap</a></div>
+      <script type="text/javascript" src="/js/footer.js"></script>
+    </div>
+  <!-- Here's the link to our JavaScript! -->
+  <script src="./script.js"></script>
+  </body>
+</html>

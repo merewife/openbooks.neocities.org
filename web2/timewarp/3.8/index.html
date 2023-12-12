@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+  <!--
+    
+                                             
+ _____             _____         _       
+|     |___ ___ ___| __  |___ ___| |_ ___ 
+|  |  | . | -_|   | __ -| . | . | '_|_ -|
+|_____|  _|___|_|_|_____|___|___|_,_|___|
+      |_|    RELEASE SERIES 3
+      
+  > OpenBooks is made by Marin Exley  <
+  >         and owned by OME          <
+  >         http://exley.xyz          <
+
+*************************************************
+* media player                           _ [] X *
+*===============================================*
+*  now playing:                                 *
+*                                   opus no. 1  *
+*             by tim carleton and darrick deel  *
+*               (cisco callmanager hold music)  *
+*************************************************
+
+
+  !-->
+  
+  <link rel="shortcut icon" href="apple-touch-icon.png" />
+    <meta charset="UTF-8">
+    <title>OpenBooks</title>
+  <style type="text/css">
+  body {
+    background-image: url("img/bg/bg-move.gif");
+    color: white;
+  }
+ 
+img.ri
+{
+	position: absolute;
+	max-width: 80%;
+	top: 10%;
+	left: 10%;
+	border-radius: 0px;
+}
+img.ri:empty
+{
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+@media screen and (orientation: portrait) {
+  img.ri { max-width: 90%; }
+}
+
+@media screen and (orientation: landscape) {
+  img.ri { max-height: 90%; }
+}
+</style>
+  </head>
+  <body>
+  <script type="text/javascript" src="adblockbar.js"></script>
+<audio loop autoplay>
+  <source src="https://exley.xyz/openbooks/release/resources/sound/opus.mp3" type="audio/mpeg">
+</audio>
+<a href="openbooks.html"><img src="img/splash.png" class="ri" /></a>
+  </body>
+</html>

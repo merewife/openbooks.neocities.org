@@ -1,0 +1,454 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+@import url("/font/metropolis/metropolis.css");
+@import url("/font/inter/inter.css");
+
+body {
+  color: white;
+  background-color: black;
+  /*background: url(/img/10bg2.jpg) no-repeat center center fixed;*/
+  background-size: cover;
+  font-family: Inter,
+  -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+  "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+  "Cantarell", "Noto Sans", /* gnome, kde */
+  "Lucida Grande", "Tahoma",  /* old mac, old windows */
+  sans-serif; /* fallback */
+  font-size: 15px;
+  line-height: 1.6em;
+  margin: 0;
+  padding: 0;
+  /*padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);*/
+}
+
+p {
+  margin: 0px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+    font-size: 15px;
+    line-height: 1.7em;
+    text-indent: 24px;
+}
+
+hr {
+  border: 0;
+    border-bottom: 1px dashed #2b3c46;
+    background: #162630;
+    margin-bottom: 40px;
+}
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.right {
+  float: right;
+  margin-left: 1em;
+}
+.left {
+  float: left;
+  margin-right: 1em;
+}
+.center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+@media only screen and (min-width: 600px) {
+  .small {
+    max-width: 60%;
+    height: auto;
+  }
+}
+.caption {
+  margin-top: 0;
+  font-size: 0.9em;
+  font-style: italic;
+}
+a:link {
+  color: #49c468;
+  text-decoration: underline;
+}
+a:visited {
+  color: #49c468;
+  text-decoration: underline;
+}
+a:hover {
+  color: #69e686;
+  text-decoration: underline;
+}
+a:active {
+  color: #4A9C5E;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Metropolis', 'Inter', /* web font */
+  -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+  "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+  "Cantarell", "Noto Sans", /* gnome, kde */
+  "Lucida Grande", "Tahoma",  /* old mac, old windows */
+  sans-serif; /* fallback */
+  color: whitesmoke;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 1.0;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+h3 {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 14px;
+  margin-bottom: 4px;
+}
+h4 {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+h5 {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  text-transform: lowercase;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.35);
+}
+
+/*#CONTAINER is the rectangle that contains everything but the background!*/
+#container {
+  background-color: #041a1d;
+    background-image: url(/img/10bg3dark.png);
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-size: 868px;
+    background-position-x: center;
+    border: 1px solid rgba(0,0,0,0.5);
+    max-width: 868px;
+    /*margin-top: 30px;*/
+    margin-top: 3px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    /*padding: 24px;*/
+    border-radius: 20px;
+    box-shadow: 0 4px 25px rgba(0,0,0,0.12), inset -1px 0 rgba(255,255,255,0.25),inset 1px 0 rgba(255,255,255,0.25),inset 0px 1px rgba(255,255,255,0.25),inset 0px -1px rgba(255,255,255,0.25);
+    z-index: 100;
+}
+
+#content {
+  padding: 10px 5% 20px 5%;
+  text-shadow: 0px 0px 6px black;
+}
+
+
+/*HEADER STYLE*/
+#header {
+  background-color: #000000;
+  padding: 0 5%;
+  border-width: 0 0 4px 0;
+  text-transform: lowercase;
+  border-bottom: 1px solid #feed8e;
+}
+#header ul {
+  list-style-type: none;
+  padding: 0.5em 0;
+  margin: 0;
+}
+#header li {
+  display: inline-block;
+  margin-right: 1.5em;
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+}
+/*#header li a {
+  color: #444;
+  text-decoration: none;
+  background-color: inherit;
+}
+#header li a:hover {
+  text-decoration: underline;
+}*/
+/* status bar */
+.statusbar {
+  background-color: rgba(0,0,0,0.35);
+  color: rgba(255,255,255,.66);
+  min-height: 32px;
+  overflow: hidden;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.25),inset 0 -1px rgba(255,255,255,0.12),inset -1px 0 rgba(255,255,255,0.12),inset 1px 0 rgba(255,255,255,0.12),inset 0px 1px rgba(255,255,255,0.12);
+  border: 1px solid rgba(0,0,0,.50);
+  border-radius: 16px;
+  margin: 7px;
+  font-size: 14px;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}
+.statusbar ul {
+  list-style-type: none;
+  margin: 0 10px;
+  margin-top: 1px;
+  padding: 0px 3px;
+  overflow: hidden;
+  float: left;
+  text-shadow: 0px 1px 2px rgba(0,0,0,0.50), 0px 0px 2px rgba(0,0,0,0.50);
+}
+
+.statusbar ul.right {
+  float: right;
+}
+.statusbar li {
+  float: left;
+  height: 26px;
+  margin: 1px 2px;
+  padding: 0px 6px;
+  padding-top: 2px;
+  display: block;
+  text-align: center;
+  background-color: rgba(0,0,0,0);
+  border-radius: 8px;
+  transition-duration: 100ms;
+}
+.statusbar li:hover {
+  background-color: rgba(0,0,0,.25);
+}
+.statusbar li.active {
+  background-color: rgba(0,0,0,.25);
+  color: rgba(255,255,255,.75);
+  cursor: not-allowed;
+  text-shadow: none;
+}
+.statusbar a {
+  text-decoration: none;
+  /*color: rgba(255,255,255,0.75);*/
+}
+.statusbar a:hover {
+  text-shadow: 0px 1px 2px rgba(0,0,0,0.75), 0px 0px 5px rgba(255,255,255,0.8);
+  color: white;
+}
+.statusbar a:active {
+  text-shadow: 0px 1px 2px rgba(0,0,0,0.75), 0px 0px 5px rgba(0,0,0,0.50)
+}
+.statusbar a.white {
+  color: white;
+}
+.statusbar a.white:hover {
+  text-shadow: 0px 1px 2px rgba(0,0,0,0.75), 0px 0px 5px rgba(255,255,255,0.8);
+}
+.statusbar a.white:active {
+  text-shadow: 0px 1px 2px rgba(0,0,0,0.75), 0px 0px 5px rgba(0,0,0,0.50)
+}
+.statusbar li.logo {
+  font-family: 'Metropolis', 'Inter', /* web font */
+  -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+  "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+  "Cantarell", "Noto Sans", /* gnome, kde */
+  "Lucida Grande", "Tahoma",  /* old mac, old windows */
+  sans-serif; /* fallback */
+  font-weight: 700;
+  font-size: 16px;
+  padding-top: 2px;
+  height: 26px;
+}
+.statusbar li.indicator {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin: 0;
+  padding: 3px 10px;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+  transition-duration: 400ms;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+.statusbar li.spinner {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin: 0px 10px;
+  margin-top: 6px;
+  height: 16px;
+  width: 16px;
+  padding: 0px;
+  border-radius: 0px;
+  background-image: url(/img/loader.png);
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+  image-rendering: pixelated;
+  transition-duration: 2000ms;
+}
+.statusbar li.spinner:hover {
+  background-color: rgba(0,0,0,0);
+}
+
+/*POST LIST STYLE*/
+#postlistdiv ul {
+  font-size: 1.2em;
+  padding: 0;
+  list-style-type: none;
+}
+#recentpostlistdiv ul {
+  font-size: 1.2em;
+  padding: 0;
+  list-style-type: none;
+  font-feature-settings: "tnum";
+}
+.moreposts {
+  font-size: 0.8em;
+  margin-top: 0.2em;
+}
+
+/*NEXT AND PREVIOUS LINKS STYLE*/
+#nextprev {
+  text-align: center;
+  margin-top: 1.4em;
+}
+
+/*DISQUS STYLE*/
+#disqus_thread {
+  margin-top: 1.6em;
+}
+
+.footer {
+  text-align: center;
+  color: white;
+  background-color: rgba(0,0,0,0.25);
+  font-size: 14px;
+  padding: 6px 10px;
+  margin-top: 8px;
+  display: inline-block;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,.25);
+}
+.footercontainer {
+  text-align: center;
+  /*position: fixed;*/
+  width: 100%;
+  margin: 0 auto 20px;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media (min-width: 650px) {
+  .row { width: 100%; display: table; table-layout: fixed; }
+  .col { display: table-cell; vertical-align: top;}
+}
+@media (max-width: 868px) {
+  .content {
+      padding: 0;
+  }
+  .window{
+      margin-top: 0px;
+  }
+  .navigation {
+      width: 25%;
+  }
+}
+@media (max-width: 650px) {
+  .desktop {display:none;}
+  .mobile {display:block;}
+  .mobileheading {display:block;}
+  .footer {
+      margin: 8px 24px 0 24px;
+  }
+  .main {
+      padding-right: 20px;
+      padding-left: 20px;
+  }
+  .navigation {
+      width: unset;
+  }
+  .sidebar {
+      width: unset;
+      padding-top: 0px;
+  }
+  .sidebar.wide {
+      padding-left: 24px;
+  }
+  .content {
+      padding: 1px 0px;
+  }
+  .window {
+      margin-top: 0px;
+      box-shadow: 0 1px 8px rgba(0,0,0,0.25),inset 0 -1px rgba(255,255,255,0.12),inset 0 1px rgba(255,255,255,0.12);
+      border: 0;
+      border-bottom: 1px solid rgba(0,0,0,.50);
+      border-top: 1px solid rgba(0,0,0,.50);
+  }
+  .col.main {
+      border-radius: 18px;
+      border-top: 1px solid rgba(255,255,255,0.25);
+      border-left: none;
+      box-shadow: -1px -1px 4px rgba(0,0,0,0.10);
+  }
+  .statusbar {
+      margin: 5px;
+      /*border-radius: 0px;*/
+      /*box-shadow: 0 1px 8px rgba(0,0,0,0.25),inset 0 -1px rgba(255,255,255,0.12);
+      border: 0;
+      border-bottom: 1px solid rgba(0,0,0,.50);*/
+      overflow: hidden;
+  }
+  .statusbar ul {
+      margin-right: 0px;
+  }
+  .statusbar ul.right {
+      display: none;
+  }
+  .navigation {
+      text-align: center;
+  }
+  .navigation li.sub {
+      margin-right: 16px;
+  }
+  .webringbuttons {
+      margin-left: 0px;
+  }
+  .statusbar li.spinner {
+      display: none;
+  }
+}
+
+/* load handler */
+.hidden {
+  opacity: 0;
+}
+.spinner {
+  transition-duration: 2000ms;
+}

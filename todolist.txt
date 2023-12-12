@@ -1,19 +1,34 @@
-coyote's list of ideas:
-
-fork element to weave CSS, which is a more full-featured version of element
-
-features to add:
-links page
-livebutton - live88? 88Live?
-livebutton would include all webring sites + .... anyone else who wants to be added?
-revamp home - in progress
-
-things i want to add to personal page:
-quicktake gallery
-terragen renders
-update: camera, computers, players pages to new style
-integrate blog to better match page design
-
 fixes:
 fix things broken in timewarp
-redesign sitemap
+
+coyote's new list of ideas for OPENBOOKS 2024 / X / 11.0
+
+Release date: 9.12.2024 at the LATEST
+Milestone 1 (alpha):
+ - Full set of pages and content
+ - RELEASE DATE: January 2024?
+
+Milestone 2 (beta):
+ - Mobile Compatibility
+ - Dark mode
+ - Final missing features for 1.0
+ - Fixes from M1
+
+Milestone 3 (final beta):
+ - Feature freeze (content adding OK)
+ - Heavy bugtesting
+ - Fixes from M2
+
+Release Candidate
+ - Fixes from M3
+ - May be identical to 1.0
+
+Versioning System after 11.0:
+11.X.X_01
+MarketingVersion.MajorFeatures.MinorFeaturesFixes_ContentUpdates
+
+Beta Versioning:
+11.0 Milestone 1 A_01
+
+11.0 Milestone MilestoneNumber IncrementalLetter_FixesContentUpdates
+

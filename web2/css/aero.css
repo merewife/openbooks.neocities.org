@@ -18,7 +18,7 @@ html {
 body {
     color: white;
     background-color: #2d225a;
-    background: url(/img/bg.jpg) no-repeat center center fixed;
+    background: url(/img/xbg.jpg) no-repeat center center fixed;
     background-size: cover;
     font-family: Inter,
     -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
@@ -30,6 +30,92 @@ body {
     line-height: 1.6em;
     margin: 0;
     padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Metropolis', 'Inter', /* web font */
+    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+    "Cantarell", "Noto Sans", /* gnome, kde */
+    "Lucida Grande", "Tahoma",  /* old mac, old windows */
+    sans-serif; /* fallback */
+    color: #666;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.0;
+}
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 4px;
+    line-height: 1.4;
+}
+h3 {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 14px;
+    margin-bottom: 4px;
+}
+h4 {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+h5 {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    text-transform: lowercase;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.35);
+}
+
+p {
+    margin: 0px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    font-size: 15px;
+    line-height: 1.7em;
+}
+p#copy {
+    text-indent: 20px;
+    font-size: 15px;
+    line-height: 1.7em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#grey {
+    color: rgba(0,0,0,0.5);
+}
+p:active {
+    cursor: text;
+}
+
+#code {
+    display: inline-block;
+    color: #666;
+    font-family: monospace;
+    font-size: 12px;
+    background-color: rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0, 0.12);
+    box-shadow: 0 1px rgba(0,0,0, 0.05);
+    line-height: 1.6em;
+    padding: 4px;
+    padding-left: 8px;
+    border-radius: 4px;
+    margin-right: 20px;
+    cursor: text;
+    overflow: hidden;
+    max-width: 100%;
 }
 
 a:link {
@@ -66,7 +152,7 @@ hr {
 .frame {
     /*background-color: #473b7a;*/
     background:  rgba(255, 255, 255, 0.25);
-    backdrop-filter: brightness(110%) blur(4px) saturate(120%);
+    backdrop-filter: brightness(120%) blur(10px) saturate(150%);
     border: 1px solid rgba(0,0,0,0.75);
     border-radius: 8px;
     margin-top: 8px;
@@ -182,6 +268,10 @@ hr {
 }
 .sidebar li {
     margin-left: 16px;
+}
+
+.sidebar li.active {
+    font-weight: bold;
 }
 
 .betatext {

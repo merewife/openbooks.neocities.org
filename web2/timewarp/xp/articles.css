@@ -1,0 +1,20 @@
+body {
+  	background-image: url(img/paper.gif);
+	background-repeat: repeat;
+	color: #430
+}
+a:link {
+	color: #430;
+}
+a:visited {
+	color: #430;
+}
+a:hover {
+	color: #00F;
+}
+a:active {
+	color: #F0F;
+}
+p {
+	color: #430;
+}

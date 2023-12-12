@@ -1,0 +1,422 @@
+/* OpenBooks  10.0 CSS */
+
+@import url("/font/metropolis/metropolis.css");
+
+html {
+    cursor: default;
+}
+
+::-moz-selection {
+    background: #6bbcf6;
+  }
+  
+::selection {
+    background: #6bbcf6;
+}
+
+body {
+    color: black;
+    background-color: #0e458b;
+    background: url(/img/10bg2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family:
+    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+    "Cantarell", "Noto Sans", /* gnome, kde */
+    "Lucida Grande", "Tahoma",  /* old mac, old windows */
+    sans-serif; /* fallback */
+    font-size: 15px;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 0;
+    /*padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Metropolis', 'Inter', /* web font */
+    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+    "Cantarell", "Noto Sans", /* gnome, kde */
+    "Lucida Grande", "Tahoma",  /* old mac, old windows */
+    sans-serif; /* fallback */
+    color: #444;
+}
+h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 24px;
+    margin-bottom: 4px;
+}
+h4 {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+h5 {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    text-transform: lowercase;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.35);
+}
+
+p {
+    margin: 0px;
+    font-size: 15px;
+    line-height: 1.7em;
+}
+p#copy {
+    text-indent: 20px;
+    font-size: 15px;
+    line-height: 1.7em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+p#grey {
+    color: rgba(255,255,255,0.5);
+}
+p:active {
+    cursor: text;
+}
+
+a:link {
+    color: #49c468;
+    text-decoration: underline;
+}
+a:visited {
+    color: #49c468;
+    text-decoration: underline;
+}
+a:hover {
+    color: #69e686;
+    text-decoration: underline;
+}
+a:active {
+    color: #4A9C5E;
+    text-decoration: underline;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px dashed #2b3c46;
+    background: #162630;
+}
+
+/* status bar */
+.statusbar {
+    background-color: rgba(0,0,0,0.05);
+    color: #b4b4b4;
+    height: 30px;
+    overflow: hidden;
+    /*box-shadow: 0 1px 4px rgba(0,0,0,0.05);*/
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    border-radius: 16px 16px 0px 0;
+}
+.statusbar ul {
+    list-style-type: none;
+    margin: 0 10px;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+    /*text-shadow: 0px 1px 2px rgba(0,0,0,.33), 0px 0px 2px rgba(0,0,0,.33);*/
+}
+.statusbar ul.right {
+    float: right;
+}
+.statusbar li {
+    float: left;
+    margin: 0em;
+}
+.statusbar li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #444;
+    margin: 0;
+    padding: 4px 10px;
+    transition-duration: 100ms;
+}
+.statusbar li a:hover {
+    text-shadow: 0px 1px 4px rgba(0,0,0,0.25), 0px 0px 5px rgba(255,255,255,0.12);
+}
+.statusbar li a:active {
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.12), 0px 0px 5px rgba(0,0,0,0.50)
+}
+.statusbar li.logo {
+    font-family: 'Metropolis', 'Inter', /* web font */
+    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+    "Cantarell", "Noto Sans", /* gnome, kde */
+    "Lucida Grande", "Tahoma",  /* old mac, old windows */
+    sans-serif; /* fallback */
+    font-weight: 700;
+    font-size: 17px;
+    padding-top: 1px;
+}
+.statusbar li.indicator {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    padding: 3px 10px;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+    transition-duration: 400ms;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+.statusbar li.spinner {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 5px 10px;
+    height: 16px;
+    width: 16px;
+    background-image: url(/img/loader.png);
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+    image-rendering: pixelated
+}
+/* load handler */
+.hidden {
+    opacity: 0;
+}
+.spinner {
+    transition-duration: 2000ms;
+}
+
+/* footer */
+.footer {
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,0.25);
+    font-size: 14px;
+    padding: 6px;
+    margin-top: 2px;
+    display: inline-block;
+    border-radius: 6px;
+}
+.footercontainer {
+    text-align: center;
+    /*position: fixed;*/
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    bottom: 0;
+    z-index: -1;
+}
+
+.content {
+    /*max-width: 1200px;*/
+    max-width: 868px;
+    border-radius: 16px 16px 0 0;
+    margin: 0px auto 0px auto;
+    /*padding: 0 12px;*/
+    /*padding-top: 120px;*/
+}
+.window {
+    background-color: rgba(255,255,255,0.66);
+    border: 1px solid rgba(0,0,0,0.25);
+    max-width: 100%;
+    /*margin-top: 30px;*/
+    margin-top: 10px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    /*padding: 24px;*/
+    border-radius: 16px;
+    box-shadow: 0 4px 25px rgba(0,0,0,0.12);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    z-index: 100;
+}
+
+.heading {
+    color: #444;
+    font-family: 'Metropolis', 'Inter', /* web font */
+    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+    "Cantarell", "Noto Sans", /* gnome, kde */
+    "Lucida Grande", "Tahoma",  /* old mac, old windows */
+    sans-serif; /* fallback */
+    font-weight: 700;
+    font-size: 36px;
+    padding:  18px 40px 16px 40px;
+    line-height: 1.0;
+    margin: 0;
+}
+.mobileheading {
+    color: #444;
+    font-family: 'Metropolis', 'Inter', /* web font */
+    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+    "Cantarell", "Noto Sans", /* gnome, kde */
+    "Lucida Grande", "Tahoma",  /* old mac, old windows */
+    sans-serif; /* fallback */
+    font-weight: 700;
+    font-size: 36px;
+    padding:  18px 10px 0px 10px;
+    text-align: center;
+    line-height: 1.0;
+    margin: 0;
+    display:none;
+}
+
+/* sidebar navigation */
+.navigation {
+    font-weight: 700;
+    font-size: 15px;
+    padding: 24px 24px 24px 24px;
+    width: 220px;
+}
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+.navigation li {
+    margin: 0px 0 6px 0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,0,0);
+    transition-duration: 100ms;
+}
+.navigation li:hover {
+    background-color: rgba(255,255,255,0.25);
+    border: 1px solid rgba(0,0,0,0.10);
+}
+.navigation li:active {
+    background-color: rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.10);
+}
+.navigation li.active {
+    background-color: rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.05);
+}
+.navigation a:link {
+    color: black;
+    text-decoration: none;
+    transition-duration: 1000ms;
+}
+.navigation a:visited {
+    color: black;
+}
+.navigation a:hover {
+    color: black;
+}
+.navigation li a:active {
+    color: black;
+}
+
+.main {
+    background-color: rgba(255,255,255,0.66);
+    padding: 20px 40px 20px 40px;
+    border-radius: 16px;
+    border-top: 1px solid rgba(0,0,0,0.10);
+    border-left: 1px solid rgba(0,0,0,0.10);
+}
+
+.box {
+    padding: 12px 22px;
+    border: 1px solid rgba(0,0,0,0.10); 
+    border-radius: 0;
+    position: relative;
+    color: #444;
+    background-color: rgba(255,255,255,0.66); 
+    border-radius: 10px;
+    transition-duration: .4s;
+}
+.box > :first-child {
+    margin-top: 0;
+}
+.box > :last-child {
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .row { width: 100%; display: table; table-layout: fixed; }
+    .col { display: table-cell; }
+}
+@media (max-width: 768px) {
+    .desktop {display:none;}
+    .mobileheading {display:block;}
+    .main {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .navigation {
+        width: unset;
+    }
+    .content {
+        padding: 0 0px;
+    }
+    .window {
+        margin-top: 0px;
+        border-radius: 0px 0px 16px 16px;
+    }
+    .statusbar {
+        border-radius: 0px;
+    }
+}
+
+/*@media (prefers-color-scheme: dark) {
+    body {
+        color: white;
+    }
+    .window {
+        background-color: rgba(0,0,0,0.50);
+    }
+    .heading, .mobileheading , h1, h2, h3, h4, h5, h6{
+        color: whitesmoke;
+    }
+    .statusbar {
+        background-color: rgba(0,0,0,.25);
+    }
+    .statusbar li a{
+        color: white;
+    }
+    .main {
+        background-color: rgba(0,0,0,.25);
+    }
+    .navigation a:link{
+        color: white;
+    }
+    .navigation a:visited{
+        color: white;
+    }
+    .box {
+        background-color: rgba(0,0,0,.25);
+        color: white;
+    }
+  }*/

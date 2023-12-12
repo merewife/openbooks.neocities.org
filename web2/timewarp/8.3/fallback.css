@@ -1,0 +1,118 @@
+/*
+OpenBooks 8 Series
+Fallback CSS
+for system pages only
+*/
+
+@import 'https://fonts.googleapis.com/css?family=Noto+Sans:400,700';
+@import 'https://fonts.googleapis.com/css?family=Raleway:400,700';
+
+body {
+    color: #141516;
+    background: #e6f1f7;
+    font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+}
+h2 {
+    font-family: 'Raleway', 'Noto Sans', Arial, Helvetica, sans-serif;
+}
+h4 {
+    font-weight: 300;
+    font-family: 'Raleway', 'Noto Sans', Arial, Helvetica, sans-serif;
+}
+.logotype {
+    font-weight: 800;
+    color: #2c81b8;
+    font-family: Raleway;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    color: #aaa;
+}
+h4 {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    margin-top: 2px;
+}
+p {
+    font-size: 14px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+a:link {
+    color: #2c81b8;
+    text-decoration: underline;
+}
+a:visited {
+    color: #2c81b8;
+    text-decoration: underline;
+}
+a:hover {
+    color: #6ab0d5;
+    text-decoration: underline;
+}
+a:active {
+    color: #141516;
+    text-decoration: underline;
+}
+.content {
+    max-width: 800px;
+    padding: 0px 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#urlp {
+    color: #6c7275;
+    font-family: monospace;
+}
+.grey {
+    color: #6c7275;
+}
+.content.notfound {
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+}
+button { font-family: 'Noto Sans', Arial, Helvetica, sans-serif; }
+button:focus, input:focus { outline: none; }
+.button {
+    display: inline-block;
+    background-color: #e6f1f7;
+    color: #6ab0d5;
+    margin-right: 4px;
+    margin-left: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+a.button{
+    text-decoration: none;
+    margin-left: 0;
+}
+.button:hover{
+    background-color: #a8d2eb;
+    color: #2c81b8;
+}
+.button:active{
+    background-color: #2c81b8;
+    color: #141516;
+}
+a.button:active{
+    text-shadow: 0px 0px 8px rgba(0,0,0,0);
+}

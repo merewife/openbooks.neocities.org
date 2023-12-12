@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Language" content="en_US">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Error 404 (Not Found)!!1</title>
+        <link rel="stylesheet" href="fallback.css">
+    </head>
+    <body onload="currentUrl()">
+
+        <div class="content notfound">
+            <h2 class="logotype">OpenBooks</h2>
+            <h4><b>404.</b> <span class="grey">That's an error.</span></h4>
+            <p>The requested URL <span id="urlp"></span> was not found on this server. <span class="grey">That's all we know.</span></p>
+            <p><a href="https://openbooks.neocities.org" class="button">Take me back to safety</a></p>
+
+        </div>
+        <script>
+            function currentUrl() {
+                var x = document.URL;
+                document.getElementById("urlp").innerHTML = x;
+            }
+        </script>
+    </body>
+</html>
