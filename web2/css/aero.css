@@ -280,6 +280,12 @@ hr {
     /*color: #52e7bb;*/
     color: red;
 }
+.betatext p {
+    font-size: 11px;
+    line-height: 1.2em;
+    margin: 0;
+    margin-bottom: 2px;
+}
 
 .buttons {
     margin-left: auto;

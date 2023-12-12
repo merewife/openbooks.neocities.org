@@ -4,17 +4,17 @@ fix things broken in timewarp
 coyote's new list of ideas for OPENBOOKS 2024 / X / 11.0
 
 Release date: 9.12.2024 at the LATEST
-Milestone 1 (alpha):
+Milestone 1 (private alpha):
  - Full set of pages and content
  - RELEASE DATE: January 2024?
 
-Milestone 2 (beta):
+Milestone 2 (public beta):
  - Mobile Compatibility
  - Dark mode
  - Final missing features for 1.0
  - Fixes from M1
 
-Milestone 3 (final beta):
+Milestone 3 (public beta 2):
  - Feature freeze (content adding OK)
  - Heavy bugtesting
  - Fixes from M2
@@ -22,6 +22,7 @@ Milestone 3 (final beta):
 Release Candidate
  - Fixes from M3
  - May be identical to 1.0
+ - 11.0 RC_01
 
 Versioning System after 11.0:
 11.X.X_01
