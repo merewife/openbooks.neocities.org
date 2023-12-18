@@ -1,1 +1,1 @@
-document.write ('11.0 Milestone 1 <span id="grey">A_01</span> internal');
+document.write ('11.0 Milestone 0 <span id="grey">A_01</span>');
