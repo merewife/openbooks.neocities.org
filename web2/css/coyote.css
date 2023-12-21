@@ -1,0 +1,11 @@
+body {
+    background: url(/coyote/coyote.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.toolbar {
+    background: #60b6a7;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(135,135,135,1) 50%, rgba(98,98,98,1) 50%, rgba(0,0,0,1) 100%), linear-gradient(90deg, rgb(32, 182, 157), rgb(23, 143, 123));
+    background-blend-mode: overlay;
+    box-shadow: 0 1px rgba(0,0,0,.75), inset 0 1px rgba(255,255,255,.75), inset 0 -1px #5e947d;
+}

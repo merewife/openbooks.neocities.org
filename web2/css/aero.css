@@ -280,6 +280,7 @@ hr {
     font-size: 11px;
     line-height: 1.2em;
     display: inline-block;
+    /*display: none;*/
     background-color: rgba(255,255,255,0.12);
     border: 1px solid rgba(0,0,0, 0.12);
     box-shadow: 0 1px rgba(0,0,0, 0.05), inset 1px 1px rgba(255,255,255,0.25), inset -1px -1px rgba(255,255,255,0.25);
