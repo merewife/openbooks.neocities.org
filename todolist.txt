@@ -45,7 +45,7 @@ Versioning System after 11.0:
 MarketingVersion.MajorFeatures.MinorFeaturesFixes_ContentUpdates
 
 Beta Versioning:
-11.0 Milestone 1 A_01
+2024 Milestone 1 A_01
 
-11.0 Milestone MilestoneNumber IncrementalLetter_FixesContentUpdates
+2024 Milestone MilestoneNumber IncrementalLetter_FixesContentUpdates
 
