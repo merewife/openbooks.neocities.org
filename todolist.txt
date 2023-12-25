@@ -5,7 +5,7 @@ coyote's new list of ideas for OPENBOOKS 2024 / X / 11.0
 
 Release date: 9.12.2024 at the LATEST
 
-Milestone 0 (current version until January release)
+Milestone 0 (pre-alpha, no public release)
  - Current development focus, renamed to M1 when released
 
 Milestone 1 (alpha):
@@ -52,7 +52,7 @@ Versioning System after 11.0:
 11.X.X_01
 MarketingVersion.MajorFeatures.MinorFeaturesFixes_ContentUpdates
 
-Beta Versioning:
+Prerelase Versioning:
 2024 Milestone 1 Update 1
 2024 Milestone MilestoneNumber Update FixesContentUpdates
 
