@@ -10,24 +10,28 @@ Milestone 0 (current version until January release)
 
 Milestone 1 (alpha):
  - Full set of pages and content
- - styles mostly completed
  - RELEASE DATE: January 2024?
 
 Milestone 2 (beta):
  - Mobile Compatibility
  - Dark mode
- - Final missing features for 1.0
+ - More features from roadmap (potentially)
  - Fixes from M1
  - RELEASE DATE: Feburary 2024?
 
 Milestone 3 (beta 2):
+ - Placeholder styles updated (TimeWarp especially)
+ - js footer and toolbar?
+ - More features from roadmap (potentially)
+
+Milestone 4 (beta 3):
  - Feature freeze (content adding OK)
  - Heavy bugtesting
  - Fixes from M2
  - RELEASE DATE: March 2024?
 
-Release Candidate
- - CSS Freeze
+Milestone 5 - Release Candidate
+ - Full Freeze
  - Fixes from M3
  - May be identical to 1.0
  - 11.0 RC_01
@@ -37,15 +41,18 @@ Release Candidate
  - RELEASE DATE: March/April 2024?
  - Feature complete, full mobile and dark mode
 
-11.X, Sometime
- - Rewrite/Modularize CSS (openKit or something like that)
+Project Weave (11.X, possibly 12.0?)
+ - Rewrite/Modularize CSS
+ - Invisibly phased in to stable OpenBooks
+ - Components separated into discrete CSS files
+ - CSS variables usage, config files, configs for custom pages
+ - Changes focused on CSS side, not HTML
 
 Versioning System after 11.0:
 11.X.X_01
 MarketingVersion.MajorFeatures.MinorFeaturesFixes_ContentUpdates
 
 Beta Versioning:
-2024 Milestone 1 A_01
-
-2024 Milestone MilestoneNumber IncrementalLetter_FixesContentUpdates
+2024 Milestone 1 Update 1
+2024 Milestone MilestoneNumber Update FixesContentUpdates
 

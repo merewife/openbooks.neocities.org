@@ -5,240 +5,156 @@
         <meta http-equiv="Content-Language" content="en_US">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>TimeWarp :: OpenBooks</title>
+        <title>OpenBooks TimeWarp</title>
         <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon.png"/>
         <link rel="icon" type="image/png" href="/favicon.png"/>
-        <link rel="stylesheet" href="/css/917.css">
+        <link rel="stylesheet" href="/css/aero.css">
         <link type="text/plain" rel="author" href="/humans.txt" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-        <script>
-            $(window).load(function() {
-            $(".indicator").addClass('hidden');
-            $(".spinner").addClass('hidden');
-            });
-        </script>
-        <noscript>
-            <style>
-                .indicator {
-                    display: none;
-                }
-                .spinner {
-                    display: none;
-                }
-            </style>
-        </noscript>
-        <style>
-            body {
-                background-color: #08394d;
-            }
-            .window {
-                background-color: #2b576a;
-                background-image: url(bg.jpg);
-            }
-            p a:link, .footer a:link {
-                color: #56d1ac;
-                text-decoration: underline;
-            }
-            p a:visited, .footer a:visited {
-                color: #56d1ac;
-                text-decoration: underline;
-            }
-            p a:hover, .footer a:hover {
-                color: #6ee7e7;
-                text-decoration: underline;
-            }
-            p a:active, .footer a:active {
-                color: rgb(73, 135, 160);
-                text-decoration: underline;
-            }
-            .tile {
-                width: 25%;
-                padding-left: 6px;
-                padding-right: 6px;
-            }
-            .tile img {
-                height: 48px;
-                width: 48px;
-                border-radius: 25%;
-                border: 1px solid rgba(0,0,0,0.33);
-                /*border: 1px solid rgba(255,255,255,0.25);*/
-                transition-duration: 100ms;
-                box-shadow: 0px 4px 12px rgba(0,0,0,0.25);
-            }
-            .tile:hover img {
-                box-shadow: 0px 4px 12px rgba(0,0,0,0.25);
-
-            }
-
-            .tile:active img {
-                filter: brightness(75%);
-            }
-
-            .pagebar li.active {
-                color: #56d1ac;
-            }
-        </style>
+        
     </head>
     <body>
-        <div class="content">
-            
-            <div class="window">
-                <div class="statusbar">
-                    <ul>
-                        <!--<li class="spinner"></li>-->
-                        <script type="text/javascript" src="/js/96statusbar.js"></script>
-                        <noscript>
-                            <a class="white" href="updates.html"><li>Update History</li></a>
-                        </noscript>
-                    </ul>
+        <div class="wrapper">
+            <div class="row">
+                <div class="col">
+                    <span class="logo">OpenBooks</span>
                 </div>
-                <div class="pagebar">
-                    <ul>
-                        <a href="/"><li class="logo">OpenBooks</li></a>
-                        <a href="/search.html"><li>search</li></a>
-                        <a href="/about-me.html"><li>personal</li></a>
-                        <a href="/about.html"><li>info</li></a>
-                    </ul>
+            </div>
+            <div class="frame">
+                <div class="tilewrapper">
+                    <a href="/"><div class="tile"><img src="/img/home.svg"/><p>Home</p></div></a>
+                    <a href="/search"><div class="tile"><img src="/img/search.svg"/><p>Search</p></div></a>
+                    <a href="/directory"><div class="tile"><img src="/img/directory.svg"/><p>Directory</p></div></a>
+                    <a href="/coolstuff"><div class="tile"><img src="/img/archive.svg"/><p>Cool Stuff</p></div></a>
+                    <a href="/cyberlounge"><div class="tile"><img src="/img/cyberlounge.svg"/><p>CyberLounge</p></div></a>
+                    <a href="/timewarp"><div class="tile"><img src="/img/tw.svg"/><p>TimeWarp</p></div></a>
+                    <a href="/about"><div class="tile" style="float: right;"><img src="/img/about.svg"/><p>About</p></div></a>
                 </div>
-                <div class="pagebar small">
-                    <ul>
-                        <a href="/discord.html"><li>Discord</li></a>
-                        <li class="active">Timewarp</li>
-                    </ul>
-                </div>
-                
-                <div class="heading">OpenBooks TimeWarp</div>
-                <div class="row">
-                    <div class="col sidebar">
-                        <div class="box">
-                            <p>Browse older versions of <a href="/">OpenBooks</a>.</p>
-                        </div>
-                        <div class="navigation">
-                            <ul class="mini">
-                                <a href="#9"><li>OpenBooks 9</li></a>
+                <div class="window">
+                    <!--<div class="toolbar">
+                        <ul>
+                            <a href="https://neocities.org/site/openbooks" target="_blank"><li>Neocities Profile</li></a>
+                            <a href="https://neocities.org/site/openbooks" target="_blank"><li>GitHub Repository</li></a>
+                        </ul>
+                    </div>-->
+                    <div class="row">
+                        <div class="col sidebar">
+                            
+                            OpenBooks TimeWarp
+                            <div class="sidebarheader">Jump to:</div>
+                            <ul>
+                                <a href="#11"><li>OpenBooks 2024 (11)</li></a>
+                                <a href="#9"><li>OpenBooks 9 and 10</li></a>
                                 <a href="#8"><li>OpenBooks 8 Series</li></a>
                                 <a href="#7"><li>OpenBooks 7</li></a>
-                                <a href="#6"><li>OpenBooks 6 (Classic)</li></a>
+                                <a href="#6"><li>OpenBooks Classic (6)</li></a>
                                 <a href="#5"><li>OpenBooks 5</li></a>
-                                <a href="#nx"><li>OpenBooks Release Series 4 (NX)</li></a>
-                                <a href="#xp"><li>OpenBooks 2-3</li></a>
-                                <a href="#cb"><li>ChromeBooks</li></a>
+                                <a href="#4"><li>OpenBooks Release Series 4 (NX)</li></a>
+                                <a href="#2"><li>OpenBooks 2, XP, and 3</li></a>
+                                <a href="#1"><li>ChromeBooks</li></a>
                             </ul>
-                        </div>
-                    </div>
-                    <div class="col main">
-                        <p id="copy">OpenBooks TimeWarp archives previous versions of OpenBooks.</p>
-                        <p id="copy">Copying CSS and graphics is <em>encouraged and recommended</em> for building your own sites, but please do not copy the text of these websites.</p>
-                        <div class="box">
-                            <p>Please note: the content on these pages is not up to date and is likely even incorrect.</p>
-                        </div>
-                        <hr/>
-
-                        <h1 id="10">OpenBooks 10</h1>
-                        <div class="box">
-                            <div class="tilewrapper">
-                                <a href="/"><div class="tile"><img src="/apple-touch-icon.png"/><p>OpenBooks 10 &#8212; Latest</p></div></a>
+                            
+                            <div class="sidebarheader">You may also be interested in:</div>
+                            <ul>
+                                <a href="/about"><li>About OpenBooks</li></a>
+                                <a href="/about/updates"><li>Update History</li></a>
+                            </ul>
+                            <div class="betatext">
+                                <p>Please note: This version of OpenBooks is under construction. Things may be broken, glitchy, or non-functional.</p>
+                                <p>Consider helping development by reporting any bugs you encounter.</p>
+                                <p>This is: OpenBooks <script type="text/javascript" src="/js/ver.js"></script>.</p>
+                                <a href="https://forms.gle/wNnz5przkrP5ghpq7" target="_blank"><img src="/img/reportbug.png" height="24" width="88" style="image-rendering:pixelated;"/></a>
                             </div>
                         </div>
-                        <p id="copy">OpenBooks 10 is the current version of OpenBooks, which features a new visual design built on top of the existing OpenBooks 8 and 9 codebase.</p>
-                        <br/>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col main">
+                                    <h1>Browse previous versions of OpenBooks</h1>
+                                    <p>Visit the OpenBooks Archive - and experience every version of OpenBooks since 2014.</p>
+                                    <p id="copy">Copying CSS and HTML is encouraged, however, please don't copy the contents of these pages. Due to their archival nature, information represented here may be wildly innacurate and out of date.</p>
 
-                        <h1 id="9">OpenBooks 9</h1>
-                        <div class="box">
-                            <div class="tilewrapper">
-                                <a href="9.15/"><div class="tile"><img src="9.png"/><p>OpenBooks 9.15 &#8212; 2023</p></div></a>
-                                <a href="9.6/"><div class="tile"><img src="L8.png"/><p>OpenBooks 9.6 &#8212; 2021</p></div></a>
-                                <a href="9.4/"><div class="tile"><img src="L8.png"/><p>OpenBooks 9.4 &#8212; 2021</p></div></a>
-                                <a href="9.2/"><div class="tile"><img src="L8.png"/><p>OpenBooks 9.2 &#8212; 2021</p></div></a>
+                                    <h2 id="11">OpenBooks 2024 (11)</h2>
+                                    <div class="box">
+                                        <p><a href="/" class="button">OpenBooks 2024 &mdash; Latest Version</a></p>
+                                    </div>
+                                    <p id="copy">OpenBooks 2024 is the current release of OpenBooks, and is the first full rewrite of the site since 2019. It introduces an all new 2008-inspired visual style, full dark mode and mobile compatibility, and a focus on content first, design second.</p>
+
+                                    <h2 id="9">OpenBooks Series 9 and 10</h2>
+                                    <div class="box">
+                                        <p><a href="10.1/" class="button">OpenBooks 10.1 &mdash; 2023</a><a href="9.15/" class="button">OpenBooks 9.15 &mdash; 2023</a><a href="9.6/" class="button">OpenBooks 9.6 &mdash;  2021</a><a href="9.4/" class="button">OpenBooks 9.4 &mdash;  2021</a><a href="9.2/" class="button">OpenBooks 9.2 &mdash; 2021</a></p>
+                                    </div>
+                                    <p id="copy">OpenBooks 9 was build on top of 8 Series, and futher refined the dark blue visual style, cleaned up the leftover code from 2019, and rebuilt several core functions of the site while still being visually similar to 8.7.</p>
+                                    <p id="copy">In 9.5, a new home page design was introduced, making the tiles from 9.0 more central to the design, while OpenBooks 9.6 introduced responsive page layouts, using an internal CSS framework,which also simplified future additions and modifications.</p>
+                                    <p id="copy">OpenBooks 9.8 switched to a new version numbering system, and dropped "Series" from the full release name.</p>
+                                    <p id="copy">9.15 was the last version to use a blue color scheme, and 9.16 and 10 used a new, brown, hunamist color scheme. 10.0 also featured a new multi-layer navigation.</p>
+
+                                    <h2 id="8">OpenBooks 8 Series</h2>
+                                    <div class="box">
+                                        <p><a href="8.7/" class="button">OpenBooks 8.7 &mdash; 2021</a><a href="8.4/" class="button">OpenBooks 8.4 &mdash; 2019</a><a href="8.3/" class="button">OpenBooks 8.3 &mdash; 2019</a><a href="8.0/" class="button">OpenBooks 8.0 &mdash; 2019</a></p>
+                                    </div>
+                                    <p id="copy">OpenBooks 8 Series was based on the OpenBooks 5 codebase, but was mostly rebuilt from the ground up. The original versions of 8 Series used a pale blue color scheme, but this was updated 8.7 in 2021.</p>
+                                    <p id="copy">OpenBooks 8 Series also marked a return to OpenBooks providing a web portal for Neocities users, rather than being a solely personal site. Development paused in 2019, but resumed in 2021.</p>
+
+                                    <h2 id="7">OpenBooks 7</h2>
+                                    <div class="box">
+                                        <p><a href="7/" class="button">OpenBooks 7 &mdash; 2017</a></p>
+                                    </div>
+                                    <p id="copy">OpenBooks 7 was a short lived re-boot of OpenBooks 2.0. It was taken down and the site remained dormant until 2019.</p>
+                                    
+
+                                    <h2 id="6">OpenBooks Classic (6)</h2>
+                                    <div class="box">
+                                        <p><a href="classic/" class="button">OpenBooks Classic &mdash; 2016-2017</a></p>
+                                    </div>
+                                    <p id="copy">OpenBooks was rebuilt in late 2016 as a purely personal site after the poorly-received OpenBooks 5. It was, however, very short lived. Though it had its own numbering scheme, it can  be counted as the 6th major version of OpenBooks.</p>
+                                    
+
+                                    <h2 id="5">OpenBooks 5</h2>
+                                    <div class="box">
+                                        <p><a href="5/" class="button">OpenBooks 5 &mdash; 2016</a></p>
+                                    </div>
+                                    <p id="copy">OpenBooks 5 was the second major re-write of OpenBooks, intended to be an attempt at a fully modern website - however it was met with harsh backlash from the Neocities community at the time.</p>
+                                    <p id="copy">5's stark white and teal minimalist visuals was taken as an affront to the Neocities aesthetics, which was mostly basedon 90s throwback websites at the time.</p>
+                                    <p id="copy">OpenBooks 5 eventually lived on, forming the codebase of 2019's OpenBooks 8 Series.</p>
+
+                                    <h2 id="4">OpenBooks Release Series 4 (NX)</h2>
+                                    <div class="box">
+                                        <p><a href="nx/" class="button">OpenBooks 4.5 &mdash; 2016</a></p>
+                                    </div>
+                                    <p id="copy">OpenBooks 4, originally codenamed "OpenBooks NX" was built on top of 3.X, but featured new components merged in from the cancelled OpenBooks TV project.</p>
+                                    <p id="copy">OpenBooks Release Series 4 builds have mostly been lost, however the pre-release internal build of 4.5 has been uploaded here.</p>
+
+                                    <h2 id="2">OpenBooks 2, XP, and 3</h2>
+                                    <div class="box">
+                                        <p><a href="3.8/" class="button">OpenBooks 3.8 &mdash; 2016</a><a href="3.0/" class="button">OpenBooks 3.0 &mdash; 2016</a><a href="xp/" class="button">OpenBooks XP (2.5) &mdash; 2015</a><a href="2.4/" class="button">OpenBooks 2.4 &mdash; 2015</a></p>
+                                        <a href="2.2/" class="button">ChromeBooks 2.2 &mdash; 2015</a></p>
+                                    </div>
+                                    <p id="copy">ChromeBooks 2.0 marked the first time the site had ever been rebuilt. It also made plans to expand beyond being just a personal site. It ws renamed to OpenBooks in version 2.4, when we started sharing our source code on GitHub.</p>
+                                    <p id="copy">OpenBooks XP, also known as 2.5, was the fist of several updates to the visual style of OpenBooks, moving on from its retro 90s appearance into an early 2000s inspired look. 3.0 introduced a unique teal and black visual style.</p>
+
+                                    <h2 id="1">ChromeBooks</h2>
+                                    <div class="box">
+                                        <p><a href="2.2/old/" class="button">ChromeBooks 1.8 &mdash; 2015</a><a href="chromebooks/" class="button">ChromeBooks 1.7 &mdash; 2019</a></p>
+                                    </div>
+                                    <p id="copy">ChromeBooks was launched on September 12th, 2014, and was started as Coyote Reyne's personal site. It features a heavily 90s-inspired design, which saw few changes.</p>
+                                    
+
+                                </div>
+                                
                             </div>
                         </div>
-                        <p id="copy">OpenBooks 9 Series builds on top of 8, further refining the visual style and cleaning up some of the leftover code from 2019, and rebuilds several core functions of the site while still showing similarities to 8.7.</p>
-                        <p id="copy">9.5 introduced a new home page design, making the tiles from 9.0 more central to the design, and OpenBooks 9.6 introduced new page layouts like this one, made with a more universal CSS UI kit, making future page additions and modifications easier than before.</p>
-                        <p id="copy">OpenBooks 9.8 switched to a new version numbering scheme, in preperation for a future release of OpenBooks. It also dropped "Series" from the title.</p>
-                        <p id="copy">Notably, 9.15 was the last version to use a blue color scheme, as 9.16 will start the migration to a new visual style coming in the next major version of OpenBooks.</p>
-                        <br/>
-                        
-                        <h1 id="8">OpenBooks 8 Series</h1>
-                        <div class="box">
-                            <div class="tilewrapper">
-                                <a href="8.7/"><div class="tile"><img src="L8.png"/><p>OpenBooks 8.7 &#8212; 2021</p></div></a>
-                                <a href="8.4/"><div class="tile"><img src="8series.png"/><p>OpenBooks 8.4 &#8212; 2019</p></div></a>
-                                <a href="8.3/"><div class="tile"><img src="8series.png"/><p>OpenBooks 8.3 &#8212; 2019</p></div></a>
-                                <a href="8.0/"><div class="tile"><img src="8series.png"/><p>OpenBooks 8.0 &#8212; 2019</p></div></a>
-                            </div>
-                        </div>
-                        <p id="copy">OpenBooks 8 Series is built on top of OpenBooks 5, however it is visually different. The original versions of OpenBooks 8 were inspired by Windows Live circa 2006/2007, and Windows Vista. 8.7 introduced the blue Media Center inspired color scheme still used today. OpenBooks 8 Series marked a return to OpenBooks being a Neocities hub and not just a personal site. Development stopped in mid 2019, and resumed in early 2021.</p>
-                        <br/>
-
-                        <h1 id="7">OpenBooks 7</h1>
-                        <div class="box">
-                            <div class="tilewrapper">
-                                <a href="7/"><div class="tile"><img src="2017.png"/><p>OpenBooks 7 &#8212; 2017</p></div></a>
-                            </div>
-                        </div>
-                        <p id="copy">7 was a short lived version of the site, based on the 2.X branch in 2017 - It was taken down and the site was dormant until OpenBooks 8 Series in 2019.</p>
-                        <br/>
-
-                        <h1 id="6">OpenBooks 6 (Classic)</h1>
-                        <div class="box">
-                            <div class="tilewrapper">
-                                <a href="classic/"><div class="tile"><img src="classic.png"/><p>OpenBooks Classic &#8212; 2016/17</p></div></a>
-                            </div>
-                        </div>
-                        <p id="copy">OpenBooks was rebuilt in late 2016 as a purely personal site after backlash over OpenBooks 5, however it was rather short lived. Though this version had its own numbering scheme (it refers to itself as 1.3), it can be counted as the 6th major version of OpenBooks.</p>
-                        <br/>
-
-                        <h1 id="5">OpenBooks 5</h1>
-                        <div class="box">
-                            <div class="tilewrapper">
-                                <a href="5/"><div class="tile"><img src="5.png"/><p>OpenBooks 5 &#8212; 2016</p></div></a>
-                            </div>
-                        </div>
-                        <p id="copy">OpenBooks 5 was an attempt at a fully modern website - however it was met with harsh backlash over the Neocities userbase at the time. If posted today, OpenBooks 5 probably wouldn't be received as poorly. It was a complete redesign from the ground up, and parts of it even formed the later OpenBooks 8 Series.</p>
-                        <p id="copy">5's stark white and teal minimalism was taken as an affront to the Neocities community - which was entirely based on 90s throwback websites at the time.</p>
-                        <br/>
-
-                        <h1 id="nx">OpenBooks Release Series 4 (NX)</h1>
-                        <div class="box">
-                            <div class="tilewrapper">
-                                <a href="nx/"><div class="tile"><img src="classic.png"/><p>OpenBooks NX (4.0) &#8212; 2016</p></div></a>
-                            </div>
-                        </div>
-                        <p id="copy">OpenBooks 4 (Codenamed NX when released in preview/beta) was based in part on the previous OpenBooks codebase, but merged some parts with the cancelled <strong>OpenBooks TV</strong> project.</p>
-                        <br/>
-
-                        <h1 id="xp">OpenBooks 2, XP, and 3</h1>
-                        <div class="box">
-                            <div class="tilewrapper">
-                                <a href="3.8/"><div class="tile"><img src="classic.png"/><p>OpenBooks 3.8 &#8212; 2016</p></div></a>
-                                <a href="3.0/"><div class="tile"><img src="classic.png"/><p>OpenBooks 3.0 &#8212; 2016</p></div></a>
-                                <a href="xp/"><div class="tile"><img src="classic.png"/><p>OpenBooks XP (2.5) &#8212; 2015</p></div></a>
-                                <a href="2.4/"><div class="tile"><img src="classic.png"/><p>OpenBooks 2.4 &#8212; 2015</p></div></a>
-                                <a href="2/"><div class="tile"><img src="classic.png"/><p>ChromeBooks 2.2 &#8212; 2015</p></div></a>
-                            </div>
-                        </div>
-                        <p id="copy">ChromeBooks 2.0 marked the first time the website had been re-written since the site's launch. It also marked the first time the site had a goal of being more than just a personal site, and there were plans to host other people's content as well. The site was renamed to OpenBooks in version 2.4.</p>
-                        <p id="copy">OpenBooks XP (2.5) was the first of several updates that tweaked the visual design of the site, and the first time the site moved on from it's 90s retro Windows appearance. 3.0 introduced a new visual style, which would be later refined into the Vista style of OpenBooks NX.</p>
-                        <p id="copy">7 was a short lived version of the site, based on the 2.X branch in 2017 - It was taken down and the site was dormant until OpenBooks 8 Series in 2019.</p>
-                        <br/>
-
-                        <h1 id="cb">ChromeBooks (First Releases)</h1>
-                        <div class="box">
-                            <div class="tilewrapper">
-                                <a href="2/old/"><div class="tile"><img src="classic.png"/><p>ChromeBooks 1.8 &#8212; 2015</p></div></a>
-                                <a href="chromebooks/"><div class="tile"><img src="classic.png"/><p>ChromeBooks &#8212; 2014</p></div></a>
-                            </div>
-                        </div>
-                        <p id="copy">From 1.0 to 2.3, the site was known as ChromeBooks. The first version was published on September 14th, 2014. These versions represent a very early version of the site, because no one really knew what they were doing with Neocities in 2014.</p>
-
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="footercontainer">
-            <div class="footer"><a href="/about.html">About</a> &bull; <a href="/sitemap.html">Sitemap</a></div>
-            <script type="text/javascript" src="/js/footer.js"></script>
-        </div>
+            <div class="footer">
+                <div class="row">
+                    <div class="col">
+                        <a href="/license.txt">Licensed under MIT</a> &bull; &copy; 2014-2023 &bull; <a href="/about">About</a> &bull; <a href="#">Sitemap</a>
+                    </div>
+                    <div class="col right">
+                        <a href="/about/updates">Page updated on December 13th, 2023</a>
+                    </div>
+                </div>
+            </div>
+        </div>      
     </body>
 </html>

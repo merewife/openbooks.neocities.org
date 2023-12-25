@@ -1,11 +1,13 @@
 ~* OpenBooks .neocities.org *~
     by the OpenBooks Authors
+      Design, Development, Graphics, Copy, Content:
+        Coyote Reyne
 
     Created by Coyote Reyne
-    Design & development
     merewife [@] protonmail.com
     @merewife@mastodon.social
-    @iamMEREWIFE
+    @iamMEREWIFE (X)
+    @ofsuburbia (Discord)
 
     https://github.com/merewife/openbooks.neocities.org
 
@@ -33,19 +35,19 @@
 
 
 ~* Thanks to: *~
-    Neocities
+    Neocities - our webhost and community
     https://neocities.org
 
-    Kyle Drake
+    Kyle Drake - creator of Neocities
     https://kyledrake.neocities.org
 
-    The BrokenSet Online
+    The BrokenSet Online - web friend
     https://thebrokensetonline.neocities.org
 
-    Mozilla
+    Mozilla - pioneers of the open web
     https://mozilla.org
 
-    WebKit
+    WebKit - the best rendering engine, ever made
     https://webkit.org
 
 
