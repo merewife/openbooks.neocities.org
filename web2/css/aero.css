@@ -18,7 +18,7 @@ html {
 body {
     color: white;
     background-color: #2d225a;
-    background: url(/img/xbg.jpg) no-repeat center center fixed;
+    background: url(/img/bg.jpg) no-repeat center center fixed;
     background-size: cover;
     font-family: Inter,
     -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
@@ -153,6 +153,7 @@ hr {
     /*background-color: #473b7a;*/
     background:  rgba(255, 255, 255, 0.25);
     backdrop-filter: brightness(120%) blur(10px) saturate(150%);
+    -webkit-backdrop-filter: brightness(120%) blur(10px) saturate(150%);
     border: 1px solid rgba(0,0,0,0.75);
     border-radius: 8px;
     margin-top: 8px;
@@ -217,7 +218,7 @@ hr {
     padding: 0px 6px 0px 7px;
     margin: 4px;
     border-radius: 2px;
-    text-shadow: 0 1px rgba(0,0,0,.75);
+    text-shadow: 0 1px 4px rgba(0,0,0,.85);
 }
 
 .toolbar li:hover {
@@ -418,7 +419,7 @@ hr {
 .navboxheader {
     height: 20px;
     background: #60b6a7;
-    background: linear-gradient(0deg, rgba(0,0,0,0.2) 0%, rgba(143, 143, 143, 0.3) 60%, rgba(255,255,255,0.3) 60%, rgba(255,255,255,0.4) 100%), linear-gradient(90deg, #80d6c6, #469c8d);
+    background: linear-gradient(0deg, rgba(0,0,0,0.2) 0%, rgba(143, 143, 143, 0.3) 50%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.2) 100%), linear-gradient(90deg, #80d6c6, #469c8d);
     background-blend-mode: overlay;
     color: white;
     font-size: 11px;
