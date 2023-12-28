@@ -234,6 +234,7 @@ hr {
 
 .toolbar a {
     text-decoration: none;
+    cursor: default;
 }
 
 .toolbar a:link {
@@ -252,6 +253,7 @@ hr {
 }
 .sidebar {
     background: linear-gradient(45deg, rgba(67,58,193,.12), rgba(100,52,153,.12));
+    box-shadow: inset -1px 0 6px rgba(0,0,0,.05), inset -1px 0 rgba(0,0,0,.05);
     width: 250px;
     padding: 8px 8px 4px 12px;
 }
@@ -411,7 +413,7 @@ hr {
 #navbox {
     background-color: #f4f6f8;
     /*min-height: 200px;*/
-    margin: 20px 18px;
+    margin: 14px 12px;
     box-shadow: 1px 2px 4px rgba(0,0,0,0.125);
     border: 1px solid #9caab4;
     border-radius: 0 0 6px 6px;
@@ -539,6 +541,7 @@ a.button{
     text-decoration: none;
     margin-left: 0;
     transition-duration: 500ms;
+    cursor: default;
 }
 .button:hover{
     background: linear-gradient(0deg, #b9d8e9 0%, #c5e4f5 50%, #d8f1ff 50%, #e6f6ff 100%);
