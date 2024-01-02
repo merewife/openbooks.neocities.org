@@ -5,10 +5,10 @@ coyote's new list of ideas for OPENBOOKS 2024 / X / 11.0
 
 Release date: 9.12.2024 at the LATEST
 
-Milestone 0 (pre-alpha, no public release)
+Milestone 0 (current dev, no public release)
  - Current development focus, renamed to M1 when released
 
-Milestone 1 (alpha):
+Milestone 1 (Pre-beta):
  - Full set of pages and content
  - RELEASE DATE: January 2024?
 
@@ -16,6 +16,8 @@ Milestone 2 (beta):
  - Mobile Compatibility
  - Dark mode
  - More features from roadmap (potentially)
+ - text select fix
+ - JS inserts for nav and footer
  - Fixes from M1
  - RELEASE DATE: Feburary 2024?
 
@@ -47,6 +49,9 @@ Project Weave (11.X, possibly 12.0?)
  - Components separated into discrete CSS files
  - CSS variables usage, config files, configs for custom pages
  - Changes focused on CSS side, not HTML
+
+Project Star
+ - Redesign, separate microsites, minimal home page
 
 Versioning System after 11.0:
 11.X.X_01
