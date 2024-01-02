@@ -64,8 +64,8 @@
 
                             <div class="sidebarheader">Read:</div>
                             <ul>
-                                <a href="#" target="_blank"><li>The OpenBooks Manifesto</li></a>
-                                <a href="#" target="_blank"><li>OpenBooks Tenth Anniversary Retrospective</li></a>
+                                <a href="/doc/manifesto"><li>The OpenBooks Manifesto</li></a>
+                                <a href="/doc/10"><li>OpenBooks Tenth Anniversary Retrospective</li></a>
                             </ul>
                             <div class="sidebarheader">Friends of OpenBooks</div>
                             <ul>
@@ -102,14 +102,6 @@
                                         </script>
                                         <gcse:search></gcse:search>
                                     <noscript>Sorry, OpenBooks Search requires Javascript.</noscript>
-
-                                    <div id="markdown"></div>
-                                    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-                                    <script>
-                                        fetch("license.md")
-                                        .then(response => response.text()) 
-                                        .then(mdTxt => {document.getElementById('markdown').innerHTML = marked.parse(mdTxt);});   
-                                    </script>
                                     
                                     <h2>Support OpenBooks</h2>
                                     <p>Add the OpenBooks button to your site: it's easy and free.</p>

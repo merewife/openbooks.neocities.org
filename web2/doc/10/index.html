@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Language" content="en_US">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>OpenBooks Tenth Anniversary Retrospective</title>
+        <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon.png"/>
+        <link rel="icon" type="image/png" href="/favicon.png"/>
+        <link rel="stylesheet" href="/css/aero.css">
+        <link type="text/plain" rel="author" href="/humans.txt" />
+        
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="row">
+                <div class="col">
+                    <span class="logo">OpenBooks</span>
+                </div>
+            </div>
+            <div class="frame">
+                <div class="tilewrapper">
+                    <a href="/"><div class="tile"><img src="/img/home.svg"/><p>Home</p></div></a>
+                    <a href="/search"><div class="tile"><img src="/img/search.svg"/><p>Search</p></div></a>
+                    <a href="/directory"><div class="tile"><img src="/img/directory.svg"/><p>Directory</p></div></a>
+                    <a href="/coolstuff"><div class="tile"><img src="/img/archive.svg"/><p>Cool Stuff</p></div></a>
+                    <a href="/cyberlounge"><div class="tile"><img src="/img/cyberlounge.svg"/><p>CyberLounge</p></div></a>
+                    <a href="/timewarp"><div class="tile"><img src="/img/tw.svg"/><p>TimeWarp</p></div></a>
+                    <a href="/about"><div class="tile" style="float: right;"><img src="/img/about.svg"/><p>About</p></div></a>
+                </div>
+                <div class="window">
+                    <div class="toolbar">
+                        <ul>
+                            <a href="10.md"><li>View raw file</li></a>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <!--<div class="col sidebar">
+                            Welcome to OpenBooks.
+                            <div class="betatext">
+                                <p>Please note: This version of OpenBooks is under construction. Things may be broken, glitchy, or non-functional.</p>
+                                <p>Consider helping development by reporting any bugs you encounter.</p>
+                                <p>This is: OpenBooks <script type="text/javascript" src="/js/ver.js"></script>.</p>
+                                <a href="https://forms.gle/wNnz5przkrP5ghpq7" target="_blank"><img src="/img/reportbug.png" height="24" width="88" style="image-rendering:pixelated;"/></a>
+                            </div>
+
+                            <div class="sidebarheader">Read:</div>
+                            <ul>
+                                <a href="#" target="_blank"><li>The OpenBooks Manifesto</li></a>
+                                <a href="#" target="_blank"><li>OpenBooks Tenth Anniversary Retrospective</li></a>
+                            </ul>
+                            <div class="sidebarheader">Friends of OpenBooks</div>
+                            <ul>
+                                <a href="https://vhs.neocities.org" target="_blank"><li>VHSearch</li></a>
+                                <a href="https://surfscape.neocities.org" target="_blank"><li>SurfScape</li></a>
+                                <a href="https://neocities.org" target="_blank"><li>Neocities</li></a>
+                            </ul>
+                            <div class="sidebarheader">88x31 Buttons</div>
+                            <div class="buttons">
+                                <a href="https://apple.com/mac" target="_blank"><img src="img/macbutton.gif"/></a>
+                                <a href="https://code.visualstudio.com" target="_blank"><img src="img/codebutton.gif"/></a>
+                                <a href="https://en.wikipedia.org/wiki/sRGB" target="_blank"><img src="img/srgb-now.png"/></a>
+                                <a href="http://www.geocities.ws/jaup/jaup.htm" target="_blank"><img src="img/jaup.jpg"/></a>
+                                <a href="https://neocities.org" target="_blank"><img src="img/neocitiesbutton.gif"/></a>
+                                <a href="https://yesterweb.org/no-to-web3/" target="_blank"><img src="img/web3.gif"/></a>
+                            </div>
+                        </div>-->
+                        <div class="col main">
+                            
+
+                                    <div id="markdown"></div>
+                                    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+                                    <script>
+                                        fetch("10.md")
+                                        .then(response => response.text()) 
+                                        .then(mdTxt => {document.getElementById('markdown').innerHTML = marked.parse(mdTxt);});   
+                                    </script>
+                                    
+                                   
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <noscript>
+                <div class="footer">
+                    <div class="row">
+                        <div class="col">
+                            <a href="/license.txt">License</a> &bull; &copy; 2014-2024 &bull; <a href="/about">About OpenBooks</a>
+                        </div>
+                        <div class="col right">
+                            <a href="/about/updates">Update History</a>
+                        </div>
+                    </div>
+                </div>
+            </noscript>
+            <script type="text/javascript" src="/js/footer.js"></script>
+        </div>      
+    </body>
+</html>

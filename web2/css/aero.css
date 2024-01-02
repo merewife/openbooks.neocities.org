@@ -1,4 +1,8 @@
-/* 1.0 */
+/* 
+    OpenBooks Aero
+    1.0
+    default css for 11.0
+ */
 
 @import url("/font/metropolis/metropolis.css");
 @import url("/font/inter/inter.css");
@@ -18,7 +22,7 @@ html {
 body {
     color: white;
     background-color: #2d225a;
-    background: url(/img/bg.jpg) no-repeat center center fixed;
+    background: url(/img/xbg2.jpg) no-repeat center center fixed;
     background-size: cover;
     font-family: Inter,
     -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
