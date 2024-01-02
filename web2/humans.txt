@@ -17,7 +17,7 @@
 
 
 ~* Uses components by: *~
-    ungrid - responsice grid system, customized
+    ungrid - responsive grid system, customized
     Chris Nager
     https://chrisnager.github.io/ungrid/
 
@@ -32,6 +32,14 @@
     Tango Icons Set
     Tango / Free Desktop Project
     http://tango.freedesktop.org/Tango_Icon_Library
+
+    MarkedJS
+    Christopher Jeffrey
+    https://github.com/markedjs/marked
+
+    Markdown
+    John Gruber
+    https://daringfireball.net
 
 
 ~* Thanks to: *~

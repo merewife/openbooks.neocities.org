@@ -101,7 +101,15 @@
                                             })();
                                         </script>
                                         <gcse:search></gcse:search>
-                                        <noscript>Sorry, OpenBooks Search requires Javascript.</noscript>
+                                    <noscript>Sorry, OpenBooks Search requires Javascript.</noscript>
+
+                                    <div id="markdown"></div>
+                                    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+                                    <script>
+                                        fetch("license.md")
+                                        .then(response => response.text()) 
+                                        .then(mdTxt => {document.getElementById('markdown').innerHTML = marked.parse(mdTxt);});   
+                                    </script>
                                     
                                     <h2>Support OpenBooks</h2>
                                     <p>Add the OpenBooks button to your site: it's easy and free.</p>
