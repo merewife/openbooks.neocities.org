@@ -8,11 +8,11 @@ Release date: 9.12.2024 at the LATEST
 Milestone 0 (current dev, no public release)
  - Current development focus, renamed to M1 when released
 
-Milestone 1 (Pre-beta):
+Milestone 1 (Beta 1):
  - Full set of pages and content
  - RELEASE DATE: January 2024?
 
-Milestone 2 (beta):
+Milestone 2 (Beta 2):
  - Mobile Compatibility
  - Dark mode
  - More features from roadmap (potentially)
@@ -29,17 +29,17 @@ Milestone 3 (beta 2):
 Milestone 4 (beta 3):
  - Feature freeze (content adding OK)
  - Heavy bugtesting
- - Fixes from M2
+ - Fixes from M3
  - RELEASE DATE: March 2024?
 
 Milestone 5 - Release Candidate
- - Full Freeze
- - Fixes from M3
+ - Full Freeze (content + style)
+ - Fixes from M4
  - May be identical to 1.0
  - 11.0 RC_01
  - RELEASE DATE: March 2024?
 
-11.0
+11.1
  - RELEASE DATE: March/April 2024?
  - Feature complete, full mobile and dark mode
 
@@ -50,7 +50,7 @@ Project Weave (11.X, possibly 12.0?)
  - CSS variables usage, config files, configs for custom pages
  - Changes focused on CSS side, not HTML
 
-Project Star
+Project Star (12.0)
  - Redesign, separate microsites, minimal home page
 
 Versioning System after 11.0:
@@ -58,6 +58,6 @@ Versioning System after 11.0:
 MarketingVersion.MajorFeatures.MinorFeaturesFixes_ContentUpdates
 
 Prerelase Versioning:
-2024 Milestone 1 Update 1
-2024 Milestone MilestoneNumber Update FixesContentUpdates
+11.0 Milestone 1 Update 1
+11 Milestone MilestoneNumber Update FixesContentUpdates
 

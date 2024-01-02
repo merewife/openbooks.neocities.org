@@ -1,1 +1,1 @@
-document.write ('11 Milestone 1 <span id="grey">Public Beta</span>');
+document.write ('11 Milestone 1');
