@@ -5,28 +5,13 @@
         <meta http-equiv="Content-Language" content="en_US">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>OpenBooks CyberLounge</title>
+        <title>OpenBooks License</title>
         <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon.png"/>
         <link rel="icon" type="image/png" href="/favicon.png"/>
         <link rel="stylesheet" href="/css/aero.css">
         <link type="text/plain" rel="author" href="/humans.txt" />
         
     </head>
-    <!--
-     _____             _____         _       
-    |     |___ ___ ___| __  |___ ___| |_ ___ 
-    |  |  | . | -_|   | __ -| . | . | '_|_ -|
-    |_____|  _|___|_|_|_____|___|___|_,_|___|
-          |_|                  made by Coyote
-
-             OpenBooks.neocities.org
-
-             Due to my Strong Personal Convictions
-             I wish to stress
-             That this website
-             In no way endorses
-             A Belief in the Occult.
-    !-->
     <body>
         <div class="wrapper">
             <div class="row">
@@ -47,16 +32,14 @@
                 <div class="window">
                     <div class="toolbar">
                         <ul>
-                            <a href="https://discord.com" target="_blank"><li>Get Discord</li></a>
-                            <a href="https://discord.gg/dNpnZ3tGzq" target="_blank"><li>Join the CyberLounge</li></a>
-    
+                            <a href="/license.md"><li>View raw file</li></a>
                         </ul>
                     </div>
                     <div class="row">
                         <!--<div class="col sidebar">
-                            CyberLounge
+                            Welcome to OpenBooks.
                             <div class="betatext">
-                                <p>Please note: This alpha version of OpenBooks is under construction. Things may be broken, glitchy, or non-functional.</p>
+                                <p>Please note: This version of OpenBooks is under construction. Things may be broken, glitchy, or non-functional.</p>
                                 <p>Consider helping development by reporting any bugs you encounter.</p>
                                 <p>This is: OpenBooks <script type="text/javascript" src="/js/ver.js"></script>.</p>
                                 <a href="https://forms.gle/wNnz5przkrP5ghpq7" target="_blank"><img src="/img/reportbug.png" height="24" width="88" style="image-rendering:pixelated;"/></a>
@@ -73,36 +56,29 @@
                                 <a href="https://surfscape.neocities.org" target="_blank"><li>SurfScape</li></a>
                                 <a href="https://neocities.org" target="_blank"><li>Neocities</li></a>
                             </ul>
+                            <div class="sidebarheader">88x31 Buttons</div>
+                            <div class="buttons">
+                                <a href="https://apple.com/mac" target="_blank"><img src="img/macbutton.gif"/></a>
+                                <a href="https://code.visualstudio.com" target="_blank"><img src="img/codebutton.gif"/></a>
+                                <a href="https://en.wikipedia.org/wiki/sRGB" target="_blank"><img src="img/srgb-now.png"/></a>
+                                <a href="http://www.geocities.ws/jaup/jaup.htm" target="_blank"><img src="img/jaup.jpg"/></a>
+                                <a href="https://neocities.org" target="_blank"><img src="img/neocitiesbutton.gif"/></a>
+                                <a href="https://yesterweb.org/no-to-web3/" target="_blank"><img src="img/web3.gif"/></a>
+                            </div>
                         </div>-->
                         <div class="col main">
-                            <h1>The OpenBooks Discord</h1>
-                            <p>A place to hang out and chat about Neocities, the old web, design, technology, and more.</p>
-                            <div class="row">
-                                <div class="col">
-                                    <h2>Server Rules:</h2>
-                                    <div class="box">
-                                        <ul>
-                                            <li>Don't be a dick. No bigotry, slurs, or anything of the like will be tolerated.</li>
-                                            <li>Please avoid spamming.</li>
-                                            <li>Absolutely no NSFW content! Use discretion when linking potentially NSFW sites on Neocities.</li>
-                                        </ul>
-                                    </div>
-                                    <h2>Join the Conversation:</h2>
-                                    <div class="box">
-                                        <p>A Discord account is recommended but not required.</p>
-                                        <p><a href="https://discord.gg/dNpnZ3tGzq" target="_blank" class="button">Join Discord</a></p>
-                                    </div>
-                                    <div class="betatext">
-                                        <p>Please note: This version of OpenBooks is under construction. Things may be broken, glitchy, or non-functional.</p>
-                                        <p>Consider helping development by reporting any bugs you encounter.</p>
-                                        <p>This is: OpenBooks <script type="text/javascript" src="/js/ver.js"></script>.</p>
-                                        <a href="https://forms.gle/wNnz5przkrP5ghpq7" target="_blank"><img src="/img/reportbug.png" height="24" width="88" style="image-rendering:pixelated;"/></a>
-                                    </div>
-                                </div>
-                                <div class="col" style="padding: 12px;">
-                                    <iframe src="https://discord.com/widget?id=837784036473569360&theme=dark" height="500" width="100%" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-                                </div>
-                            </div>
+                            
+
+                                    <div id="markdown"></div>
+                                    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+                                    <script>
+                                        fetch("/license.md")
+                                        .then(response => response.text()) 
+                                        .then(mdTxt => {document.getElementById('markdown').innerHTML = marked.parse(mdTxt);});   
+                                    </script>
+                                    
+                                   
+
                         </div>
                     </div>
                 </div>
@@ -111,7 +87,7 @@
                 <div class="footer">
                     <div class="row">
                         <div class="col">
-                            <a href="/doc/license">License</a> &bull; &copy; 2014-2024 &bull; <a href="/about">About OpenBooks</a>
+                            <a href="/license.txt">License</a> &bull; &copy; 2014-2024 &bull; <a href="/about">About OpenBooks</a>
                         </div>
                         <div class="col right">
                             <a href="/about/updates">Update History</a>
