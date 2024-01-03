@@ -31,11 +31,11 @@
         <div class="wrapper">
             <div class="row">
                 <div class="col">
-                    <span class="logo">OpenBooks</span>
+                    <span class="logo"></span>
                 </div>
             </div>
             <div class="frame">
-                <div class="tilewrapper">
+                <!--<div class="tilewrapper">
                     <a href="/"><div class="tile"><img src="/img/home.svg"/><p>Home</p></div></a>
                     <a href="/search"><div class="tile"><img src="/img/search.svg"/><p>Search</p></div></a>
                     <a href="/directory"><div class="tile"><img src="/img/directory.svg"/><p>Directory</p></div></a>
@@ -43,15 +43,49 @@
                     <a href="/cyberlounge"><div class="tile"><img src="/img/cyberlounge.svg"/><p>CyberLounge</p></div></a>
                     <a href="/timewarp"><div class="tile"><img src="/img/tw.svg"/><p>TimeWarp</p></div></a>
                     <a href="/about"><div class="tile" style="float: right;"><img src="/img/about.svg"/><p>About</p></div></a>
-                </div>
+                </div>-->
                 <div class="window">
-                    <div class="toolbar">
-                        <ul>
-                            <a href="https://neocities.org/site/openbooks" target="_blank"><li>Neocities Profile</li></a>
-                            <a href="/about/updates"><li>Recent Changes</li></a>
-                            <a href="/coyote/about"><li>Coyote's Corner</li></a>
-                        </ul>
+                    <div class="homebanner">
+                        <div class="row">
+                            <div class="col">
+                                <div class="hlogo"></div>
+                                <div class="tilewrapper">
+                                    <a href="/search"><div class="tile"><img src="/img/search.svg"/><p>Search</p></div></a>
+                                    <a href="/directory"><div class="tile"><img src="/img/directory.svg"/><p>Directory</p></div></a>
+                                    <a href="/coolstuff"><div class="tile"><img src="/img/archive.svg"/><p>Cool Stuff</p></div></a>
+                                    <a href="/cyberlounge"><div class="tile"><img src="/img/cyberlounge.svg"/><p>CyberLounge</p></div></a>
+                                    <a href="/timewarp"><div class="tile"><img src="/img/tw.svg"/><p>TimeWarp</p></div></a>
+                                    <a href="/about"><div class="tile" style="float: right;"><img src="/img/about.svg"/><p>About</p></div></a>
+                                </div>
+                            </div>
+                            <div class="col homesidebar" style="vertical-align: bottom;">
+                                <div class="navbox">
+                                    <div class="navboxheader">Coyote's Corner</div>
+                                    <div class="navboxcontent">
+                                        <ul>
+                                            <li><a href="/coyote/about">About Me</a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="/coolstuff/galleries/terragen">My Terragen Renders</a></li>
+                                            <li><a href="/coolstuff/galleries/digicam">My Digicam Photos</a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="https://coyotereyne.neocities.org/" target="_blank">Personal Website</a></li>
+                                        </ul>
+                                    </div>
+                                   <div class="navboxfooter"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="toolbar">
+                            <ul>
+                                <a href="https://neocities.org/site/openbooks" target="_blank"><li>Neocities Profile</li></a>
+                                <a href="/about/updates"><li>Recent Changes</li></a>
+                                <a href="/coyote/about"><li>Coyote's Corner</li></a>
+                            </ul>
+                        </div>
                     </div>
+                    
                     <div class="row">
                         <div class="col sidebar">
                             Welcome to OpenBooks.
@@ -84,61 +118,16 @@
                                 <a href="https://yesterweb.org/no-to-web3/" target="_blank"><img src="img/web3.gif"/></a>
                             </div>
                         </div>
-                        <div class="col">
-                            <noscript><div class="main">
+                        <div class="col main">
+                            <noscript>
                                 <div class="box warning">
                                     <p>OpenBooks works best with Javascript enabled. Please turn it on in your browser settings. Certain features of this site will function unexpectedly, or may be unusable without it.</p>
                                 </div>
-                            </div></noscript>
-                            <div class="row">
-                                <div class="col main">
-                                    <h1>Where do you want to go today?</h1>
-                                    <p>Search OpenBooks and Neocities</p>
-                                    <script>
-                                        (function() {
-                                            var cx = '012597768496611548784:es0uagg7tsc';
-                                            var gcse = document.createElement('script');
-                                            gcse.type = 'text/javascript';
-                                            gcse.async = true;
-                                            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-                                            var s = document.getElementsByTagName('script')[0];
-                                            s.parentNode.insertBefore(gcse, s);
-                                            })();
-                                        </script>
-                                        <gcse:search></gcse:search>
-                                    <noscript>Sorry, OpenBooks Search requires Javascript.</noscript>
-                                    
-                                    <h2>Support OpenBooks</h2>
-                                    <p>Add the OpenBooks button to your site: it's easy and free.</p>
-                                    <a href="http://openbooks.neocities.org"><img src="/img/88x31.gif" height="31" width="88" style="image-rendering:pixelated;"/></a>
-                                    <div id="code">
-                                        &lt;a href="http://openbooks.neocities.org"&gt;&lt;img src="https://openbooks.neocities.org/img/88x31.gif" height="31" width="88" style="image-rendering:pixelated;"/&gt;&lt;/a&gt;
-                                    </div>
-                                </div>
-                                <div class="col navbox">
-                                    <div id="navbox">
-                                        <div class="navboxheader">Coyote's Corner</div>
-                                        <div class="navboxcontent">
-                                            <!--Hi, I'm Coyote (they/them)
-                                            <hr/>-->
-                                            <ul>
-                                                <!--<li><a href="/coyote/blog">My Blog</a></li>-->
-                                                <li><a href="/coyote/about">About Me</a></li>
-                                            </ul>
-                                            <hr>
-                                            <ul>
-                                                <li><a href="/coolstuff/galleries/terragen">My Terragen Renders</a></li>
-                                                <li><a href="/coolstuff/galleries/digicam">My Digicam Photos</a></li>
-                                            </ul>
-                                            <hr/>
-                                            <ul>
-                                                <li><a href="https://coyotereyne.neocities.org/" target="_blank">Personal Website</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="navboxfooter"></div>
-                                    </div>
-                                </div>
-                            </div>
+                            </noscript>
+                            <h1>Where would you like to go today?</h1>
+                            <p id="copy">Welcome to Neocities' original web portal. OpenBooks lets you dive in to the <i>Open Web,</i> the side of the internet created by people like you and me, rather than corporate algorithms. <a href="about/">More&nbsp;about&nbsp;OpenBooks</a></p>
+                            <p id="copy">OpenBooks is created by Coyote Reyne, a digital artist passionate for the visual styles of the mid-late 2000s and the DIY internet culture surrounding it. <a href="about/">More&nbsp;about&nbsp;Coyote Reyne</a></p>
+                            <p id="copy">The core of OpenBooks is open source, meaning anyone can contribute to it, or use parts of it in their own websites, as long as credit is given. <a href="doc/license">Contribution information</a></p>
                         </div>
                     </div>
                 </div>

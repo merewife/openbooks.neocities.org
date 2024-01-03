@@ -191,6 +191,14 @@ hr {
     sans-serif; /* fallback */
     color:white;
 }
+.homebanner {
+    box-shadow: 0 1px rgba(0,0,0,.75), inset 0 2px 4px rgba(0,0,0,.25), inset 0 -1px rgba(255,255,255,0.5);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%,rgba(180,180,180,1) 100%), /*linear-gradient(90deg, #433ac1, #643499, #433ac1), */url(/img/xbg3.jpg);
+    background-blend-mode: overlay;
+    background-size: cover;
+    font-size: 12px;
+    /*border-radius: 4px 4px 0 0;*/
+}
 
 .toolbar {
     height: 32px;
@@ -201,6 +209,33 @@ hr {
     background-blend-mode: overlay;
     font-size: 12px;
     border-radius: 4px 4px 0 0;
+}
+.homebanner .toolbar {
+    box-shadow: unset;
+    background: unset;
+    border-radius: unset;
+    background: linear-gradient(0deg, rgba(0,0,0,0.2) 0%, rgba(143, 143, 143, 0.3) 50%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.2) 100%);
+    background-blend-mode: overlay;
+    border-top: 1px solid rgba(0,0,0,.25);
+    box-shadow: inset 0px 1px rgba(255, 255, 255, 0.25);
+    backdrop-filter: brightness(80%) blur(10px) saturate(150%);
+    -webkit-backdrop-filter: brightness(80%) blur(10px) saturate(150%);
+}
+
+.hlogo {
+    background: url(/img/logotype-home.png) no-repeat center;
+    max-width: 432px;
+    height: 100%;
+    min-height: 150px;
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+    .hlogo {
+        background: url(/img/logotype-home@2x.png) no-repeat center;
+        background-size: 432px;
+    }
 }
 
 .toolbar ul {
@@ -411,56 +446,67 @@ hr {
     color: rgba(255,255,255,1);
 }
 
-.col .navbox {
-    width: 220px;
+.homesidebar {
+    width: 180px;
 }
 
-#navbox {
-    background-color: #f4f6f8;
-    /*min-height: 200px;*/
+
+.navbox {
+    background:  rgba(255, 255, 255, 0.25);
+    backdrop-filter: brightness(80%) blur(10px) saturate(150%);
+    -webkit-backdrop-filter: brightness(80%) blur(10px) saturate(150%);
+    border: 1px solid rgba(0,0,0,0.75);
     margin: 14px 12px;
-    box-shadow: 1px 2px 4px rgba(0,0,0,0.125);
-    border: 1px solid #9caab4;
-    border-radius: 0 0 6px 6px;
+    box-shadow: 0 4px 25px rgba(0,0,0,0.12), inset -1px 0 rgba(127,255,255,0.5),inset 1px 0 rgba(255,255,255,0.5),inset 0px 1px rgba(255,255,255,0.5),inset 0px -1px rgba(127,255,255,0.5);
+    border: 1px solid rgba(0,0,0,0.95);
+    border-radius: 6px;
+    color: white;
+}
+.navbox a:link {
+    color: white;
+}
+.navbox a:visited {
+    color: white;
 }
 .navboxheader {
     height: 20px;
     background: #60b6a7;
-    background: linear-gradient(0deg, rgba(0,0,0,0.2) 0%, rgba(143, 143, 143, 0.3) 50%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.2) 100%), linear-gradient(90deg, #80d6c6, #469c8d);
+    background: linear-gradient(0deg, rgba(0,0,0,0.2) 0%, rgba(143, 143, 143, 0.3) 50%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.2) 100%);
     background-blend-mode: overlay;
-    color: white;
+    color: black;
     font-size: 11px;
     font-weight: bold;
-    text-shadow: 0px 1px 1px rgba(0,0,0,0.75);
+    text-shadow: 0px 1px 1px rgba(255,255,255,1), 0px 0px 2px rgba(255,255,255,1), 0px 0px 4px rgba(255,255,255,1);
     padding-left: 6px;
     padding-bottom: 2px;
     margin: 0;
-    border: 1px solid #cce6ed;
-    box-shadow: 0px 1px 0px rgba(0,0,0,0.2);
+    border: 1px solid rgba(255,255,255,0.25);
+    box-shadow: 0px 1px 0px rgba(0,0,0,0.2), 0px -2px 2px rgba(0,0,0,0.2);
     line-height: 2em;
+    border-radius: 6px 6px 0 0;
 }
 .navboxfooter {
     height: 4px;
     background: #60b6a7;
-    background: linear-gradient(0deg, rgba(0,0,0,0.1) 0%, rgba(143, 143, 143, 0.2) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 100%), linear-gradient(90deg, #80d6c6, #469c8d);
+    background: linear-gradient(0deg, rgba(0,0,0,0.1) 0%, rgba(143, 143, 143, 0.2) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 100%);
     background-blend-mode: overlay;
     padding-left: 5px;
     padding-top: 4px;
     margin: 0;
-    border: 1px solid #cce6ed;
+    border: 1px solid rgba(255,255,255,0.25);
     border-radius: 0 0 6px 6px;
     box-shadow: 0px -1px 0px rgba(0,0,0,0.2), 0px 2px 2px rgba(0,0,0,0.2);
 }
 .navboxcontent {
-    padding: 10px;
+    padding: 6px 10px;
     font-size: 13px;
 }
-#navbox ul {
+.navbox ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-#navbox li {
+.navbox li {
     margin-bottom: 4px;
     padding: 0;
 }
