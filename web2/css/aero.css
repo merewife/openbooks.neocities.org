@@ -210,6 +210,9 @@ hr {
     font-size: 12px;
     border-radius: 4px 4px 0 0;
 }
+
+
+
 .homebanner .toolbar {
     box-shadow: unset;
     background: unset;
@@ -217,9 +220,9 @@ hr {
     background: linear-gradient(0deg, rgba(0,0,0,0.2) 0%, rgba(143, 143, 143, 0.3) 50%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.2) 100%);
     background-blend-mode: overlay;
     border-top: 1px solid rgba(0,0,0,.25);
-    box-shadow: inset 0px 1px rgba(255, 255, 255, 0.25);
-    backdrop-filter: brightness(80%) blur(10px) saturate(150%);
-    -webkit-backdrop-filter: brightness(80%) blur(10px) saturate(150%);
+    box-shadow: inset 0px 1px rgba(255, 255, 255, 0.25), inset 0px -1px rgba(180, 255, 255, 0.5);
+    backdrop-filter: brightness(80%) blur(10px) saturate(180%);
+    -webkit-backdrop-filter: brightness(80%) blur(10px) saturate(180%);
 }
 
 .hlogo {
