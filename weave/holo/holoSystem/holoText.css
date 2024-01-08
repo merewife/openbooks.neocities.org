@@ -1,0 +1,85 @@
+/*
+  holoText
+  Text styles, links, and extras
+*/
+
+h1, h2, h3 {
+  font-family: var(--header-font-family);
+  font-weight: var(--header-font-weight);
+}
+
+h1 {
+  font-size: 3.0em;
+  line-height: 1em;
+  margin: 0em;
+  margin-top: .4em;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1em;
+  margin: 0em;
+  margin-top: .6em;
+  margin-bottom: .6em;
+}
+
+h3 {
+  font-size: 1.4em;
+  line-height: 1em;
+  margin: 0em;
+  margin-top: .3em;
+  margin-bottom: 0em;
+}
+
+h1 small, h2 small, h3 small {
+  font-size: 75%;
+  color: #BBB;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 1em;
+  margin: 1em 0;
+}
+
+a:link {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+a:visited {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-darker);
+  text-decoration: none;
+}
+
+a:active {
+  color: var(--primary-darker);
+  text-decoration: underline;
+}
+
+.subtitle {
+  color: #BBB;
+}
+
+/* Labels are an experimental and untested feature.
+.label {
+  display: inline-block;
+  background-color: var(--primary-color);
+  border-radius: 2px;
+  padding: 0.15em 0.5em 0.05em .5em;
+  margin: 0em .5em;
+  font-size: 0.8em;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  cursor: default;
+  transform: translateY(-.1em);
+} */

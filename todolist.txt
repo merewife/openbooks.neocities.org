@@ -24,6 +24,8 @@ Milestone 2 (Beta 2):
 Milestone 3 (beta 2):
  - Placeholder styles updated (TimeWarp especially)
  - js footer and toolbar?
+ - authorbar on articles
+ - js file browser for photos?
  - More features from roadmap (potentially)
 
 Milestone 4 (beta 3):

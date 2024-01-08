@@ -1,0 +1,267 @@
+/* Weave.css 0.4 20160727
+   Codename Voyager
+   Made by Exley.xyz in Virginia Beach.
+   
+   Copyright (c) 2016 Exley.xyz
+
+   Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+@import url("weave.conf.css");
+
+html {
+    background-color: var(--bg-color);
+}
+body {
+    font-family: var(--main-font-family);
+    color: var(--main-text-color);
+    font-size: 100%;
+    margin: 40px auto;
+    max-width: var(--page-width);
+    line-height: 1.6;
+}
+h1, h2, h3 {
+    font-family: var(--header-font-family);
+    font-weight: var(--header-font-weight);
+}
+h1 {
+    font-size: 3.0em;
+    line-height: 1em;
+    margin: 0em;
+    margin-top: .4em;
+}
+h2 {
+    font-size: 2em;
+    line-height: 1em;
+    margin: 0em;
+    margin-top: .6em;
+    margin-bottom: .6em;
+}
+h3 {
+    font-size: 1.4em;
+    line-height: 1em;
+    margin: 0em;
+    margin-top: .3em;
+    margin-bottom: 0em;
+}
+.subtitle {
+    color: #BBB;
+}
+h1 small, h2 small, h3 small {
+    font-size: 75%;
+    color: #BBB;
+    margin: 0;
+    padding: 0;
+}
+p {
+    font-size: 1em;
+    margin: 1em 0;
+}
+.label {
+    display: inline-block;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    padding: 0.15em 0.5em 0.05em .5em;
+    margin: 0em .5em;
+    font-size: 0.8em;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    cursor: default;
+    transform: translateY(-.1em);
+}
+code {
+    background-color: #EEE;
+    border-radius: 2px;
+    font-family: 'Menlo','Consolas', 'Lucida Console', monospace;
+    font-size: 1em;
+    padding: 0.1em 0.5em;
+    margin: 0em;
+    font-size: 0.8em;
+}
+a:link {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+a:visited {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--primary-darker);
+    text-decoration: none;
+}
+a:active {
+    color: var(--primary-darker);
+    text-decoration: underline;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #DDD;
+}
+header {
+    padding-bottom: .4em;
+}
+nav {
+    background-color: #EEE;
+    border-radius: .6em;
+    color: #888;
+    font-size: 1em;
+    margin-top: 1em;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li {
+    float: left;
+    margin: 0em;
+}
+nav li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 0em .2em 0em 0em;
+    padding: .6em .8em;
+    border-radius: 2em;
+    transition-duration: 0.4s;
+}
+nav li a:hover {
+    background-color: #DDD;
+    color: var(--primary-color);
+    border-radius: .6em;
+}
+nav li a:active {
+    background-color: #CCC;
+    text-decoration: none;
+    border-radius: .2em;
+}
+nav li a.current {
+    background-color: #DDD;
+    border-radius: .6em;
+    cursor: default;
+    color: var(--main-text-color);
+}
+footer {
+    background-color: #EEE;
+    border-radius: .6em;
+    color: #888;
+    font-size: .8em;
+    margin-top: 3em;
+    padding: .1em .8em .2em .8em;
+    text-align: center;
+}
+footer p {
+    line-height: .4em;
+}
+.attention {
+    margin: 1em 0em 1.5em 0em;
+    padding: .8em;
+    border: 1px solid rgba(200,200,200,0.3); 
+    border-radius: 0;
+    position: relative;
+    color: #444;
+    background-color: rgba(200,200,200,0.2); 
+    transition-duration: .4s;
+}
+.attention:hover {
+    background-color: rgba(200,200,200,0.08);
+}
+.attention > :first-child {
+    margin-top: 0;
+}
+.attention > :last-child {
+    margin-bottom: 0;
+}
+.codeblock {
+    display: block;
+    margin: 1em 0em 1.5em 0em;
+    padding: .8em;
+    border: 1px solid rgba(200,200,200,0.3); 
+    border-radius: .4em;
+    position: relative;
+    color: #888;
+    font-family: 'Menlo','Consolas', 'Lucida Console', monospace;
+    background-color: rgba(200,200,200,0.2); 
+    overflow-x: auto;
+}
+.codeblock.shell {
+    border: 1px solid #001519;
+    color: #8a9fa5;
+    background-color: #232f34; 
+    text-shadow: 0 1px 1px rgba(0,0,0,.8);
+
+}
+.codeblock p {
+    margin: 0px;
+}
+.codeblock > :first-child {
+    margin-top: 0; 
+}
+.codeblock > :last-child {
+    margin-bottom: 0; 
+}
+button {
+    font-family: var(--main-font-family);
+}
+button:focus, input:focus { outline: none; }
+.button {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: #FFF;
+    font-size: 1em;
+    margin-right: .4em;
+    margin-left: 0;
+    padding-top: .5em;
+    padding-bottom: .6em;
+    padding-left: .6em;
+    padding-right: .6em;
+    border: none;
+    border-radius: .6em;
+    transition-duration: 0.2s;
+    line-height: 1em;
+    cursor: pointer;
+}
+a.button{
+    color: #FFF;
+    text-decoration: none;
+    margin-left: 0;
+}
+.button:hover{
+    border-radius: .6em;
+    box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.2);
+    transform: translateY(-.1em);
+}
+.button:active{
+    background-color: var(--primary-darker);
+    border-radius: .2em;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0);
+    transform: translateY(.1em);
+
+}
+.button.secondary {
+    background-color: #BBB;
+}
+.button.secondary:active {
+    background-color: #888;
+}
+.button.disabled, button.disabled:hover, button.disabled:active {
+    cursor: not-allowed;
+    background-color: #DDD;
+    color: #BBB;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0);
+    border-radius: .6em;
+    transform: translateY(0em);
+}
+.button.flat, button.flat:hover, button.disabled:active {
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0);
+    transform: translateY(0em);
+}
