@@ -36,36 +36,35 @@ body {
     padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Metropolis', 'Inter', /* web font */
+h1 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.0;
+    font-family: Metropolis, Inter,
     -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
     "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
     "Cantarell", "Noto Sans", /* gnome, kde */
     "Lucida Grande", "Tahoma",  /* old mac, old windows */
     sans-serif; /* fallback */
-    color: #666;
-}
-
-h1 {
-    font-size: 30px;
-    font-weight: 400;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    line-height: 1.0;
 }
 h2 {
-    font-size: 24px;
+    font-size: 19px;
     font-weight: 700;
     margin-top: 30px;
     margin-bottom: 4px;
     line-height: 1.4;
+    color: #444;
+    
 }
 h3 {
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 700;
-    text-transform: uppercase;
     margin-top: 14px;
     margin-bottom: 4px;
+    
+    
 }
 h4 {
     font-size: 12px;
@@ -193,7 +192,7 @@ hr {
 }
 .homebanner {
     box-shadow: 0 1px rgba(0,0,0,.75), inset 0 2px 4px rgba(0,0,0,.25), inset 0 -1px rgba(255,255,255,0.5);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 0%,rgba(180,180,180,1) 100%), /*linear-gradient(90deg, #433ac1, #643499, #433ac1), */url(/img/xbg3.jpg);
+    background: linear-gradient(180deg, rgba(0,0,0,0.5) 0%,rgba(180,180,180,0.5) 100%), /*linear-gradient(90deg, #433ac1, #643499, #433ac1), */url(/img/xbg3.jpg);
     background-blend-mode: overlay;
     background-size: cover;
     font-size: 12px;
@@ -353,6 +352,7 @@ hr {
     image-rendering: pixelated;
     margin-top: 4x;
     margin-bottom: 0px;
+    border: 1px solid rgba(0,0,0,.25);
 }
 
 .main {
@@ -364,6 +364,7 @@ hr {
 
 .footer {
     padding: 4px 10px;
+    margin-bottom: 6px;
     font-size: 13px;
     color: rgba(255,255,255,0.75);
     text-shadow: 0 1px black;
@@ -389,6 +390,7 @@ hr {
 }
 
 .tilewrapper {
+    /*text-align: center;*/
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
