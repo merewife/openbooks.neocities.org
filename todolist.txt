@@ -27,11 +27,12 @@ Milestone 3 (beta 2):
  - Placeholder styles updated (TimeWarp especially)
  - js footer and toolbar?
  - authorbar on articles
+ - varied headerbars
  - js file browser for photos?
  - More features from roadmap (potentially)
 
 Milestone 4 (beta 3):
- - Feature freeze (content adding OK)
+ - Feature freeze (content adding OK, visual changes OK)
  - Heavy bugtesting
  - Fixes from M3
  - RELEASE DATE: March 2024?
@@ -55,7 +56,7 @@ Project Weave (11.X, possibly 12.0?)
  - Changes focused on CSS side, not HTML
 
 Project Star (12.0)
- - Redesign, separate microsites, minimal home page
+ - Redesign, separate microsites, minimal home page, modularized pagesets
 
 Versioning System after 11.0:
 11.X.X_01
