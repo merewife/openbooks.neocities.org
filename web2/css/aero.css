@@ -620,6 +620,80 @@ ul {
     padding-left: 18px;
 }
 
+.iconwrapper {
+    background-color: rgba(255,255,255,0.12);
+    border: 1px solid rgba(0,0,0, 0.12);
+    box-shadow: 0 1px rgba(0,0,0, 0.05), inset 1px 1px rgba(255,255,255,0.25), inset -1px -1px rgba(255,255,255,0.25);
+    line-height: 1.6em;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    /*text-align: center;*/
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+    background-color: rgba(255,255,255,0.12);
+    border: 1px solid rgba(0,0,0, 0.12);
+    box-shadow: 0 1px rgba(0,0,0, 0.05), inset 1px 1px rgba(255,255,255,0.25), inset -1px -1px rgba(255,255,255,0.25);
+    line-height: 1.6em;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+}
+
+.icon {
+    display: inline-block;
+    background-color: rgba(255,255,255,0);
+    border: 1px solid rgba(255,255,255,0);
+    border-radius: 4px;
+    text-align: center;
+    margin: 0px 2px 2px 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    min-width: 72px;
+    vertical-align: top;
+}
+.icon:hover {
+    border: 1px solid #b7c7de;
+    background: linear-gradient(#e1f3fd,#bcdbfa);
+}
+.icon:active {
+    border: 1px solid #b7c7de;
+    background: linear-gradient(#bcdbfa, #e1f3fd);
+}
+.icon img {
+    height: 48px;
+    width: 48px;
+    margin: 2px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    transition-duration: 200ms;
+}
+
+.icon.small img {
+    height: 48px;
+    width: 48px;
+}
+
+.icon p {
+    margin: 0;
+    margin-bottom: 4px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 1.2;
+}
+.iconwrapper a:link {
+    color: #222;
+    cursor: default;
+}
+.iconwrapper a:visited {
+    color: #222;
+}
+
 
 /*.row {
     display: table;
