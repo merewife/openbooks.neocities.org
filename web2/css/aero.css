@@ -52,7 +52,7 @@ h1 {
 h2 {
     font-size: 19px;
     font-weight: 700;
-    margin-top: 30px;
+    margin-top: 12px;
     margin-bottom: 4px;
     line-height: 1.4;
     color: #444;
@@ -224,6 +224,59 @@ hr {
     -webkit-backdrop-filter: brightness(80%) blur(10px) saturate(180%);
 }
 
+.toolbar2 {
+    box-shadow: 0 1px rgba(0,0,0,.75), inset 0 2px 4px rgba(0,0,0,.25), inset 0 -1px rgba(255,255,255,0.5);
+    background: linear-gradient(90deg, #433ac1, #643499, #433ac1),linear-gradient(0deg, rgba(0,0,0,0.5) 0%,rgba(180,180,180,0.5) 100%), url(/coolstuff/hero.jpg);
+    background-blend-mode: color;
+    background-size: cover;
+    font-size: 12px;
+    /*border-radius: 4px 4px 0 0;*/
+    vertical-align: bottom;
+}
+.toolbar2sidebar {
+    width: 269px;
+}
+.toolbar2tile {
+    text-align: center;
+    padding-top: 28px;
+}
+.toolbar2tile h1 {
+    color: white;
+    text-shadow: 0px 2px 12px rgba(0,0,0,.85);
+    text-align: center;
+    font-size: 20px;
+    font-family: Metropolis, Inter,
+    -apple-system, BlinkMacSystemFont, /* safari, chrome mac */
+    "Segoe UI", "Roboto", "Ubuntu", /* windows, android/chromeos, ubuntu */
+    "Cantarell", "Noto Sans", /* gnome, kde */
+    "Lucida Grande", "Tahoma",  /* old mac, old windows */
+    sans-serif; /* fallback */
+    line-height: 1.0;
+    margin: 0;
+}
+.toolbar2tile img {
+    display: inline;
+    height: 64px;
+}
+
+.toolbar2 .toolbar {
+    box-shadow: unset;
+    background: unset;
+    border-radius: 6px 0 0 0;
+    background: linear-gradient(0deg, rgba(0,0,0,0.2) 0%, rgba(143, 143, 143, 0.3) 50%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.2) 100%);
+    background-blend-mode: overlay;
+    border-top: 1px solid rgba(0,0,0,.25);
+    border-left: 1px solid rgba(0,0,0,.25);
+    box-shadow: inset 1px 1px rgba(255, 255, 255, 0.25), inset 0px -1px rgba(180, 255, 255, 0.5);
+    backdrop-filter: brightness(80%) blur(10px) saturate(180%);
+    -webkit-backdrop-filter: brightness(80%) blur(10px) saturate(180%);
+    vertical-align: bottom;
+}
+.toolbar2content {
+    height: 118px;
+    max-height: 118px;
+}
+
 .hlogo {
     background: url(/img/logotype-home.png) no-repeat center;
     max-width: 432px;
@@ -248,6 +301,10 @@ hr {
     margin: 0px;
     margin-left: 10px;
     padding: 0px;
+}
+
+.toolbar2 .toolbar ul {
+    margin-left: 0;
 }
 
 .toolbar li {
