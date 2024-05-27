@@ -1,1 +1,0 @@
-document.write ('<div class="footer">Licensed under <a href="/license.txt">MIT</a> &bull; 2014-2023 &bull; Made by <a href="http://coyotereyne.neocities.org" target="_blank">Coyote</a></div>');
