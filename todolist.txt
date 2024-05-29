@@ -14,6 +14,7 @@ Milestone 1 (Beta 1):
 
 pre-M2
  - finish Cool Stuff
+ - release date: JUNE 2024
 
 Milestone 2 (Beta 2):
  - More features from roadmap (potentially)
@@ -22,7 +23,7 @@ Milestone 2 (Beta 2):
  - accent color
  - Fixes from M1
  - Coyote's Corner
- - RELEASE DATE: March 2024?
+ - RELEASE DATE: JULY 2024?
 
 Milestone 3 (beta 2):
  - Mobile Compatibility 
@@ -38,17 +39,17 @@ Milestone 4 (beta 3):
  - Feature freeze (content adding OK, visual changes OK)
  - Heavy bugtesting
  - Fixes from M3
- - RELEASE DATE: June 2024?
+ - RELEASE DATE: AUGUST 2024?
 
 Milestone 5 - Release Candidate
  - Full Freeze (content + style)
  - Fixes from M4
  - May be identical to 1.0
  - 11.0 RC_01
- - RELEASE DATE: August 2024?
+ - RELEASE DATE: SEPTEMBER 2024?
 
 11.1
- - RELEASE DATE: September 2024?
+ - RELEASE DATE: OCTOBER 2024?
  - Feature complete, full mobile and dark mode
  - First fully complete, non beta 11 release
 

@@ -2,7 +2,7 @@
 
 ## Contributions
 
-If you contribute code to this project, you are implicitly allowing your code to be distributed under the MIT license. You are also implicitly verifying that all code is your original work.
+If you contribute code to this project, you are implicitly allowing your code to be distributed under the MIT license. You are also implicitly verifying that all code is your original work, unless otherwise licensed to you and disclosed within this document.
 
 ## OpenBooks
 
